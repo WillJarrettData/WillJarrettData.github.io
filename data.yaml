@@ -1,0 +1,19 @@
+name: Will Jarrett
+bio: Writer, editor, journalist-in-training
+links:
+  - target: mailto:william.jarrett@columbia.edu
+    text: 📧 email
+  - target: https://willjarrettdata.com
+    text: 🏠 portfolio
+  - target: https://twitter.com/willjarrettdata
+    text: '@willjarrettdata'
+pages:
+  - type: gdoc
+    title: Coupnited States
+    slug: coupnited-states
+    url: https://docs.google.com/document/d/1SBVsXW6HpxD57XFS5P6bC0Iq5iWy4OwHdyQ5Tu-pga4/edit?usp=sharing
+  - type: html
+    title: Turning addresses into coordinates
+    template: html_bootstrap
+    slug: turning-addresses-into-coordinates
+    filepath: content/output.html
