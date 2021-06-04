@@ -12,8 +12,10 @@ pages:
     title: Coupnited States
     slug: coupnited-states
     url: https://docs.google.com/document/d/1SBVsXW6HpxD57XFS5P6bC0Iq5iWy4OwHdyQ5Tu-pga4/edit?usp=sharing
+    image: https://raw.githubusercontent.com/WillJarrett1/BottlejackWebsite/main/content/ColourSplash.jpg
   - type: html
     title: Turning addresses into coordinates
     template: html_bootstrap
     slug: turning-addresses-into-coordinates
     filepath: content/output.html
+    image: https://raw.githubusercontent.com/WillJarrett1/BottlejackWebsite/main/content/Map.jpg
