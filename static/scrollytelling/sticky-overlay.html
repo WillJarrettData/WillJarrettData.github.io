@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Dogs > Cats</title>
+    <meta name="description" content="Scrollama: Sticky Overlay Example" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="shortcut icon" type="image/png" href="images/dog_favicon.png"/>
+
+    <style>
+      #scrolly {
+        position: relative;
+        background-color: #ffffff;
+        padding: 1rem;
+      }
+
+      #scrolly-2 {
+        position: relative;
+        background-color: #ffffff;
+        padding: 1rem;
+      }
+
+      article {
+        position: relative;
+        padding: 0;
+        max-width: 20rem;
+        margin: 0 auto;
+      }
+
+      .sticky-thing {
+        position: -webkit-sticky;
+        position: sticky;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        z-index: 0;
+        top: 5vh;
+        height: 90vh;
+        /* Center everything inside */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url('images/Dog0.jpg');
+        background-size: cover;
+        background-position: center center;
+      }
+
+      .sticky-thing-2 {
+        position: -webkit-sticky;
+        position: sticky;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        z-index: 0;
+        top: 5vh;
+        height: 90vh;
+        /* Center everything inside */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url('images/Cat0.jpg');
+        background-size: cover;
+        background-position: center center;
+      }
+
+      .sticky-thing p {
+        font-size: 8rem;
+        font-weight: 900;
+        color: #fff;
+      }
+
+      .step {
+        margin: 0 auto 2rem auto;
+        margin-bottom: 35rem;
+        color: #fff;
+        background-color: #ffffffbd;
+      }
+
+      .step:last-child {
+        margin-bottom: 0;
+      }
+
+      .step p {
+        text-align: center;
+        padding: 1rem;
+        font-size: 1.5rem;
+        background-color: #000000bd;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+
+      <section id="intro">
+        <h1 class="intro__hed">Dogs > Cats</h1>
+        <p class="intro__dek">
+          Cats are great. Here is why dogs are better.
+        </p>
+      </section>
+
+      <section id="scrolly">
+        <div class="sticky-thing">
+          <p></p>
+        </div>
+
+        <article>
+          <div class="step" data-step="1" data-img="url('images/Dog0.jpg')">
+            <p>On average, dogs are bigger. So there is more of them to love and more fur to stroke.</p>
+          </div>
+          <div class="step" data-step="2" data-img="url('images/Dog1.jpg')">
+            <p>Their ears occasionally do that thing where one flops down up and one sticks up. This is very enjoyable.</p>
+          </div>
+          <div class="step" data-step="3" data-img="url('images/Dog2.jpg')">
+            <p>No animal can match puppies for puppy-dog eyes.</p>
+          </div>
+          <div class="step" data-step="4" data-img="url('images/Dog3.jpg')">
+            <p>Sometimes you could mistake them for a pack of baby seals.</p>
+          </div>
+          <div class="step" data-step="5" data-img="url('images/Dog4.jpg')">
+            <p>Dogs are very scholarly and can assist you with the basics of grammar, rhetoric, and logic.</p>
+          </div>
+          <div class="step" data-step="6" data-img="url('images/Dog5.jpg')">
+            <p>Some dogs look like raw dough that has been left out in the sun too long. But that's okay – they are having a great time.</p>
+          </div>
+          <div class="step" data-step="7" data-img="url('images/Dog6.jpg')">
+            <p>Dogs help out with all sorts of jobs. When was the last time you saw a sheepcat?</p>
+          </div>
+          <div class="step" data-step="8" data-img="url('images/Dog7.jpg')">
+            <p>Some dogs wear handkerchiefs.</p>
+          </div>
+          <div class="step" data-step="9" data-img="url('images/Dog8.jpg')">
+            <p>Dogs are loyal, fun, and always pleased to see you. They come in all shapes and sizes and they are all <em>very</em> good.</p>
+          </div>
+        </article>
+      </section>
+
+      <section id="intro">
+        <p>But wait, I hear you cry!</p>
+        <p><br /></p>
+        <p>You have convinced me that dogs are brilliant.</p>
+        <p><br /></p>
+        <p>But what's so wrong with cats?</p>
+        <p><br /></p>
+        <p>Well, nothing.</p>
+        <p><br /></p>
+        <p>Cats are lovely too.</p>
+        <p><br /></p>
+        <p>Here are bonus pictures of some fabulous felines.</p>
+      </section>
+
+      <section id="scrolly-2">
+        <div class="sticky-thing-2">
+          <p></p>
+        </div>
+        <article>
+          <div class="step" data-step="1" data-img="url('images/Cat0.jpg')">
+            <p>This anxious fellow is slowly being absorbed by a sofa. I'm sure he'll be okay.</p>
+          </div>
+          <div class="step" data-step="2" data-img="url('images/Cat1.jpg')">
+            <p>"You may say I'm a dreamer, but I'm not the only one," purred this exceptionally cool cat.</p>
+          </div>
+          <div class="step" data-step="3" data-img="url('images/Cat2.jpg')">
+            <p>This cat is 85% tiger.</p>
+          </div>
+          <div class="step" data-step="4" data-img="url('images/Cat3.jpg')">
+            <p>This cat is extremely tired and would like the slideshow to end now, thank you very much.</p>
+          </div>
+        </article>
+      </section>
+
+      <section id="intro">
+        <p><br /><br /></p>
+        <p>Perhaps there is room enough in the world for cats <em>and</em> dogs after all...</p>
+      </section>
+
+      <section id="outro"></section>
+    </main>
+
+    <!-- <div class='debug'></div> -->
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <script>
+      // DOM - document object model (section 1)
+      var main = document.querySelector("main");
+      var scrolly = main.querySelector("#scrolly");
+      var sticky = scrolly.querySelector(".sticky-thing");
+      var article = scrolly.querySelector("article");
+
+      // DOM - document object model (section 2)
+      var scrolly2 = main.querySelector("#scrolly-2");
+      var sticky2 = scrolly2.querySelector(".sticky-thing-2");
+      var article2 = scrolly2.querySelector("article");
+
+      // initialize the scrollama
+      var scroller = scrollama();
+      var scroller2 = scrollama();
+
+      // scrollama event handlers
+      function handleStepEnter(response) {
+        // response = { element, direction, index }
+        var el = response.element;
+        console.log(el);
+        sticky.style.backgroundImage = el.dataset.img;
+      }
+      function handleStepEnter2(response) {
+        // response = { element, direction, index }
+        var el = response.element;
+        console.log(el);
+        sticky2.style.backgroundImage = el.dataset.img;
+      }
+
+      function init() {
+        scroller
+          .setup({
+            step: "#scrolly article .step",
+            offset: 1,
+            debug: false
+          })
+          .onStepEnter(handleStepEnter);
+
+        scroller2
+          .setup({
+            step: "#scrolly-2 article .step",
+            offset: 1,
+            debug: false
+          })
+          .onStepEnter(handleStepEnter2);
+  
+        // setup resize event
+        window.addEventListener("resize", scroller.resize);
+      }
+
+      // kick things off
+      init();
+    </script>
+  </body>
+</html>
