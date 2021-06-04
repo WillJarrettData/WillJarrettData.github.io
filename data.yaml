@@ -19,3 +19,9 @@ pages:
     slug: turning-addresses-into-coordinates
     filepath: content/output.html
     image: https://raw.githubusercontent.com/WillJarrett1/BottlejackWebsite/main/content/Map.jpg
+  - type: html
+    title: "Scrollytelling: Dogs > Cats"
+    template: html_bootstrap
+    slug: scrollytelling-dogs-cats
+    filepath: content/scrollytelling/scrollytelling.html
+    image: https://raw.githubusercontent.com/WillJarrett1/BottlejackWebsite/main/content/DogThumb.jpg
