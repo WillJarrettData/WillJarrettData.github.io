@@ -14,14 +14,14 @@
     // Search
     d3.select("#input").on('keyup', function() {
       var searchTerm = d3.select("#input").property("value").toLocaleUpperCase()
-      d3.selectAll("circle").attr('fill', d => colorScale(d.party))
+      d3.selectAll("circle").attr('fill', d => colorScale(d.color))
       d3.selectAll("circle").filter(d => d.full_name_upper.indexOf(searchTerm) == -1).attr('fill', '#bdbdbd')
     })
 
   // Define colour scale
   const colorScale = d3.scaleOrdinal()
-    .domain(["Republican","Democrat","Indepenent","Libertarian"])
-    .range(["#EA0000","#0022EA","#575757","#575757"])
+    .domain(["Red","Blue","Grey"])
+    .range(["#EA0000","#0022EA","#575757"])
   
   // Define states
   const states = ["Florida","Missouri","West Virginia","Wisconsin","Pennsylvania","Montana","Iowa","North Carolina","Arizona","Texas","Utah","Minnesota","Washington","Oregon","Colorado","Michigan","Virginia","New Mexico","Maine","New Jersey","South Carolina","Georgia","Maryland","Connecticut","Nevada","Illinois","New York"]
@@ -55,8 +55,13 @@
       .join('text')
       .attr('text-anchor', 'end')
       .attr('y', d => yPositionScale(d))
-      .attr('dx', -40)
+      .attr('dx', -60)
       .text(d => d)
+
+    // Create "N/A" column
+    //svg.selectAll('text')
+    //.attr('y', 800)
+    //.text("N/A")
 
     // Set position of circles
     svg.selectAll('circle')
@@ -65,7 +70,7 @@
       .attr("id", "circleBasicTooltip")
       .attr('r', 3)
       .attr('cx', d => d.x)
-      .attr('fill', d => colorScale(d.party))
+      .attr('fill', d => colorScale(d.color))
       .attr('cy', d => d.y)
 
     // Trigger tooltip
