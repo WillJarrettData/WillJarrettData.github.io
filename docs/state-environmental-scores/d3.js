@@ -89,6 +89,7 @@
   });
 
 // Create x axis scale
+// Find a better way of doing this - the absolute values here are messy!
 var x = d3.scaleLinear()
     .domain([0, 100])
     .range([0, width - 170]);
