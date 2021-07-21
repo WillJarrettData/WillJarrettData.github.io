@@ -1,129 +1,242 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-      
-    <!-- Your CSS files -->
-    <link rel="stylesheet" href="style/default.css">
-    
-    <!-- google fonts: Roboto Condensed(super-font) and Lora(sub-font) -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/WillJarrett1/BottlejackWebsite/main/content/pen_favicon.png"/>
-  
-    <title>Will Jarrett | Projects</title>
-  </head>
-    
-  <style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Will Jarrett">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Home | Will Jarrett Data</title>
 
-    body {
-      padding-bottom: 20px;
-      padding-top: 20px;
-    }
-  </style>
-  <body class="beige-theme">
-    <div class="container homepage"><!-- start of the main container-->
-        <div class="row justify-content-center"><!-- headline and intro -->
-            <div class="col-lg-10 ">
-                <h1 class="headline super-font">Will Jarrett</h1>
-                <div class="sub-font body-text">
-                    <p>Writer, editor, journalist-in-training.</p>
-                    <ul class='spread'>
-                            <li><a href="mailto:will@willjarrettdata.com">📧 email</a></li>
-                            <li><a href="https://willjarrettdata.com">🏠 portfolio</a></li>
-                            <li><a href="https://twitter.com/willjarrettdata">🐦 twitter</a></li>
-                    </ul>
-                    <div class='story'>
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-sm-4"><a href="draft-community-internet-networks/"><img src="https://raw.githubusercontent.com/WillJarrett1/BottlejackWebsite/main/content/Internet_Thumb.jpg"></a></div>
-                          <div class="col-sm-8">
-                            <h3 class="subhead super-font"><a href="draft-community-internet-networks">Community internet networks</a></h3>
-                            <p style="font-size: 18px">Covid underscored New York's problems with internet access. Community groups are rushing to fill the gaps.</p>
-                          </div>
-                        </div>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/thought_favicon.png"/>
+
+    <!-- insert google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      /* set background colour */
+      body {
+          background-color: #f0f0f0;
+      }
+
+      /* set generic google font */
+      html * {
+        font-family: 'JetBrains Mono', monospace;
+        }
+
+      /* sort out buttons */
+      .btn {
+        display: inline-flex;
+        align-items: center; 
+      }
+
+      .btn:focus {
+        outline: none;
+        box-shadow: none;
+      }
+
+      /* add spacing, greyscale to rows */
+      .card {
+        margin-bottom: 15px;
+        margin-top: 5px;
+        filter: grayscale(1);
+      }
+
+      /* add hover effect to cards */
+      .card:hover{
+        box-shadow: 0 0 11px rgba(33,33,33,.2);
+        filter: grayscale(0);
+        transition: 0.1s ease-in-out;
+      }
+
+      /* change lead text styling */
+
+
+    </style>
+
+    
+  </head>
+  <body>
+    
+<header>
+  <!-- find out more bar -->
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About</h4>
+          <p class="text-white-50">I graduated from <strong>Oxford University</strong> with First Class Honours in English in 2017.
+            For the next few years, I worked as <strong>editor</strong> of the Oxford University Press education website Oxford Owl.</p>
+          <p class="text-white-50">Last year, I moved to New York to pursue M.S. Data Journalism at <strong>Columbia University</strong>.
+            I am now joining San Francisco's <strong>Mission Local</strong> to do reporting and data viz.</p>
+          <p class="text-white-50">I have a particular interest in <strong>environmental news</strong> and building fun data tools.
+            In my spare time, I love hiking, drawing, and writing web bios.</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact</h4>
+          <ul class="list-unstyled">
+            <li><a href="https://twitter.com/WillJarrettData" class="text-white">Twitter</a></li>
+            <li><a href="https://github.com/WillJarrettData" class="text-white">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/willjarrett/" class="text-white">LinkedIn</a></li>
+            <li><a target="_blank" href="contents/WillJarrett_CV.pdf" class="text-white">Download my CV</a></li>
+            <li><a href="mailto:will@willjarrettdata.com" class="text-white">will@willjarrettdata.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark">
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        WillJarrett<strong>Data</strong>
+      </a>
+      <button type="button" class="btn btn-outline-light" data-bs-toggle="collapse" data-bs-target="#navbarHeader">
+        Find out more
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+    <div class="album py-5">
+        <div class="container">
+            <div class="row form-group justify-content-md-center" style="margin-bottom: 50px">
+
+                <!-- intro section -->
+                <div class="col-sm-8">
+                    <h1 class="fw-light">Hello!</h1>
+                    <p class="lead">My name is Will and I tell stories with data.</p>
+                    <p class="lead">That means jumping into complex datasets – or building my own – and pulling out their most interesting threads.
+                        I use tools like Python, Illustrator, and JavaScript to visualize my findings.</p>
+                    <p class="lead">Take a look around to see what I can do. If you have any questions, <a target="_blank" href="contents/WillJarrett_CV.pdf">download my CV</a> or drop me a message: <a href="mailto:will@willjarrettdata.com">will@willjarrettdata.com</a>.</p>
+                </div>
+            </div>
+
+            <!-- row 1 -->
+            <div class="row form-group">
+
+                <div class="col-sm">
+                  <small class="text-muted">🏷️ Python, D3</small>
+                    <div class="card border-dark">
+                        <img object-fit="contain" width="100%" src="images/climateCabinet_thumb.jpg" role="img">
+                        <title>State environmental scores</title>
+                        <rect width="100%" height="100%" fill="#55595c"/>
+        
+                      <div class="card-body">
+                        <a class="stretched-link" href="state-environmental-scores/"><h5>State environmental scores</h5></a>
+                        <p class="card-text">This interactive tool allows you to browse the environmental records of state legislators.</p>
+                        <div class="d-flex justify-content-between align-items-center"></div>
                       </div>
                     </div>
-                    <div class='story'>
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-sm-4"><a href="state-environmental-scores/"><img src="https://raw.githubusercontent.com/WillJarrett1/BottlejackWebsite/main/content/Environment_Thumb.jpg"></a></div>
-                          <div class="col-sm-8">
-                            <h3 class="subhead super-font"><a href="state-environmental-scores/">State environmental scores</a></h3>
-                            <p style="font-size: 18px">Using a D3 force simulation, search function, and tooltips to display legislators' environmental voting records.</p>
+                </div>
+
+                <div class="col-sm">
+                  <small class="text-muted">🏷️ Python, Heroku</small>
+                    <div class="card border-dark">
+                        <img object-fit="contain" width="100%" src="images/adressify_thumb.jpg" role="img">
+                        <title>Adressify</title>
+                        <rect width="100%" height="100%" fill="#55595c"/>
+        
+                    <div class="card-body">
+                      <a class="stretched-link" href="https://adressify.herokuapp.com/"><h5>Adressify</h5></a>
+                      <p class="card-text">A web app that scrapes NYC building records and financial documents using Selenium.</p>
+                      <div class="d-flex justify-content-between align-items-center">
                           </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm">
+                  <small class="text-muted">🏷️ Python, Illustrator</small>
+                  <div class="card border-dark">
+                      <img object-fit="contain" width="100%" src="images/goodreads_thumb.jpg" role="img">
+                      <title>The perfect novel</title>
+                      <rect width="100%" height="100%" fill="#55595c"/>
+      
+                  <div class="card-body">
+                    <a class="stretched-link" href="https://willjarrettdata.com/articles/a-formula-for-the-perfect-goodreads-novel/"><h5>The perfect novel</h5></a>
+                    <p class="card-text">Writing the perfect novel once required creativity and grit. Thankfully, we can now turn to data instead.</p>
+                    <div class="d-flex justify-content-between align-items-center">
                         </div>
                       </div>
-                    </div>
-                    <div class='story'>
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-sm-4"><a href="https://adressify.herokuapp.com/"><img src="https://raw.githubusercontent.com/WillJarrett1/BottlejackWebsite/main/content/Adressify_Thumbnail.jpg"></a></div>
-                          <div class="col-sm-8">
-                            <h3 class="subhead super-font"><a href="https://adressify.herokuapp.com/">Adressify web app</a></h3>
-                            <p style="font-size: 18px">A Python app that uses Selenium to scrape NYC records, giving users quick access to information about buildings.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class='story'>
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-sm-4"><a href="scrollytelling-dogs-cats/"><img src="https://raw.githubusercontent.com/WillJarrett1/BottlejackWebsite/main/content/DogThumb.jpg"></a></div>
-                          <div class="col-sm-8">
-                            <h3 class="subhead super-font"><a href="scrollytelling-dogs-cats">Scrollytelling: Dogs &gt; Cats</a></h3>
-                            <p style="font-size: 18px">A technical template of a scrollytelling story, courtesy of the <a href="https://github.com/russellgoldenberg/scrollama">scrollama</a> JavaScript library.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class='story'>
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-sm-4"><a href="turning-addresses-into-coordinates/"><img src="https://raw.githubusercontent.com/WillJarrett1/BottlejackWebsite/main/content/Map.jpg"></a></div>
-                          <div class="col-sm-8"><h3 class="subhead super-font"><a href="turning-addresses-into-coordinates">Turning addresses into coordinates</a></h3>
-                            <p style="font-size: 18px">A tutorial, complete with working code, showing you how to use Google's geocoding API.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class='story'>
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-sm-4"><a href="coupnited-states/"><img src="https://raw.githubusercontent.com/WillJarrett1/BottlejackWebsite/main/content/Riot_Thumbnail.jpg"></a></div>
-                          <div class="col-sm-8">
-                            <h3 class="subhead super-font"><a href="coupnited-states">Coupnited States</a></h3>
-                            <p style="font-size: 18px">Using data to place the January 6th insurrection in a historical and geographical context.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class='story'>
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-sm-4"><a href="https://willjarrettdata.com/see-my-work/"><img src="https://raw.githubusercontent.com/WillJarrett1/BottlejackWebsite/main/content/WJD_Thumb.jpg"></a></div>
-                          <div class="col-sm-8">
-                            <h3 class="subhead super-font"><a href="https://willjarrettdata.com/see-my-work/">WillJarrettData.com</a></h3>
-                            <p style="font-size: 18px">You can find more graphs, maps, interactive tools, and stories on my WordPress portfolio site.</p>
-                          </div>
-                        </div>
+                  </div>
+              </div>
+            </div>
+
+            <!-- row 2 -->
+            <div class="row form-group">
+              <div class="col-sm">
+                <small class="text-muted">🏷️ Python, Illustrator, JavaScript</small>
+                <div class="card border-dark">
+                    <img object-fit="contain" width="100%" src="images/communityInternetNetworks_thumb.gif" role="img">
+                    <title>Community internet networks</title>
+                    <rect width="100%" height="100%" fill="#55595c"/>
+    
+                <div class="card-body">
+                  <a class="stretched-link" href="draft-community-internet-networks/"><h5>Community internet networks</h5></a>
+                  <p class="card-text">When Covid struck, millions of children couldn't go to class. NYC community groups rushed to improve access.</p>
+                  <div class="d-flex justify-content-between align-items-center">
                       </div>
                     </div>
                 </div>
             </div>
-        </div>
+
+                <div class="col-sm">
+                  <small class="text-muted">🏷️ JavaScript, HTML/CSS</small>
+                    <div class="card border-dark">
+                        <img object-fit="contain" width="100%" src="images/dog_thumb.jpg" role="img">
+                        <title>Dogs > Cats</title>
+                        <rect width="100%" height="100%" fill="#55595c"/>
         
-      </div><!-- end of the main container-->
-   
+                    <div class="card-body">
+                      <a class="stretched-link" href="scrollytelling-dogs-cats/"><h5>Dogs > Cats</h5></a>
+                      <p class="card-text">A scrollytelling story all about dogs. Made using Russell Goldenberg's scrollama JavaScript library.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm">
+                  <small class="text-muted">🏷️ WordPress</small>
+                    <div class="card border-dark">
+                        <img object-fit="contain" width="100%" src="images/wordpress_thumb.jpg" role="img">
+                        <title>WordPress portfolio</title>
+                        <rect width="100%" height="100%" fill="#55595c"/>
+        
+                    <div class="card-body">
+                      <a class="stretched-link" href="https://willjarrettdata.com/"><h5>WordPress portfolio</h5></a>
+                      <p class="card-text">I'm currently migrating my projects away from WordPress. In the meantime, you can find some projects here.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+    <script src="bootstrap.bundle.min.js"></script>
+
       
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
   </body>
 </html>
