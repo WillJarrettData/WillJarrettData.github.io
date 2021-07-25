@@ -1,0 +1,769 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Will Jarrett">
+		<meta name="description" content="Writing the perfect novel once required creativity and grit. Thankfully, we can now turn to data instead.">
+		<title>The perfect novel | Will Jarrett Data</title>
+
+		<!-- import bootstrap stuff -->
+		<link href="../bootstrap.min.css" rel="stylesheet">
+		<link rel="icon" type="image/png" href="../images/site_favicon.png"/>
+
+		<!-- import google font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+		<style>
+			/* set text settings */
+			body {
+				font-family: 'Quicksand', sans-serif;
+			}
+
+			div.body-text {
+				font-size: 16px;
+				line-height: 180%;
+			}
+
+			.calibri {
+				font-family: Calibri;
+			}
+
+			/* set header image */
+			#header-image {
+				width: 100%;
+				height: 200px;
+				object-fit: cover;
+			}
+
+		</style>
+	</head>
+	<body>
+
+		<header>
+			<!-- find out more bar -->
+			<div class="collapse bg-dark" id="navbarHeader">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 col-md-7 py-4">
+							<h4 class="text-white">About</h4>
+							<p class="text-white-50">
+								I graduated from <strong>Oxford University</strong> with First Class Honours in English in 2017.
+								For the next few years, I worked as <strong>editor</strong> of the Oxford University Press education website Oxford Owl.
+							</p>
+							<p class="text-white-50">
+								Last year, I moved to New York to pursue M.S. Data Journalism at <strong>Columbia University</strong>.
+								I am now joining San Francisco's <strong>Mission Local</strong> to do reporting and data viz.
+							</p>
+							<p class="text-white-50">
+								I have a particular interest in <strong>environmental news</strong> and building fun data tools.
+								In my spare time, I love hiking, drawing, and writing web bios.
+							</p>
+						</div>
+						<div class="col-sm-4 offset-md-1 py-4">
+							<h4 class="text-white">Contact</h4>
+							<ul class="list-unstyled">
+								<li><a href="https://twitter.com/WillJarrettData" class="text-white">Twitter</a></li>
+								<li><a href="https://github.com/WillJarrettData" class="text-white">GitHub</a></li>
+								<li><a href="https://www.linkedin.com/in/willjarrett/" class="text-white">LinkedIn</a></li>
+								<li><a target="_blank" href="contents/WillJarrett_CV.pdf" class="text-white">Download my CV</a></li>
+								<li><a href="mailto:will@willjarrettdata.com" class="text-white">will@willjarrettdata.com</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="navbar navbar-dark bg-dark">
+				<div class="container">
+					<a href="https://willjarrettdata.github.io/" class="navbar-brand d-flex align-items-center">WillJarrett<strong>Data</strong></a>
+					<button type="button" class="btn btn-outline-light" data-bs-toggle="collapse" data-bs-target="#navbarHeader">Find out more</button>
+				</div>
+			</div>
+		</header>
+		<img src="images/books_header.jpg" id="header-image">
+
+		<main>
+			<div class="py-5">
+				<div class="container">
+					<div class="row form-group justify-content-md-center">
+						<div class="col-md-6">
+
+							<!-- article begins here -->
+							<h3><strong>A formula for the perfect Goodreads novel</strong></h3>
+							<div class="text-muted">By Will Jarrett</div>
+
+							<div class="body-text">
+								<br />
+								<p>
+									Once upon a time, crafting the perfect novel required creativity, dedication, and a whole lot of luck.
+									Those dark times are – thankfully – behind us.
+								</p>
+								<p>An ocean of book data is now available online for the discerning would-be novelist to dissect.
+								   With the right analysis, this data can reveal trends in bestselling books, mistakes to avoid, and just maybe a formula for the next literary sensation.
+								</p>
+								<p>
+									The book-rating platform Goodreads is one of the best sources of book data available today.
+									The website claims to have more than 90 million members and lists hundreds of millions of books.
+									Although ratings on Goodreads are not necessarily representative of the whole reading public, they do give us a powerful insight into the thoughts of “the world’s largest community of book lovers.”
+									I took a look at patterns in the top 10,000 books with the most ratings on Goodreads to guide the creation of our new bestseller.
+								</p>
+								<p>
+									Let’s start with one of our most important decisions: genre.
+									By plotting how many books of each major genre made it into the top 10,000 alongside their average user ratings, we can get a sense of their popularity.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Start ai2html - 2021-06-28 12:02 -->
+			<style media="screen,print">
+				#g-GenreTweaked_Desktop-box ,
+				#g-GenreTweaked_Desktop-box .g-artboard {
+					margin:0 auto;
+					font-family: Calibri;
+				}
+				#g-GenreTweaked_Desktop-box p {
+					margin:0;
+				}
+				#g-GenreTweaked_Desktop-box .g-aiAbs {
+					position:absolute;
+				}
+				#g-GenreTweaked_Desktop-box .g-aiImg {
+					position:absolute;
+					top:0;
+					display:block;
+					width:100% !important;
+				}
+				#g-GenreTweaked_Desktop-box .g-aiSymbol {
+					position: absolute;
+					box-sizing: border-box;
+				}
+				#g-GenreTweaked_Desktop-box .g-aiPointText p { white-space: nowrap; }
+				#g-GenreTweaked_Desktop-Artboard_1 {
+					position:relative;
+					overflow:hidden;
+				}
+				#g-GenreTweaked_Desktop-Artboard_1 p {
+					font-weight:500;
+					line-height:14px;
+					height:auto;
+					filter:alpha(opacity=100);
+					-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+					opacity:1;
+					letter-spacing:0em;
+					font-size:12px;
+					text-align:left;
+					color:rgb(0,0,0);
+					text-transform:none;
+					padding-bottom:0;
+					padding-top:0;
+					mix-blend-mode:normal;
+					font-style:normal;
+					position:static;
+				}
+				#g-GenreTweaked_Desktop-Artboard_1 .g-pstyle0 {
+					font-weight:700;
+					line-height:38px;
+					height:38px;
+					font-size:32px;
+				}
+				#g-GenreTweaked_Desktop-Artboard_1 .g-pstyle1 {
+					height:14px;
+				}
+				#g-GenreTweaked_Desktop-Artboard_1 .g-pstyle2 {
+					height:14px;
+					text-align:right;
+				}
+				#g-GenreTweaked_Desktop-Artboard_1 .g-pstyle3 {
+					font-weight:700;
+					height:14px;
+				}
+				#g-GenreTweaked_Desktop-Artboard_1 .g-pstyle4 {
+					height:14px;
+					text-align:center;
+				}
+				#g-GenreTweaked_Desktop-Artboard_1 .g-pstyle5 {
+					font-weight:700;
+					height:14px;
+					text-align:center;
+				}
+			
+			</style>
+			
+			<div id="g-GenreTweaked_Desktop-box" class="ai2html">
+				<!-- Artboard: Artboard_1 -->
+				<div id="g-GenreTweaked_Desktop-Artboard_1" class="g-artboard" style="max-width: 535px;max-height: 494px" data-aspect-ratio="1.083" data-min-width="0">
+					<div style="padding: 0 0 92.3364% 0;"></div>
+					<img id="g-GenreTweaked_Desktop-Artboard_1-img" class="g-aiImg" alt="" src="images/GenreTweaked_Desktop.png">
+					<div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:6.2026%;margin-top:-21.6px;left:3.539%;width:519px;">
+						<p class="g-pstyle0">Children’s fiction, fantasy, and erotica</p>
+					</div>
+					<div id="g-ai0-2" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:13.8949%;margin-top:-21.6px;left:3.539%;width:519px;">
+						<p class="g-pstyle0">get the highest ratings on Goodreads.</p>
+					</div>
+					<div id="g-ai0-9" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:52.4272%;margin-top:-8px;left:5.0602%;width:62px;">
+						<p class="g-pstyle3">Average</p>
+					</div>
+					<div id="g-ai0-11" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:55.4636%;margin-top:-8px;left:6.1817%;width:51px;">
+						<p class="g-pstyle3">5-star</p>
+					</div>
+					<div id="g-ai0-12" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:58.2976%;margin-top:-8px;left:6.1443%;width:51px;">
+						<p class="g-pstyle3">rating</p>
+					</div>
+					<div id="g-ai0-4" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:32.1398%;margin-top:-7.8px;right:82.2324%;width:37px;">
+						<p class="g-pstyle2">4.1</p>
+					</div>
+					<div id="g-ai0-14" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:59.0629%;margin-top:-7.8px;right:82.0051%;width:28px;">
+						<p class="g-pstyle2">4</p>
+					</div>
+					<div id="g-ai0-21" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:86.1884%;margin-top:-7.8px;right:82.3532%;width:37px;">
+						<p class="g-pstyle2">3.9</p>
+					</div>
+					<div id="g-ai0-3" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:24.4475%;margin-top:-7.8px;left:42.727%;width:103px;">
+						<p class="g-pstyle1">Children’s fiction</p>
+					</div>
+					<div id="g-ai0-5" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:35.1762%;margin-top:-7.8px;right:11.9858%;width:59px;">
+						<p class="g-pstyle2">Fantasy</p>
+					</div>
+					<div id="g-ai0-6" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:40.0345%;margin-top:-7.8px;left:24.4185%;width:56px;">
+						<p class="g-pstyle1">Erotica</p>
+					</div>
+					<div id="g-ai0-7" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:44.8928%;margin-top:-7.8px;left:80.9441%;width:67px;">
+						<p class="g-pstyle1">Romance</p>
+					</div>
+					<div id="g-ai0-8" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:51.9778%;margin-top:-7.8px;left:72.0922%;width:79px;">
+						<p class="g-pstyle1">Young adult</p>
+					</div>
+					<div id="g-ai0-10" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:55.2167%;margin-top:-7.8px;right:38.8431%;width:77px;">
+						<p class="g-pstyle2">Non-fiction</p>
+					</div>
+					<div id="g-ai0-13" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:58.658%;margin-top:-7.8px;right:56.4523%;width:45px;">
+						<p class="g-pstyle2">Sci-fi</p>
+					</div>
+					<div id="g-ai0-15" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:61.6944%;margin-top:-7.8px;right:62.8024%;width:51px;">
+						<p class="g-pstyle2">Crime</p>
+					</div>
+					<div id="g-ai0-16" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:70.3989%;margin-top:-7.8px;left:52.4708%;width:101px;">
+						<p class="g-pstyle1">Historical fiction</p>
+					</div>
+					<div id="g-ai0-17" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:70.3989%;margin-top:-7.8px;right:67.7785%;width:54px;">
+						<p class="g-pstyle2">Horror</p>
+					</div>
+					<div id="g-ai0-18" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:72.828%;margin-top:-7.8px;right:67.1035%;width:56px;">
+						<p class="g-pstyle2">Humor</p>
+					</div>
+					<div id="g-ai0-20" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:74.245%;margin-top:-7.8px;left:51.3644%;width:57px;">
+						<p class="g-pstyle1">Thriller</p>
+					</div>
+					<div id="g-ai0-19" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:73.2329%;margin-top:-7.8px;left:64.8204%;width:62px;">
+						<p class="g-pstyle1">Mystery</p>
+					</div>
+					<div id="g-ai0-22" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:88.6175%;margin-top:-7.8px;left:19.1248%;width:28px;">
+						<p class="g-pstyle1">0</p>
+					</div>
+					<div id="g-ai0-29" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:88.6175%;margin-top:-7.8px;left:30.2376%;margin-left:-20px;width:40px;">
+						<p class="g-pstyle4">400</p>
+					</div>
+					<div id="g-ai0-23" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:88.6175%;margin-top:-7.8px;left:40.867%;margin-left:-20px;width:40px;">
+						<p class="g-pstyle4">800</p>
+					</div>
+					<div id="g-ai0-24" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:88.6175%;margin-top:-7.8px;left:51.1346%;margin-left:-23px;width:46px;">
+						<p class="g-pstyle4">1200</p>
+					</div>
+					<div id="g-ai0-25" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:88.6175%;margin-top:-7.8px;left:62.1893%;margin-left:-23px;width:46px;">
+						<p class="g-pstyle4">1600</p>
+					</div>
+					<div id="g-ai0-26" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:88.6175%;margin-top:-7.8px;left:73.0571%;margin-left:-23px;width:46px;">
+						<p class="g-pstyle4">2000</p>
+					</div>
+					<div id="g-ai0-27" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:88.6175%;margin-top:-7.8px;left:83.7381%;margin-left:-23px;width:46px;">
+						<p class="g-pstyle4">2400</p>
+					</div>
+					<div id="g-ai0-28" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:88.6175%;margin-top:-7.8px;right:5.5494%;width:46px;">
+						<p class="g-pstyle2">2800</p>
+					</div>
+					<div id="g-ai0-30" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:90.4394%;margin-top:-7.8px;left:2.4852%;width:96px;">
+						<p class="g-pstyle1">(Literary fiction</p>
+					</div>
+					<div id="g-ai0-31" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:92.8685%;margin-top:-7.8px;left:2.4852%;width:82px;">
+						<p class="g-pstyle1">is way down</p>
+					</div>
+					<div id="g-ai0-33" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:95.2977%;margin-top:-7.8px;left:2.4852%;width:87px;">
+						<p class="g-pstyle1">here, at 3.74)</p>
+					</div>
+					<div id="g-ai0-32" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:93.7227%;margin-top:-8px;left:56.2093%;margin-left:-54px;width:108px;">
+						<p class="g-pstyle5">Number of books</p>
+					</div>
+					<div id="g-ai0-34" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:96.5567%;margin-top:-8px;left:56.2153%;margin-left:-43.5px;width:87px;">
+						<p class="g-pstyle5">in top 10,000</p>
+					</div>
+				</div>
+			</div>
+			<!-- End ai2html - 2021-06-28 12:02 -->
+
+			<div class="py-5">
+				<div class="container">
+					<div class="row form-group justify-content-md-center">
+						<div class="col-md-6">
+							<div class="body-text">
+								<br />
+								<p>
+									Children’s fiction, fantasy, and erotica have the highest 5-star ratings.
+									But fantasy is way ahead in terms of reach – over a quarter of all books in the top 10,000 include “fantasy” as one of its main tags, so it looks like a safe bet for securing a wide and appreciative readership.
+								</p>
+								<p>
+									This graph also shows us what to avoid. Humor and horror stories have poor readership and ratings, so we shouldn’t try to be too funny or scary.
+									Literary fiction seems deeply unpopular, with an average 3.74 rating, so we should take pains to avoid a highbrow style.
+								</p>
+								<p>
+									But what if we want accolades from critics as well as adoration from the public?
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Start ai2html - 2021-06-28 11:54 -->
+			<style media="screen,print">
+				#g-AwardsTweaked_Desktop-box ,
+				#g-AwardsTweaked_Desktop-box .g-artboard {
+					margin:0 auto;
+					font-family: Calibri;
+				}
+				#g-AwardsTweaked_Desktop-box p {
+					margin:0;
+				}
+				#g-AwardsTweaked_Desktop-box .g-aiAbs {
+					position:absolute;
+				}
+				#g-AwardsTweaked_Desktop-box .g-aiImg {
+					position:absolute;
+					top:0;
+					display:block;
+					width:100% !important;
+				}
+				#g-AwardsTweaked_Desktop-box .g-aiSymbol {
+					position: absolute;
+					box-sizing: border-box;
+				}
+				#g-AwardsTweaked_Desktop-box .g-aiPointText p { white-space: nowrap; }
+				#g-AwardsTweaked_Desktop-Artboard_1 {
+					position:relative;
+					overflow:hidden;
+				}
+				#g-AwardsTweaked_Desktop-Artboard_1 p {
+					font-weight:500;
+					line-height:14px;
+					height:auto;
+					filter:alpha(opacity=100);
+					-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+					opacity:1;
+					letter-spacing:0em;
+					font-size:12px;
+					text-align:left;
+					color:rgb(0,0,0);
+					text-transform:none;
+					padding-bottom:0;
+					padding-top:0;
+					mix-blend-mode:normal;
+					font-style:normal;
+					position:static;
+				}
+				#g-AwardsTweaked_Desktop-Artboard_1 .g-pstyle0 {
+					font-weight:700;
+					line-height:25px;
+					height:25px;
+					font-size:21px;
+				}
+				#g-AwardsTweaked_Desktop-Artboard_1 .g-pstyle1 {
+					height:14px;
+					text-align:center;
+				}
+				#g-AwardsTweaked_Desktop-Artboard_1 .g-pstyle2 {
+					height:14px;
+					text-align:right;
+				}
+				#g-AwardsTweaked_Desktop-Artboard_1 .g-pstyle3 {
+					height:14px;
+				}
+				#g-AwardsTweaked_Desktop-Artboard_1 .g-pstyle4 {
+					font-weight:700;
+					height:14px;
+					text-align:center;
+				}
+			
+			</style>
+
+			<div id="g-AwardsTweaked_Desktop-box" class="ai2html">
+				<!-- Artboard: Artboard_1 -->
+				<div id="g-AwardsTweaked_Desktop-Artboard_1" class="g-artboard" style="max-width: 752px;max-height: 151px" data-aspect-ratio="4.983" data-min-width="0">
+					<div style="padding: 0 0 20.0665% 0;"></div>
+					<img id="g-AwardsTweaked_Desktop-Artboard_1-img" class="g-aiImg" alt="" src="images/AwardsTweaked_Desktop.png">
+					<div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:16.7028%;margin-top:-14.2px;left:1.7116%;width:561px;">
+						<p class="g-pstyle0">Literary fiction wins the most awards. Erotica wins the fewest.</p>
+					</div>
+					<div id="g-ai0-2" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:38.9467%;margin-top:-7.8px;left:31.3001%;margin-left:-27px;width:54px;">
+						<p class="g-pstyle1">Horror</p>
+					</div>
+					<div id="g-ai0-3" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:38.9467%;margin-top:-7.8px;right:77.9273%;width:67px;">
+						<p class="g-pstyle2">Romance</p>
+					</div>
+					<div id="g-ai0-4" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:40.272%;margin-top:-7.8px;left:45.1703%;margin-left:-50.5px;width:101px;">
+						<p class="g-pstyle1">Historical fiction</p>
+					</div>
+					<div id="g-ai0-5" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:41.5974%;margin-top:-7.8px;left:52.5114%;width:45px;">
+						<p class="g-pstyle3">Sci-fi</p>
+					</div>
+					<div id="g-ai0-6" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:43.5855%;margin-top:-7.8px;left:34.6539%;width:51px;">
+						<p class="g-pstyle3">Crime</p>
+					</div>
+					<div id="g-ai0-7" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:51.5378%;margin-top:-7.8px;right:77.6902%;width:57px;">
+						<p class="g-pstyle2">Thriller</p>
+					</div>
+					<div id="g-ai0-8" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:51.5378%;margin-top:-7.8px;right:5.6994%;width:92px;">
+						<p class="g-pstyle2">Literary fiction</p>
+					</div>
+					<div id="g-ai0-9" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:51.5378%;margin-top:-7.8px;right:91.8423%;width:56px;">
+						<p class="g-pstyle2">Erotica</p>
+					</div>
+					<div id="g-ai0-10" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:51.5378%;margin-top:-7.8px;left:36.1977%;width:59px;">
+						<p class="g-pstyle3">Fantasy</p>
+					</div>
+					<div id="g-ai0-11" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:51.5376%;margin-top:-7.8px;left:54.1397%;width:79px;">
+						<p class="g-pstyle3">Young adult</p>
+					</div>
+					<div id="g-ai0-12" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:60.8154%;margin-top:-7.8px;left:33.385%;width:62px;">
+						<p class="g-pstyle3">Mystery</p>
+					</div>
+					<div id="g-ai0-13" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:60.8154%;margin-top:-7.8px;left:51.0823%;width:103px;">
+						<p class="g-pstyle3">Children’s fiction</p>
+					</div>
+					<div id="g-ai0-14" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:62.1408%;margin-top:-7.8px;right:77.8789%;width:77px;">
+						<p class="g-pstyle2">Non-fiction</p>
+					</div>
+					<div id="g-ai0-15" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:62.1408%;margin-top:-7.8px;left:27.9075%;margin-left:-28px;width:56px;">
+						<p class="g-pstyle1">Humor</p>
+					</div>
+					<div id="g-ai0-16" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:74.7319%;margin-top:-7.8px;left:1.3991%;width:28px;">
+						<p class="g-pstyle3">0</p>
+					</div>
+					<div id="g-ai0-17" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:74.7319%;margin-top:-7.8px;left:6.1929%;width:37px;">
+						<p class="g-pstyle3">0.2</p>
+					</div>
+					<div id="g-ai0-18" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:74.7319%;margin-top:-7.8px;left:11.5121%;width:37px;">
+						<p class="g-pstyle3">0.4</p>
+					</div>
+					<div id="g-ai0-19" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:74.7319%;margin-top:-7.8px;left:16.8312%;width:37px;">
+						<p class="g-pstyle3">0.6</p>
+					</div>
+					<div id="g-ai0-20" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:74.7319%;margin-top:-7.8px;left:22.1504%;width:37px;">
+						<p class="g-pstyle3">0.8</p>
+					</div>
+					<div id="g-ai0-21" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:74.7319%;margin-top:-7.8px;left:28.0014%;width:28px;">
+						<p class="g-pstyle3">1</p>
+					</div>
+					<div id="g-ai0-22" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:74.7319%;margin-top:-7.8px;left:32.7887%;width:37px;">
+						<p class="g-pstyle3">1.2</p>
+					</div>
+					<div id="g-ai0-23" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:74.7319%;margin-top:-7.8px;left:38.1078%;width:37px;">
+						<p class="g-pstyle3">1.4</p>
+					</div>
+					<div id="g-ai0-24" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:74.7319%;margin-top:-7.8px;left:43.4269%;width:37px;">
+						<p class="g-pstyle3">1.6</p>
+					</div>
+					<div id="g-ai0-25" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:74.7319%;margin-top:-7.8px;left:48.7461%;width:37px;">
+						<p class="g-pstyle3">1.8</p>
+					</div>
+					<div id="g-ai0-26" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:74.7319%;margin-top:-7.8px;left:54.5971%;width:28px;">
+						<p class="g-pstyle3">2</p>
+					</div>
+					<div id="g-ai0-27" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:74.7319%;margin-top:-7.8px;left:59.3844%;width:37px;">
+						<p class="g-pstyle3">2.2</p>
+					</div>
+					<div id="g-ai0-28" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:74.7319%;margin-top:-7.8px;left:64.7035%;width:37px;">
+						<p class="g-pstyle3">2.4</p>
+					</div>
+					<div id="g-ai0-29" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:74.7319%;margin-top:-7.8px;left:70.0226%;width:37px;">
+						<p class="g-pstyle3">2.6</p>
+					</div>
+					<div id="g-ai0-30" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:74.7319%;margin-top:-7.8px;left:75.3418%;width:37px;">
+						<p class="g-pstyle3">2.8</p>
+					</div>
+					<div id="g-ai0-31" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:74.7319%;margin-top:-7.8px;left:81.1929%;width:28px;">
+						<p class="g-pstyle3">3</p>
+					</div>
+					<div id="g-ai0-32" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:74.7319%;margin-top:-7.8px;left:85.9801%;width:37px;">
+						<p class="g-pstyle3">3.2</p>
+					</div>
+					<div id="g-ai0-33" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:74.7319%;margin-top:-7.8px;left:91.2992%;width:37px;">
+						<p class="g-pstyle3">3.4</p>
+					</div>
+					<div id="g-ai0-34" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:74.7319%;margin-top:-7.8px;left:96.6184%;width:37px;">
+						<p class="g-pstyle3">3.6</p>
+					</div>
+					<div id="g-ai0-35" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:89.4568%;margin-top:-8px;left:49.6544%;margin-left:-78px;width:156px;">
+						<p class="g-pstyle4">Average number of awards</p>
+					</div>
+				</div>
+			</div>
+			<!-- End ai2html - 2021-06-28 11:54 -->
+
+			<div class="py-5">
+				<div class="container">
+					<div class="row form-group justify-content-md-center">
+						<div class="col-md-6">
+							<div class="body-text">
+								<br />
+								<p>
+									It turns out that literary fiction scoops awards like nothing else.
+									If we were just after critical acclaim, that would be the route to go, but given its unpopularity with the public we should still give it a miss.
+								</p>
+								<p>
+									Despite its enthusiastic audience, erotica wins the fewest awards, so steamy prose is also ill advised.
+								</p>
+								<p>
+									The second top award winner is young adult fiction.
+									This sounds good for us, as it fits well with fantasy – over 10% of the top 10,000 books have both “fantasy” and “young adult” in their top tags.
+									This mix of genres has an average 4.07 rating and 1.6 awards per book, so it is popular with both the public and with critics.
+								</p>
+								<p>
+									By analyzing the descriptions of books scoring above and below 4 stars, we can take an even deeper look at the kinds of topics that are popular with readers.
+									Words related to family and social relationships appear to correlate with high scores: “mother,” “husband,” “man,” “girl,” “family,” “marriage,” and “love” all appear in the top twenty words indicative of a high user rating.
+									The words “battle,” “fight,” and “secret” feature highly as well.
+									“Detective” and “celebrity” both correlate with low scores, so we should give them a wide berth.
+								</p>
+								<p>
+									A similar analysis of the books’ titles shows that one of the best indicators of high ratings is the presence of words such as “volume,” “saga,” “trilogy,” or “chronicles.”
+									This suggests that our book should be part of a series rather than a standalone novel.
+								</p>
+								<p>
+									So, we know the genre of our novel, we know (roughly) what it is about, and we know that it should be part of a series.
+									But how long should it be?
+									There appears to be a sweet spot for book length in Goodreads hits, with a third of its top books falling between 301 and 400 pages long.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Start ai2html - 2021-06-28 11:54 -->
+			<style media="screen,print">
+				#g-PageLengthTweaked_DesktopV2-box ,
+				#g-PageLengthTweaked_DesktopV2-box .g-artboard {
+					margin:0 auto;
+					font-family:Calibri;
+				}
+				#g-PageLengthTweaked_DesktopV2-box p {
+					margin:0;
+				}
+				#g-PageLengthTweaked_DesktopV2-box .g-aiAbs {
+					position:absolute;
+				}
+				#g-PageLengthTweaked_DesktopV2-box .g-aiImg {
+					position:absolute;
+					top:0;
+					display:block;
+					width:100% !important;
+				}
+				#g-PageLengthTweaked_DesktopV2-box .g-aiSymbol {
+					position: absolute;
+					box-sizing: border-box;
+				}
+				#g-PageLengthTweaked_DesktopV2-box .g-aiPointText p { white-space: nowrap; }
+				#g-PageLengthTweaked_DesktopV2-Artboard_1 {
+					position:relative;
+					overflow:hidden;
+				}
+				#g-PageLengthTweaked_DesktopV2-Artboard_1 p {
+					font-weight:500;
+					line-height:14px;
+					height:auto;
+					filter:alpha(opacity=100);
+					-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+					opacity:1;
+					letter-spacing:0em;
+					font-size:12px;
+					text-align:left;
+					color:rgb(0,0,0);
+					text-transform:none;
+					padding-bottom:0;
+					padding-top:0;
+					mix-blend-mode:normal;
+					font-style:normal;
+					position:static;
+				}
+				#g-PageLengthTweaked_DesktopV2-Artboard_1 .g-pstyle0 {
+					font-weight:700;
+					line-height:24px;
+					height:24px;
+					font-size:20px;
+				}
+				#g-PageLengthTweaked_DesktopV2-Artboard_1 .g-pstyle1 {
+					height:14px;
+				}
+				#g-PageLengthTweaked_DesktopV2-Artboard_1 .g-pstyle2 {
+					height:14px;
+					text-align:right;
+				}
+				#g-PageLengthTweaked_DesktopV2-Artboard_1 .g-pstyle3 {
+					font-weight:700;
+					height:14px;
+					text-align:center;
+				}
+				#g-PageLengthTweaked_DesktopV2-Artboard_1 .g-pstyle4 {
+					height:14px;
+					text-align:center;
+				}
+			
+			</style>
+			
+				<div id="g-PageLengthTweaked_DesktopV2-box" class="ai2html">
+			
+				<!-- Artboard: Artboard_1 -->
+				<div id="g-PageLengthTweaked_DesktopV2-Artboard_1" class="g-artboard" style="max-width: 486px;max-height: 458px" data-aspect-ratio="1.061" data-min-width="0">
+					<div style="padding: 0 0 94.2387% 0;"></div>
+					<img id="g-PageLengthTweaked_DesktopV2-Artboard_1-img" class="g-aiImg" alt="" src="images/PageLengthTweaked_DesktopV2.png">
+					<div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:6.4558%;margin-top:-13.6px;left:2.093%;width:489px;">
+						<p class="g-pstyle0">A third of Goodreads’ top books are 301–400 pages long.</p>
+					</div>
+					<div id="g-ai0-2" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:17.6355%;margin-top:-7.8px;left:36.4692%;width:101px;">
+						<p class="g-pstyle1">These books get</p>
+					</div>
+					<div id="g-ai0-4" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:20.4739%;margin-top:-7.8px;left:36.4692%;width:107px;">
+						<p class="g-pstyle1">the highest 5-star</p>
+					</div>
+					<div id="g-ai0-5" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:23.3123%;margin-top:-7.8px;left:36.4692%;width:79px;">
+						<p class="g-pstyle1">user ratings</p>
+					</div>
+					<div id="g-ai0-9" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:41.4346%;margin-top:-7.8px;left:35.3656%;width:103px;">
+						<p class="g-pstyle1">These books win</p>
+					</div>
+					<div id="g-ai0-10" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:44.273%;margin-top:-7.8px;left:35.3656%;width:113px;">
+						<p class="g-pstyle1">awards most often</p>
+					</div>
+					<div id="g-ai0-12" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:51.5263%;margin-top:-8px;left:5.8322%;margin-left:-25px;width:50px;">
+						<p class="g-pstyle3">Pages</p>
+					</div>
+					<div id="g-ai0-3" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:20.4739%;margin-top:-7.8px;right:85.2007%;width:46px;">
+						<p class="g-pstyle2">1000</p>
+					</div>
+					<div id="g-ai0-6" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:27.2425%;margin-top:-7.8px;right:85.1838%;width:40px;">
+						<p class="g-pstyle2">900</p>
+					</div>
+					<div id="g-ai0-7" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:34.011%;margin-top:-7.8px;right:85.1838%;width:40px;">
+						<p class="g-pstyle2">800</p>
+					</div>
+					<div id="g-ai0-8" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:40.9979%;margin-top:-7.8px;right:85.1838%;width:40px;">
+						<p class="g-pstyle2">700</p>
+					</div>
+					<div id="g-ai0-11" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:48.2032%;margin-top:-7.8px;right:85.1839%;width:40px;">
+						<p class="g-pstyle2">600</p>
+					</div>
+					<div id="g-ai0-13" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:54.9717%;margin-top:-7.8px;right:85.1839%;width:40px;">
+						<p class="g-pstyle2">500</p>
+					</div>
+					<div id="g-ai0-14" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:61.9586%;margin-top:-7.8px;right:85.1838%;width:40px;">
+						<p class="g-pstyle2">400</p>
+					</div>
+					<div id="g-ai0-15" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:68.7272%;margin-top:-7.8px;right:85.1838%;width:40px;">
+						<p class="g-pstyle2">300</p>
+					</div>
+					<div id="g-ai0-16" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:75.9324%;margin-top:-7.8px;right:85.1839%;width:40px;">
+						<p class="g-pstyle2">200</p>
+					</div>
+					<div id="g-ai0-17" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:82.701%;margin-top:-7.8px;right:85.1839%;width:40px;">
+						<p class="g-pstyle2">100</p>
+					</div>
+					<div id="g-ai0-18" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:92.308%;margin-top:-7.8px;left:15.2635%;width:28px;">
+						<p class="g-pstyle1">0</p>
+					</div>
+					<div id="g-ai0-19" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:92.308%;margin-top:-7.8px;left:27.5429%;margin-left:-20px;width:40px;">
+						<p class="g-pstyle4">500</p>
+					</div>
+					<div id="g-ai0-20" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:92.308%;margin-top:-7.8px;left:39.2572%;margin-left:-23px;width:46px;">
+						<p class="g-pstyle4">1000</p>
+					</div>
+					<div id="g-ai0-21" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:92.308%;margin-top:-7.8px;left:50.8092%;margin-left:-23px;width:46px;">
+						<p class="g-pstyle4">1500</p>
+					</div>
+					<div id="g-ai0-22" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:92.308%;margin-top:-7.8px;left:62.7729%;margin-left:-23px;width:46px;">
+						<p class="g-pstyle4">2000</p>
+					</div>
+					<div id="g-ai0-23" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:92.308%;margin-top:-7.8px;left:74.5306%;margin-left:-23px;width:46px;">
+						<p class="g-pstyle4">2500</p>
+					</div>
+					<div id="g-ai0-24" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:92.308%;margin-top:-7.8px;left:86.2884%;margin-left:-23px;width:46px;">
+						<p class="g-pstyle4">3000</p>
+					</div>
+					<div id="g-ai0-25" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:92.308%;margin-top:-7.8px;right:1.8822%;width:46px;">
+						<p class="g-pstyle2">3500</p>
+					</div>
+					<div id="g-ai0-26" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:96.7228%;margin-top:-8px;left:57.363%;margin-left:-88px;width:176px;">
+						<p class="g-pstyle3">Number of books in top 10,000</p>
+					</div>
+				</div>
+			</div>
+			<!-- End ai2html - 2021-07-04 07:59 -->
+
+			<div class="py-5">
+				<div class="container">
+					<div class="row form-group justify-content-md-center">
+						<div class="col-md-6">
+							<div class="body-text">
+								<br />
+								<p>
+									By a small margin, awards and high ratings tend to go to books with more pages.
+									Nonetheless, as comparatively few people read those books, the 301–400 range still looks like our best bet to secure a large audience.
+								</p>
+								<p>
+									Once our first book has been written, there are still things we can do to give ourselves an edge.
+									For instance, the perceived gender of the author may have a minor impact on popularity.
+									In the top 10,000 books, books published under ambiguously gendered names (such as authors who use initials like J.R.R. Tolkien) tend to have a slightly higher user rating than authors with names typically perceived as either male or female.
+									This could be worth trying for a little boost.
+								</p>
+								<p>
+									So, our ultimate book is a <strong>fantasy</strong> story aimed at <strong>young adults</strong>, with some focus on <strong>familial or social relationships</strong>.
+									It should be part of a <strong>series</strong>.
+									It should be <strong>301–400 pages</strong> long and published under a <strong>gender-neutral name</strong>.
+								</p>
+								<p>
+									Dozens of the top 10,000 books fit this mold – including the early <em>Harry Potter</em> books, the <em>Series of Unfortunate Events</em> saga, and <em>The Vampire Diaries</em>.
+									It seems that this formula has already produced a good number of bestsellers.
+								</p>
+								<p>
+									With that in mind, best of luck with your magnum opus, and keep an eye out for my upcoming title, <em>The Blood Secret Chronicles, Vol #1</em> by W.D. Jarrett.
+								</p>
+								<br />
+								<h5><strong>Methodology</strong></h5>
+								<p>
+									To find the URLs for the top 10,000 books, I used an existing dataset posted on <a href="https://github.com/zygmuntz/goodbooks-10k">Github</a>.
+									Then I scraped each book’s webpage using the Python library Beautiful Soup to find details such as the number of awards and descriptions.
+									I used a VPN and an error log to get around Goodreads’ block on scraping (which kicks in after a few hundred pages).
+								</p>
+								<p>
+									I used various Python libraries including pandas and regex to conduct my analysis.
+									Graphs were made using Altair and cleaned up in Illustrator.
+									I used the New York Times’ <a href="http://ai2html.org/">aitohtml</a> tool to convert the Illustrator files into HTML files before embedding them in the page.
+								</p>
+								<p>–</p>
+								<p>
+									Header photo credit <a href="https://unsplash.com/photos/eeSdJfLfx1A">Ed Robertson</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+
+		<script src="../bootstrap.bundle.min.js"></script>
+
+	</body>
+</html>
