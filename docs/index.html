@@ -4,12 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Will Jarrett">
-    <meta name="generator" content="Hugo 0.84.0">
+    <meta name="description" content="I use data to write stories, create maps, and build interactive visualizations. Take a look at what I can do.">
     <title>Home | Will Jarrett Data</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
     <link href="bootstrap.min.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="images/thought_favicon.png"/>
+    <link rel="icon" type="image/png" href="images/site_favicon.png"/>
 
     <!-- insert google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,26 +16,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-      /* set background colour (#ffeeee) */
+      /* set background colour */
       body {
           background-color: #fff0ea;
       }
 
-      /* set generic google font */
+      /* set google font */
       html * {
         font-family: 'Quicksand', sans-serif;
         }
@@ -52,7 +37,7 @@
         box-shadow: none;
       }
 
-      /* add spacing, greyscale to rows */
+      /* sort out cards */
       .card {
         margin-bottom: 35px;
         margin-top: 5px;
@@ -60,7 +45,6 @@
         margin-right: 40px;
       }
 
-      /* add hover effect to cards */
       .card:hover{
         box-shadow: 0 0 5px rgba(33,33,33,.2);
         -webkit-filter: brightness(.9);
@@ -68,188 +52,186 @@
         transition: 0.05s ease-in-out;
       }
 
-      /* add tags */
+      /* tags */
       .tags {
         margin-left: 40px;
         display: inline-block;
       }
 
-      /* add footer */
+      /* footer */
       footer {
         background-color: black;
       }
 
     </style>
-    
   </head>
+
   <body>
-    
-<header>
-  <!-- find out more bar -->
-  <div class="collapse bg-dark" id="navbarHeader">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 col-md-7 py-4">
-          <h4 class="text-white">About</h4>
-          <p class="text-white-50">I graduated from <strong>Oxford University</strong> with First Class Honours in English in 2017.
-            For the next few years, I worked as <strong>editor</strong> of the Oxford University Press education website Oxford Owl.</p>
-          <p class="text-white-50">Last year, I moved to New York to pursue M.S. Data Journalism at <strong>Columbia University</strong>.
-            I am now joining San Francisco's <strong>Mission Local</strong> to do reporting and data viz.</p>
-          <p class="text-white-50">I have a particular interest in <strong>environmental news</strong> and building fun data tools.
-            In my spare time, I love hiking, drawing, and writing web bios.</p>
-        </div>
-        <div class="col-sm-4 offset-md-1 py-4">
-          <h4 class="text-white">Contact</h4>
-          <ul class="list-unstyled">
-            <li><a href="https://twitter.com/WillJarrettData" class="text-white">Twitter</a></li>
-            <li><a href="https://github.com/WillJarrettData" class="text-white">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/willjarrett/" class="text-white">LinkedIn</a></li>
-            <li><a target="_blank" href="contents/WillJarrett_CV.pdf" class="text-white">Download my CV</a></li>
-            <li><a href="mailto:will@willjarrettdata.com" class="text-white">will@willjarrettdata.com</a></li>
-          </ul>
+    <header>
+      <!-- find out more bar -->
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-white-50">I graduated from <strong>Oxford University</strong> with First Class Honours in English in 2017.
+                For the next few years, I worked as <strong>editor</strong> of the Oxford University Press education website Oxford Owl.</p>
+              <p class="text-white-50">Last year, I moved to New York to pursue M.S. Data Journalism at <strong>Columbia University</strong>.
+                I am now joining San Francisco's <strong>Mission Local</strong> to do reporting and data viz.</p>
+              <p class="text-white-50">I have a particular interest in <strong>environmental news</strong> and building fun data tools.
+                In my spare time, I love hiking, drawing, and writing web bios.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="https://twitter.com/WillJarrettData" class="text-white">Twitter</a></li>
+                <li><a href="https://github.com/WillJarrettData" class="text-white">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/willjarrett/" class="text-white">LinkedIn</a></li>
+                <li><a target="_blank" href="contents/WillJarrett_CV.pdf" class="text-white">Download my CV</a></li>
+                <li><a href="mailto:will@willjarrettdata.com" class="text-white">will@willjarrettdata.com</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="navbar navbar-dark bg-dark">
-    <div class="container">
-      <a href="https://willjarrettdata.github.io/" class="navbar-brand d-flex align-items-center">
-        WillJarrett<strong>Data</strong>
-      </a>
-      <button type="button" class="btn btn-outline-light" data-bs-toggle="collapse" data-bs-target="#navbarHeader">
-        Find out more
-      </button>
-    </div>
-  </div>
-</header>
-
-<main>
-    <div class="album py-5">
+      <div class="navbar navbar-dark bg-dark">
         <div class="container">
-            <div class="row form-group justify-content-md-center" style="margin-bottom: 120px; margin-top: 120px;">
+          <a href="https://willjarrettdata.github.io/" class="navbar-brand d-flex align-items-center">
+            WillJarrett<strong>Data</strong>
+          </a>
+          <button type="button" class="btn btn-outline-light" data-bs-toggle="collapse" data-bs-target="#navbarHeader">
+            Find out more
+          </button>
+        </div>
+      </div>
+    </header>
 
-                <!-- intro section -->
-                <div class="col-md-8">
-                    <h1 class="fw-light" style="font-size: 48px;">Hello!</h1>
-                    <p class="lead">I'm Will. I tell stories with data.</p>
-                    <p class="lead">Take a look around to see what I can do. If you have any questions, <a target="_blank" href="contents/WillJarrett_CV.pdf">download my CV</a> or drop me a message at <a href="mailto:will@willjarrettdata.com">will@willjarrettdata.com</a>.</p>
-                </div>
+    <main>
+      <div class="album py-5">
+        <div class="container">
+          <div class="row form-group justify-content-md-center" style="margin-bottom: 120px; margin-top: 120px;">
+            <!-- intro section -->
+            <div class="col-md-8">
+              <h1 class="fw-light" style="font-size: 48px;">Hello!</h1>
+              <p class="lead">I'm Will. I tell stories with data.</p>
+              <p class="lead">Take a look around to see what I can do. If you have any questions, <a target="_blank" href="contents/WillJarrett_CV.pdf">download my CV</a> or drop me a message at <a href="mailto:will@willjarrettdata.com">will@willjarrettdata.com</a>.</p>
             </div>
+          </div>
 
-            <!-- row 1 -->
-            <div class="row form-group">
+          <!-- row 1 -->
+          <div class="row form-group">
 
-                <div class="col-sm">
-                  <small class="text-muted tags">🏷️ App | Python, D3</small>
-                    <div class="card border-dark">
-                        <img object-fit="contain" width="100%" src="images/climateCabinet_thumb.jpg" role="img">
-                        <title>State environmental scores</title>
-                        <rect width="100%" height="100%" fill="#55595c"/>
-        
-                      <div class="card-body">
-                        <a class="stretched-link" href="state-environmental-scores/"><h5>State environmental scores</h5></a>
-                        <p class="card-text">This interactive tool allows you to browse the environmental records of state legislators.</p>
-                        <div class="d-flex justify-content-between align-items-center"></div>
-                      </div>
-                    </div>
+            <!-- card 1 -->
+            <div class="col-sm">
+              <small class="text-muted tags">🏷️ App | Python, D3</small>
+              <div class="card border-dark">
+                <img object-fit="contain" width="100%" src="images/climateCabinet_thumb.jpg" role="img">
+                <title>State environmental scores</title>
+                <rect width="100%" height="100%" fill="#55595c"/>
+                <div class="card-body">
+                  <a class="stretched-link" href="state-environmental-scores/"><h5>State environmental scores</h5></a>
+                  <p class="card-text">This interactive tool allows you to browse the environmental records of state legislators.</p>
+                  <div class="d-flex justify-content-between align-items-center"></div>
                 </div>
-
-                <div class="col-sm">
-                  <small class="text-muted tags">🏷️ App | Python, Heroku</small>
-                    <div class="card border-dark">
-                        <img object-fit="contain" width="100%" src="images/adressify_thumb.jpg" role="img">
-                        <title>Adressify</title>
-                        <rect width="100%" height="100%" fill="#55595c"/>
-        
-                    <div class="card-body">
-                      <a class="stretched-link" href="https://adressify.herokuapp.com/"><h5>Adressify</h5></a>
-                      <p class="card-text">A web app that scrapes NYC building records and financial documents using Selenium.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                          </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm">
-                  <small class="text-muted tags">🏷️ Article | Python, Illustrator</small>
-                  <div class="card border-dark">
-                      <img object-fit="contain" width="100%" src="images/goodreads_thumb.jpg" role="img">
-                      <title>The perfect novel</title>
-                      <rect width="100%" height="100%" fill="#55595c"/>
-      
-                  <div class="card-body">
-                    <a class="stretched-link" href="https://willjarrettdata.com/articles/a-formula-for-the-perfect-goodreads-novel/"><h5>The perfect novel</h5></a>
-                    <p class="card-text">Writing the perfect novel once required creativity and grit. Thankfully, we can now turn to data instead.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        </div>
-                      </div>
-                  </div>
               </div>
             </div>
 
-            <!-- row 2 -->
-            <div class="row form-group">
-              <div class="col-sm">
-                <small class="text-muted tags">🏷️ Article | Python, Illustrator, JavaScript</small>
-                <div class="card border-dark">
-                    <img object-fit="contain" width="100%" src="images/communityInternetNetworks_thumb.gif" role="img">
-                    <title>Community internet networks</title>
-                    <rect width="100%" height="100%" fill="#55595c"/>
-    
+            <!-- card 2 -->
+            <div class="col-sm">
+              <small class="text-muted tags">🏷️ App | Python, Heroku</small>
+              <div class="card border-dark">
+                <img object-fit="contain" width="100%" src="images/adressify_thumb.jpg" role="img">
+                <title>Adressify</title>
+                <rect width="100%" height="100%" fill="#55595c"/>
+        
+                <div class="card-body">
+                  <a class="stretched-link" href="https://adressify.herokuapp.com/"><h5>Adressify</h5></a>
+                  <p class="card-text">A web app that scrapes NYC building records and financial documents using Selenium.</p>
+                  <div class="d-flex justify-content-between align-items-center"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="col-sm">
+              <small class="text-muted tags">🏷️ Article | Python, Illustrator</small>
+              <div class="card border-dark">
+                <img object-fit="contain" width="100%" src="images/goodreads_thumb.jpg" role="img">
+                <title>The perfect novel</title>
+                <rect width="100%" height="100%" fill="#55595c"/>
+
+                <div class="card-body">
+                  <a class="stretched-link" href="https://willjarrettdata.com/articles/a-formula-for-the-perfect-goodreads-novel/"><h5>The perfect novel</h5></a>
+                  <p class="card-text">Writing the perfect novel once required creativity and grit. Thankfully, we can now turn to data instead.</p>
+                  <div class="d-flex justify-content-between align-items-center"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- row 2 -->
+          <div class="row form-group">
+
+            <!-- card 1 -->
+            <div class="col-sm">
+              <small class="text-muted tags">🏷️ Article | Python, Illustrator, JavaScript</small>
+              <div class="card border-dark">
+                <img object-fit="contain" width="100%" src="images/communityInternetNetworks_thumb.gif" role="img">
+                <title>Community internet networks</title>
+                <rect width="100%" height="100%" fill="#55595c"/>
+      
                 <div class="card-body">
                   <a class="stretched-link" href="draft-community-internet-networks/"><h5>Community internet networks</h5></a>
                   <p class="card-text">When Covid struck, millions of children couldn't go to class. NYC community groups rushed to improve their access.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                      </div>
-                    </div>
+                  <div class="d-flex justify-content-between align-items-center"></div>
                 </div>
+              </div>
             </div>
 
-                <div class="col-sm">
-                  <small class="text-muted tags">🏷️ Experiment | JavaScript, HTML/CSS</small>
-                    <div class="card border-dark">
-                        <img object-fit="contain" width="100%" src="images/dog_thumb.jpg" role="img">
-                        <title>Dogs > Cats</title>
-                        <rect width="100%" height="100%" fill="#55595c"/>
+            <!-- card 2 -->
+            <div class="col-sm">
+              <small class="text-muted tags">🏷️ Experiment | JavaScript, HTML/CSS</small>
+              <div class="card border-dark">
+                <img object-fit="contain" width="100%" src="images/dog_thumb.jpg" role="img">
+                <title>Dogs > Cats</title>
+                <rect width="100%" height="100%" fill="#55595c"/>
         
-                    <div class="card-body">
-                      <a class="stretched-link" href="scrollytelling-dogs-cats/"><h5>Dogs > Cats</h5></a>
-                      <p class="card-text">A scrollytelling story all about dogs (and a few cats). Made using Russell Goldenberg's scrollama library.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                            </div>
-                        </div>
-                    </div>
+                <div class="card-body">
+                  <a class="stretched-link" href="scrollytelling-dogs-cats/"><h5>Dogs > Cats</h5></a>
+                  <p class="card-text">A scrollytelling story all about dogs (and a few cats). Made using Russell Goldenberg's scrollama library.</p>
+                  <div class="d-flex justify-content-between align-items-center"></div>
                 </div>
-
-                <div class="col-sm">
-                  <small class="text-muted tags">🏷️ WordPress</small>
-                    <div class="card border-dark">
-                        <img object-fit="contain" width="100%" src="images/wordpress_thumb.jpg" role="img">
-                        <title>WordPress portfolio</title>
-                        <rect width="100%" height="100%" fill="#55595c"/>
-        
-                    <div class="card-body">
-                      <a class="stretched-link" href="https://willjarrettdata.com/"><h5>WordPress portfolio</h5></a>
-                      <p class="card-text">I'm currently migrating my projects away from WordPress. In the meantime, you can find my other projects here.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+
+            <!-- card 3 -->
+            <div class="col-sm">
+              <small class="text-muted tags">🏷️ WordPress</small>
+              <div class="card border-dark">
+                <img object-fit="contain" width="100%" src="images/wordpress_thumb.jpg" role="img">
+                <title>WordPress portfolio</title>
+                <rect width="100%" height="100%" fill="#55595c"/>
+        
+                <div class="card-body">
+                  <a class="stretched-link" href="https://willjarrettdata.com/"><h5>WordPress portfolio</h5></a>
+                  <p class="card-text">I'm currently migrating my projects away from WordPress. In the meantime, you can find my other projects here.</p>
+                  <div class="d-flex justify-content-between align-items-center"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
 
-<footer class="py-3">
-  <div class="container text-center">
-    <a href="mailto:will@willjarrettdata.com" class="text-white">will@willjarrettdata.com</a>
-  </div>
-</footer>
+      <footer class="py-3">
+        <div class="container text-center">
+          <a href="mailto:will@willjarrettdata.com" class="text-white">will@willjarrettdata.com</a>
+        </div>
+      </footer>
 
-</main>
+    </main>
 
     <script src="bootstrap.bundle.min.js"></script>
-
-      
+  
   </body>
 </html>
