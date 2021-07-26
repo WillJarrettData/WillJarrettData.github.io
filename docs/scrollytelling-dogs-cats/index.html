@@ -2,13 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Dogs > Cats</title>
-    <meta name="description" content="Scrollama: Sticky Overlay Example" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
-
+    <meta name="description" content="A scrollytelling experiment showing off some lovely dogs." />
+    <title>Dogs > Cats</title>
     <link rel="shortcut icon" type="image/png" href="images/dog_favicon.png"/>
+
+    <!-- import bootstrap stuff -->
+		<link href="../bootstrap.min.css" rel="stylesheet">
+		<link rel="icon" type="image/png" href="../images/site_favicon.png"/>
+
+		<!-- import local style -->
+		<link href="../style.css" rel="stylesheet">
+
+    <!-- import google font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 
     <style>
       #scrolly {
@@ -94,9 +103,57 @@
         font-size: 16px;
         padding: 10px;
       }
+
+      main {
+        text-align: center;
+      }
+
+      .p-large {
+        font-size: 20px;
+      }
+
     </style>
   </head>
-
+  <header>
+    <!-- find out more bar -->
+    <div class="collapse bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-white">About</h4>
+            <p class="text-white-50">
+              I graduated from <strong>Oxford University</strong> with First Class Honours in English in 2017.
+              For the next few years, I worked as <strong>editor</strong> of the Oxford University Press education website Oxford Owl.
+            </p>
+            <p class="text-white-50">
+              Last year, I moved to New York to pursue M.S. Data Journalism at <strong>Columbia University</strong>.
+              I am now joining San Francisco's <strong>Mission Local</strong> to do reporting and data viz.
+            </p>
+            <p class="text-white-50">
+              I have a particular interest in <strong>environmental news</strong> and building fun data tools.
+              In my spare time, I love hiking, drawing, and writing web bios.
+            </p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white">Contact</h4>
+            <ul class="list-unstyled">
+              <li><a href="https://twitter.com/WillJarrettData" class="text-white">Twitter</a></li>
+              <li><a href="https://github.com/WillJarrettData" class="text-white">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/willjarrett/" class="text-white">LinkedIn</a></li>
+              <li><a target="_blank" href="contents/WillJarrett_CV.pdf" class="text-white">Download my CV</a></li>
+              <li><a href="mailto:will@willjarrettdata.com" class="text-white">will@willjarrettdata.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark">
+      <div class="container">
+        <a href="https://willjarrettdata.github.io/" class="navbar-brand d-flex align-items-center">WillJarrett<strong>Data</strong></a>
+        <button type="button" class="btn btn-outline-light" data-bs-toggle="collapse" data-bs-target="#navbarHeader">Find out more</button>
+      </div>
+    </div>
+  </header>
   <body>
 
     <img src="images/Dog1.jpg" style="display: none;">
@@ -113,10 +170,9 @@
     <img src="images/Cat3.jpg" style="display: none;">
 
     <main>
-      <p id="back"><a href="..">&#8592; back</a></p>
-      <section id="intro">
-        <h1 class="intro__hed">Dogs > Cats</h1>
-        <p class="intro__dek">
+      <section class="py-5">
+        <h1>Dogs > Cats</h1>
+        <p class="p-large">
           Cats are great. Here is why dogs are better.
         </p>
       </section>
@@ -128,48 +184,49 @@
 
         <article>
           <div class="step" data-step="1" data-img="url('images/Dog0.jpg')">
-            <p>On average, dogs are bigger. So there is more of them to love and more fur to stroke.</p>
+            <p class="p-large">On average, dogs are bigger. So there is more of them to love and more fur to stroke.</p>
           </div>
           <div class="step" data-step="2" data-img="url('images/Dog1.jpg')">
-            <p>Their ears occasionally do that thing where one flops down up and one sticks up. This is very enjoyable.</p>
+            <p class="p-large">Their ears occasionally do that thing where one flops down up and one sticks up. This is very enjoyable.</p>
           </div>
           <div class="step" data-step="3" data-img="url('images/Dog2.jpg')">
-            <p>No animal can match puppies for puppy-dog eyes.</p>
+            <p class="p-large">No animal can match puppies for puppy-dog eyes.</p>
           </div>
           <div class="step" data-step="4" data-img="url('images/Dog3.jpg')">
-            <p>Sometimes you could mistake them for a pack of baby seals.</p>
+            <p class="p-large">Sometimes you could mistake them for a pack of baby seals.</p>
           </div>
           <div class="step" data-step="5" data-img="url('images/Dog4.jpg')">
-            <p>Dogs are very scholarly and can assist you with the basics of grammar, rhetoric, and logic.</p>
+            <p class="p-large">Dogs are very scholarly and can assist you with the basics of grammar, rhetoric, and logic.</p>
           </div>
           <div class="step" data-step="6" data-img="url('images/Dog5.jpg')">
-            <p>Some dogs look like raw dough that has been left out in the sun too long. But that's okay – they are having a great time.</p>
+            <p class="p-large">Some dogs look like raw dough that has been left out in the sun too long. But that's okay – they are having a great time.</p>
           </div>
           <div class="step" data-step="7" data-img="url('images/Dog6.jpg')">
-            <p>Dogs help out with all sorts of jobs. When was the last time you saw a sheepcat?</p>
+            <p class="p-large">Dogs help out with all sorts of jobs. When was the last time you saw a sheepcat?</p>
           </div>
           <div class="step" data-step="8" data-img="url('images/Dog7.jpg')">
-            <p>Some dogs wear handkerchiefs.</p>
+            <p class="p-large">Some dogs wear handkerchiefs.</p>
           </div>
           <div class="step" data-step="9" data-img="url('images/Dog8.jpg')">
-            <p>Dogs are loyal, fun, and always pleased to see you. They come in all shapes and sizes and they are all <em>very</em> good.</p>
+            <p class="p-large">Dogs are loyal, fun, and always pleased to see you. They come in all shapes and sizes and they are all <em>very</em> good.</p>
           </div>
         </article>
       </section>
 
-      <section id="intro">
+      <section class="py-5">
         <p><br /></p>
-        <p>But wait, I hear you cry!</p>
+        <p class="p-large">But wait, I hear you cry!</p>
         <p><br /></p>
-        <p>You have convinced me that dogs are brilliant.</p>
+        <p class="p-large">You have convinced me that dogs are brilliant.</p>
         <p><br /></p>
-        <p>But what's so wrong with cats?</p>
+        <p class="p-large">But what's so wrong with cats?</p>
         <p><br /></p>
-        <p>Well, nothing.</p>
+        <p class="p-large">Well, nothing.</p>
         <p><br /></p>
-        <p>Cats are lovely too.</p>
+        <p class="p-large">Cats are lovely too.</p>
         <p><br /></p>
-        <p>Here are bonus pictures of some fabulous felines.</p>
+        <p class="p-large">Here are bonus pictures of some fabulous felines.</p>
+        <p><br /></p>
       </section>
 
       <section id="scrolly-2">
@@ -178,26 +235,25 @@
         </div>
         <article>
           <div class="step" data-step="1" data-img="url('images/Cat0.jpg')">
-            <p>This anxious fellow is slowly being absorbed by a sofa. I'm sure he'll be okay.</p>
+            <p class="p-large">This anxious fellow is slowly being absorbed by a sofa. I'm sure he'll be okay.</p>
           </div>
           <div class="step" data-step="2" data-img="url('images/Cat1.jpg')">
-            <p>"You may say I'm a dreamer, but I'm not the only one," purred this exceptionally cool cat.</p>
+            <p class="p-large">"You may say I'm a dreamer, but I'm not the only one," purred this exceptionally cool cat.</p>
           </div>
           <div class="step" data-step="3" data-img="url('images/Cat2.jpg')">
-            <p>This cat is 85% tiger.</p>
+            <p class="p-large">This cat is 85% tiger.</p>
           </div>
           <div class="step" data-step="4" data-img="url('images/Cat3.jpg')">
-            <p>This cat is extremely tired and would like the slideshow to end now, thank you very much.</p>
+            <p class="p-large">This cat is extremely tired and would like the slideshow to end now, thank you very much.</p>
           </div>
         </article>
       </section>
 
-      <section id="intro">
-        <p><br /><br /></p>
-        <p>Perhaps there is room enough in the world for cats <em>and</em> dogs after all...</p>
+      <section class="py-5">
+        <p><br /></p>
+        <p class="p-large">Perhaps there is room enough in the world for cats <em>and</em> dogs after all...</p>
       </section>
 
-      <section id="outro"></section>
     </main>
 
     <!-- <div class='debug'></div> -->
@@ -257,5 +313,8 @@
       // kick things off
       init();
     </script>
+
+  <script src="../bootstrap.bundle.min.js"></script>
+
   </body>
 </html>
