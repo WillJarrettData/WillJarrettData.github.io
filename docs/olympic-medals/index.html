@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Will Jarrett">
+		<meta name="description" content="A look at how different continents have fared in the Olypmics throughout recent history.">
+		<meta property="og:image" content="images/olympic_og.jpg">
+		<title>Olympic medals | Will Jarrett Data</title>
+
+		<!-- import bootstrap stuff -->
+		<link href="../bootstrap.min.css" rel="stylesheet">
+		<link rel="icon" type="image/png" href="../images/site_favicon.png"/>
+
+		<!-- import local style -->
+		<link href="../style.css" rel="stylesheet">
+
+		<!-- import google font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+		
+		<style>
+			#scrolly {
+				position: relative;
+			}
+
+			article {
+				position: relative;
+				padding: 0;
+				max-width: 30rem;
+				margin: 0 auto;
+				padding-bottom: 0rem;
+			}
+
+			.sticky-thing {
+				position: -webkit-sticky;
+				position: sticky;
+				left: 0;
+				width: 100%;
+				margin: 0;
+				z-index: 0;
+
+				/* Make 75%, centered */
+				top: 12.5vh;
+				height: 75vh;
+
+				/* Make full-height */
+				top: 0vh;
+				height: 100vh;
+
+				/* Center everything inside */
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+
+			.step {
+				margin: 0 auto 5rem auto;
+				color: #fff;
+				background-color: rgba(0, 0, 0, 0);
+			}
+
+			.step:last-child {
+				margin-bottom: 0;
+			}
+
+			.step.is-active {
+				background-color: rgba(0, 0, 0, 0);
+			}
+
+			.step p {
+				text-align: center;
+				padding: 1rem;
+				font-size: 1rem;
+			}
+
+			#intro p {
+				font-size: 0.75em;
+				padding: 15px;
+			}
+
+			#outro {
+				height: 400px;
+			}
+		</style>
+		
+	</head>
+	<body>
+
+		<header>
+			<!-- find out more bar -->
+			<div class="collapse bg-dark" id="navbarHeader">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 col-md-7 py-4">
+							<h4 class="text-white">About</h4>
+							<p class="text-white-50">
+								I graduated from <strong>Oxford University</strong> with First Class Honours in English in 2017.
+								For the next few years, I worked as <strong>editor</strong> of the Oxford University Press education website Oxford Owl.
+							</p>
+							<p class="text-white-50">
+								Last year, I moved to New York to pursue M.S. Data Journalism at <strong>Columbia University</strong>.
+								I am now joining San Francisco's <strong>Mission Local</strong> to do reporting and data viz.
+							</p>
+							<p class="text-white-50">
+								I have a particular interest in <strong>environmental news</strong> and building fun data tools.
+								In my spare time, I love hiking, drawing, and writing web bios.
+							</p>
+						</div>
+						<div class="col-sm-4 offset-md-1 py-4">
+							<h4 class="text-white">Contact</h4>
+							<ul class="list-unstyled">
+								<li><a href="https://twitter.com/WillJarrettData" class="text-white">Twitter</a></li>
+								<li><a href="https://github.com/WillJarrettData" class="text-white">GitHub</a></li>
+								<li><a href="https://www.linkedin.com/in/willjarrett/" class="text-white">LinkedIn</a></li>
+								<li><a target="_blank" href="../contents/WillJarrett_CV.pdf" class="text-white">Download my CV</a></li>
+								<li><a href="mailto:will@willjarrettdata.com" class="text-white">will@willjarrettdata.com</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="navbar navbar-dark bg-dark">
+				<div class="container">
+					<a href="https://willjarrettdata.github.io/" class="navbar-brand d-flex align-items-center">WillJarrett<strong>Data</strong></a>
+					<button type="button" class="btn btn-outline-light" data-bs-toggle="collapse" data-bs-target="#navbarHeader">Find out more</button>
+				</div>
+			</div>
+		</header>
+		<img src="images/olympic_header.jpg" id="header-image">
+
+		<main>
+			<div class="py-5">
+				<div class="container">
+					<div class="row form-group justify-content-md-center">
+						<div class="col-md-6">
+
+							<!-- article begins here -->
+							<h3><strong>Olympic medals through history</strong></h3>
+							<div class="text-muted">By Will Jarrett</div>
+
+							<div class="body-text">
+								<br />
+								<p>With the Olympics in full swing, now seems like a good time to take a dive into the history of how different continents have fared over the years.</p>
+
+								<section id="scrolly">
+									<div class="sticky-thing">
+									  <div id="chart"></div>
+									</div>
+							
+									<article>
+									  <div class="step" id="step-1">
+										<br /><br /><br /><br /><br /><br />
+									  </div>
+									  <div class="step" id="step-2">
+										<br /><br /><br /><br /><br /><br />
+									  </div>
+									  <div class="step" id="step-3">
+										<br /><br /><br /><br /><br /><br />
+									  </div>
+									  <div class="step" id="step-4">
+										<br /><br /><br /><br /><br /><br />
+									  </div>
+									  <section id="outro"></section>
+									</article>
+								  </section>
+
+								<p>Planned changes:</p>
+								<ul>
+									<li>Change to stacked bar charts.</li>
+									<li>Maybe change to top twenty countries?</li>
+									<li>Add pithy commentary explaining changes.</li>
+									<li>Add axes labels.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<!-- <div class='debug'></div> -->
+		<script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+		<script src="https://unpkg.com/scrollama"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.7.0/d3.min.js" integrity="sha512-cd6CHE+XWDQ33ElJqsi0MdNte3S+bQY819f7p3NUHgwQQLXSKjE4cPZTeGNI+vaxZynk1wVU3hoHmow3m089wA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script>
+			// using d3 for convenience
+			var main = document.querySelector("main");
+			var scrolly = main.querySelector("#scrolly");
+			var article = scrolly.querySelector("article");
+			var steps = article.querySelectorAll(".step");
+	
+			// initialize the scrollama
+			var scroller = scrollama();
+	
+			function handleStepEnter(response) {
+			const el = response.element;
+			const dir = response.direction;
+	
+			// Remove is-active from all steps then add is-active to this step
+			steps.forEach(step => step.classList.remove('is-active'));
+			el.classList.add('is-active');
+			d3.select(el).dispatch('stepin');
+			}
+	
+			function handleStepExit(response) {
+			const el = response.element;
+			const dir = response.direction;
+			if(dir === "up") {
+				d3.select(el).dispatch('stepout')
+			}
+			}
+	
+			function init() {
+			// 2. setup the scroller passing options
+			// 		this will also initialize trigger observations
+			// 3. bind scrollama event handlers (this can be chained like below)
+			scroller
+				.setup({
+				step: "#scrolly article .step",
+				offset: 0.5,
+				debug: false
+				})
+				.onStepEnter(handleStepEnter)
+				.onStepExit(handleStepExit);
+	
+			// setup resize event
+			window.addEventListener("resize", scroller.resize);
+			}
+	
+			// kick things off
+			init();
+		</script>
+	
+		<script src="d3.js"></script>
+
+		<script src="../bootstrap.bundle.min.js"></script>
+
+	</body>
+</html>
