@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Will Jarrett">
+		<meta name="description" content="A pithy description of what this paeg is all about. No more than 160 characters.">
+		<meta property="og:image" content="images/newYork_og.jpg">
+		<title>Mandatory eviction map | Will Jarrett Data</title>
+
+		<!-- import bootstrap stuff -->
+		<link href="../bootstrap.min.css" rel="stylesheet">
+		<link rel="icon" type="image/png" href="../images/site_favicon.png"/>
+
+		<!-- import local style -->
+		<link href="../style.css" rel="stylesheet">
+
+		<!-- import google font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+		<!-- mapping stuff -->
+		<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Turf.js/5.1.5/turf.min.js"></script>
+		<link href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+										
+		<style>
+			::-webkit-scrollbar {
+				width: 0px;
+				background: transparent;
+			}
+	
+			.info {
+				padding: 6px 8px;
+				font: 14px/16px Arial, Helvetica, sans-serif;
+				background: red;
+				background: rgba(255, 255, 255, 0.8);
+				box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+				border-radius: 5px;
+			}
+	
+			.info h4 {
+				margin: 0 0 5px;
+				color: #777;
+			}
+	
+			.legend {
+				text-align: left;
+				line-height: 18px;
+				color: #555;
+			}
+	
+			.legend i {
+				width: 18px;
+				height: 18px;
+				float: left;
+				margin-right: 8px;
+				opacity: 0.7;
+			}
+	
+			#select-menu {
+				position: absolute;
+				left: 50px;
+				top: 10px;
+				z-index: 10;
+			}
+			#headPlace {
+				position: absolute;
+				right: 0px;
+				top: 0px;
+				z-index: 10;
+				padding: 10px;
+				width: 250px;
+				background-color: #DDDDDD;
+	
+			}
+			#map,
+			#articlePlace {
+				flex: 1;
+				font: 20px Calibri, sans-serif;
+				height: calc(100vh - 30px);
+				overflow: scroll;
+				margin: 15px;
+			}
+		</style>
+		
+	</head>
+	<body>
+
+		<header>
+			<!-- find out more bar -->
+			<div class="collapse bg-dark" id="navbarHeader">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 col-md-7 py-4">
+							<h4 class="text-white">About</h4>
+							<p class="text-white-50">
+								I graduated from <strong>Oxford University</strong> with First Class Honours in English in 2017.
+								For the next few years, I worked as <strong>editor</strong> of the Oxford University Press education website Oxford Owl.
+							</p>
+							<p class="text-white-50">
+								Last year, I moved to New York to pursue M.S. Data Journalism at <strong>Columbia University</strong>.
+								I am now joining San Francisco's <strong>Mission Local</strong> to do reporting and data viz.
+							</p>
+							<p class="text-white-50">
+								I have a particular interest in <strong>environmental news</strong> and building fun data tools.
+								In my spare time, I love hiking, drawing, and writing web bios.
+							</p>
+						</div>
+						<div class="col-sm-4 offset-md-1 py-4">
+							<h4 class="text-white">Contact</h4>
+							<ul class="list-unstyled">
+								<li><a href="https://twitter.com/WillJarrettData" class="text-white">Twitter</a></li>
+								<li><a href="https://github.com/WillJarrettData" class="text-white">GitHub</a></li>
+								<li><a href="https://www.linkedin.com/in/willjarrett/" class="text-white">LinkedIn</a></li>
+								<li><a target="_blank" href="../contents/WillJarrett_CV.pdf" class="text-white">Download my CV</a></li>
+								<li><a href="mailto:will@willjarrettdata.com" class="text-white">will@willjarrettdata.com</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="navbar navbar-dark bg-dark">
+				<div class="container">
+					<a href="https://willjarrettdata.github.io/" class="navbar-brand d-flex align-items-center">WillJarrett<strong>Data</strong></a>
+					<button type="button" class="btn btn-outline-light" data-bs-toggle="collapse" data-bs-target="#navbarHeader">Find out more</button>
+				</div>
+			</div>
+		</header>
+		<img src="images/newYork_header.jpg" id="header-image">
+
+		<main>
+			<div class="py-5">
+				<div class="container">
+					<div class="row form-group justify-content-md-center">
+						<div class="col-md-6">
+
+							<!-- article begins here -->
+							<h3><strong>Mandatory vacate orders in New York City</strong></h3>
+							<div class="text-muted">By Will Jarrett</div>
+
+							<div class="body-text">
+								<br />
+								<p>Although New York's eviction moratorium has provided some protection to tenants during the pandemic, many people have still been pushed out of their homes.</p>
+								<p>
+									The map shows every eviction due to vacate orders in New York City since the pandemic began until December 2020.
+									You can click on each dot to get details about individual households and a link to their building records.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="py-5" style="margin-top: -60px; margin-bottom: -60px; ">
+				<div class="container">
+					<div class="row form-group justify-content-md-center">
+						<div class="col-md-7">
+							<div id="map" class="mapboxgl-map">
+								<div id="headPlace">Rollover to see address</div>
+								<div class="mapboxgl-canary" style="visibility: hidden;"></div>
+								<div class="mapboxgl-canvas-container mapboxgl-interactive mapboxgl-touch-drag-pan mapboxgl-touch-zoom-rotate">
+									<canvas class="mapboxgl-canvas" tabindex="0" aria-label="Map" width="414" height="1659" style="position: absolute; width: 138px; height: 553px;"></canvas>
+								</div>
+								<div class="mapboxgl-control-container">
+									<div class="mapboxgl-ctrl-top-left">
+										<div class="mapboxgl-ctrl mapboxgl-ctrl-group">
+											<button class="mapboxgl-ctrl-icon mapboxgl-ctrl-zoom-in" type="button" title="Zoom in" aria-label="Zoom in"></button>
+											<button class="mapboxgl-ctrl-icon mapboxgl-ctrl-zoom-out" type="button" title="Zoom out" aria-label="Zoom out"></button>
+											<button class="mapboxgl-ctrl-icon mapboxgl-ctrl-compass" type="button" title="Reset bearing to north" aria-label="Reset bearing to north">
+												<span class="mapboxgl-ctrl-compass-arrow" style="transform: rotate(0deg);"></span>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div id="articlePlace">
+								<p style="font-size:28px; text-align: center; padding: 300px 0;">Click a dot to see details.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="py-5">
+				<div class="container">
+					<div class="row form-group justify-content-md-center">
+						<div class="col-md-6">
+							<div class="body-text">
+								<p>
+									I created this map by scraping <a href="http://a810-bisweb.nyc.gov/bisweb/bispi00.jsp">New York building records</a> using the Python libraries Selenium and Beautiful Soup.
+									The coordinates were collected using Google’s Geocoding API, the data was cleaned up using RegEx, and everything was turned into a database using pandas.
+									Mapbox was used to produce the map.
+								</p>
+								<p>
+									You can see all the code involved by <a href="../contents/EvictionMapCode.zip">downloading this zip</a>.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+							
+		</main>
+
+		<script type="text/javascript" src="geo-data.json"></script>
+		<script type="text/javascript">
+			mapboxgl.accessToken = 'pk.eyJ1Ijoid2lsbGphcnJldHQiLCJhIjoiY2tpZzl4a2R3MDRnMDM0bHM2eHdud2w5MyJ9.3wLMHFZDXs2W9KFD5Aagyw';
+	
+			var map = new mapboxgl.Map({
+				container: 'map', // HTML container ID
+				style: 'mapbox://styles/mapbox/dark-v10', // style URL
+				center: [-73.91532897949219,
+				40.71603763556807], // starting position as [lng, lat]
+				zoom: 9
+			});
+			map.addControl(new mapboxgl.NavigationControl(), 'top-left');
+	
+			// Hover and click display
+			var popup = new mapboxgl.Popup({ closeButton: false, closeOnClick: false });
+	
+			let hoverCurrentId = null
+			var datalayer;
+	
+			function updateArticle(e) {
+				let feature = e.features[0]
+				document.getElementById("articlePlace").innerHTML = feature.properties.article
+			}
+			function updateHead(e) {
+				let feature = e.features[0]
+				map.getCanvas().style.cursor = 'pointer';
+				document.getElementById("headPlace").innerHTML = feature.properties.headline
+	
+			}
+			function removeHead(e) {
+				document.getElementById("headPlace").innerHTML = "Rollover to see address"
+				map.getCanvas().style.cursor = '';
+	
+			}
+	
+			function startHover(e) {
+				let feature = e.features[0]
+	
+				if (hoverCurrentId) {
+					map.setFeatureState({ source: 'datalayer', id: hoverCurrentId }, { hover: false });
+				}
+				hoverCurrentId = feature.id
+				map.setFeatureState({ source: 'datalayer', id: hoverCurrentId }, { hover: true });
+			}
+	
+			function stopHover(e) {
+				if (hoverCurrentId) {
+					map.setFeatureState({ source: 'datalayer', id: hoverCurrentId }, { hover: false });
+				}
+				hoverCurrentId = null;
+			}
+	
+			function drawPopup(e) {
+				let feature = e.features[0]
+				map.getCanvas().style.cursor = 'pointer';
+	
+				var coordinates = feature.geometry.coordinates.slice();
+				var headline = feature.properties.headline;
+	
+				while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+					coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+				}
+	
+				popup.setLngLat(coordinates)
+					.setHTML(`<h4>${headline}</h4>`)
+					.addTo(map);
+			}
+	
+			function removePopup(e) {
+				map.getCanvas().style.cursor = '';
+				popup.remove();
+			}
+	
+			map.on('load', function () {
+				for (let i = 0; i < infoData.features.length; i++) {
+					infoData.features[i]['id'] = i + 1
+				}
+
+				// Styles of the colors based on properties
+				datalayer = map.addLayer({
+					id: "datalayer",
+					type: "circle",
+					source: {
+						type: "geojson",
+						data: infoData,
+					},
+					paint: {
+						'circle-radius': ['to-number', ['get', 'radius']],
+						'circle-stroke-color': 'white',
+						'circle-stroke-width': 0,
+						'circle-color': [
+							'case',
+							['boolean', ['feature-state', 'hover'], false],
+							'#666',
+							['get', 'color'],
+						],
+						'circle-opacity': [
+							'case',
+							['boolean', ['feature-state', 'hover'], false],
+							1,
+							0.5
+						]
+					}
+				});
+
+				// Mouse actions
+				map.on('mouseenter', 'datalayer', function (e) {
+					startHover(e)
+				
+				// uncomment this line to get pop-ups
+	// 				drawPopup(e)
+					updateHead(e)
+				});
+	
+				map.on('mouseleave', 'datalayer', function (e) {
+					stopHover(e)
+				
+				// uncomment this line to get pop-ups
+				// 	removePopup(e)
+					removeHead(e)
+				});
+	
+				map.on('click', 'datalayer', function (e) {
+					updateArticle(e)
+				})
+	
+				// Automatically centre and zoom the map
+				map.fitBounds(turf.bbox(infoData), { padding: 80, linear: true })
+			})
+	
+		</script>
+		<script>
+			var groupsObj = {};
+	
+			$(document).ready(function () {
+				infoData.features.forEach(function (feature) {
+					groupsObj[feature.properties.group_id] = feature.properties.group_name;
+				})
+	
+				$.each(groupsObj, function (key, value) {
+					$('#select-menu')
+						.append($("<option></option>")
+							.attr("value", value)
+							.text(value));
+				});
+	
+				$('#select-menu').change(function () {
+					var selectedGroup = $('#select-menu').val();
+	
+					if (!selectedGroup) {
+						map.setFilter('datalayer', null);
+					} else {
+						map.setFilter('datalayer', ['==', ['get', 'group_name'], selectedGroup]);
+					}
+				});
+			});
+		</script>
+		<script src="../bootstrap.bundle.min.js"></script>
+
+	</body>
+</html>

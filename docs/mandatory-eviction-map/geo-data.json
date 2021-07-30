@@ -1,0 +1,1590 @@
+infoData = {
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "properties": {
+            "headline": "51 East Mount Eden Avenue, Bronx, 10452",
+            "article": "<div id='article'><h2>51 East Mount Eden Avenue, Bronx, 10452</h2><p><strong>Initial complaint:</strong> FDNY REQUESTS A STRUCTURAL STABILITY INSPECTION DUE TO AN UNSTABLE PARAPET.</p><p><strong>Owner:</strong> 49 Mt. Eden Realty LLC</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 23/03/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> ECB 35433195K REPLACED WIE 35433188M.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=2008149\">2008149</a></p></div>",
+            "name": "51 East Mount Eden Avenue, Bronx, 10452",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9134294, 40.8441189],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "1072 East 39 Street, Brooklyn, 11210",
+            "article": "<div id='article'><h2>1072 East 39 Street, Brooklyn, 11210</h2><p><strong>Initial complaint:</strong> APARTMENT IS IN THE BASEMENT AND HAS BEEN ILLEGALLY CONVERTED CAUSING THE APARTMENT TO FLOOD WHENEVER IT RAINS. IT HAS FLOODED MULTIPLE TIMES AND NO ONE ELSE IN THE AREA HAS THAT ISSUE.</p><p><strong>Owner:</strong> Gunter, Joseph</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 26/03/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> OBSERVED OCCUPIED CONTRARY TO THE C OF O # 91606, WITH WALLS AND PARTITION ERECTED FOR THE PURPOSE OF SUBDIVISION GIVING RISE TO A KITCHEN, A MECH ROOM WITH GAS FIRED MECH DEVICES, 2 BEDROOMS, A 3 PIECE BATH. THIS ILLEGAL CLASS (A) APT INSTALLED AT THE CELLAR LEVEL WAS INSTALLED AND MAINTAINED WITHOUT DOB PERMITS. LIGHT AND AIR WERE OBSERVED INADEQUATE. THE STAIRS THAT LEADS TO THE PRIMARY MEANS OF EGRESS HAS BEEN OBSERVED ELIMINATED. ECB VIOLATIONS ISSUED.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3213883\">3213883</a></p></div>",
+            "name": "1072 East 39 Street, Brooklyn, 11210",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9390361, 40.6307317],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "138-11 97 Avenue, Queens, 11435",
+            "article": "<div id='article'><h2>138-11 97 Avenue, Queens, 11435</h2><p><strong>Initial complaint:</strong> BASEMENT TURNED INTO AN APARTMENT.</p><p><strong>Owner:</strong> Niyazova, Susanna</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 16/04/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> 2 SUMMONSES ISSUED AT CELLAR LEVEL FOR WORK W/O A PERMIT AND RESIDENCE CONVERTEDTO A CLASS \"A\" APARTMENT.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4214086\">4214086</a></p></div>",
+            "name": "138-11 97 Avenue, Queens, 11435",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.811254, 40.695792],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "551 East 179 Street, Bronx, 10457",
+            "article": "<div id='article'><h2>551 East 179 Street, Bronx, 10457</h2><p><strong>Initial complaint:</strong> FDNY IS REQUESTING A STRUCTURAL STABILITY INSPECTION DUE TOFIRE WITH A PARTIAL ROOF COLLAPSE.</p><p><strong>Owner:</strong> No Record</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 13/08/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y-1; FULL VACATE FOR STRUCTURE RENDERED NON-COMPLIANT DUE TO A FIRE THROUGHOUT; IED PREPARED FOR SEAL AND SWS; FSWO ISSUED.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=2011848\">2011848</a></p></div>",
+            "name": "551 East 179 Street, Bronx, 10457",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.8936956, 40.8488668],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "79 Lorimer Street, Brooklyn, 11206",
+            "article": "<div id='article'><h2>79 Lorimer Street, Brooklyn, 11206</h2><p><strong>Initial complaint:</strong> FDNY REQUESTS A STRUCTURAL STABILITY INSPECTION OF BUILDINGDUE TO BRICKS FALLING FROM FACADE.</p><p><strong>Owner:</strong> Fjh Rlty Inc</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 22/07/2020</p><p><strong>Category code:</strong> Debris/Building - Falling Or In Danger Of Falling</p><p><strong>Inspection comments:</strong> Y3-PARTIAL VACATE ITO INCLUDE THE LEFT SIDE ALLEY WAY (EXP.2) DUE TO DEFECTIVE EXTERIOR WALL. ECB AND DOB ISSUED FOR FAILURE TO MAINTAIN DUE TO 6 INCH PIECE OF CONCRETE FALLING FROM 4TH FLOOR AT EXP 1/2, CRACKS IN CORNICE TH FLOOR EXP 1, AND SPALDING CONCRETE ABOVE LINTELS ABOVE 2ND -3RD FLOOR WINDOWS EXP 2.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3061297\">3061297</a></p></div>",
+            "name": "79 Lorimer Street, Brooklyn, 11206",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9517565, 40.7018751],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "325 Shephard Avenue, Brooklyn, 11208",
+            "article": "<div id='article'><h2>325 Shephard Avenue, Brooklyn, 11208</h2><p><strong>Initial complaint:</strong> CALLER STATES HE LIVES ON THE SECOND FLOOR OF A THREE FLOOR BUILDING. FORMALLY HE COULD EXIT THE BUILDING VIA AN EXIT TO THE ROOF ON THE THIRD FLOOR. THE OWNER DID RENOVATIONS AND BLOCKED THE ROOF EXIT AND NOW THERE IS ONLY ONE EXIT WHICH IS ON THE FIRST FLOOR.PLEASE ADDRESS AS THIS IS A FIRE HAZARD.</p><p><strong>Owner:</strong> Walker, Pharoah</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 29/03/2020</p><p><strong>Category code:</strong> Egress - Locked/Blocked/Improper/No Secondary Means | Building Exit: Secondary Exit - Blocked Fully</p><p><strong>Inspection comments:</strong> Y3-PARTIAL VACATE ISSUED FOR OCCUPANCY CONTRARY, (ILLEGAL SRO'S CREATED IN A 3 FAMILY RESIDENCE).</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3350169\">3350169</a></p></div>",
+            "name": "325 Shephard Avenue, Brooklyn, 11208",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.8813473, 40.6771409],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "101-41 132 Street, Queens, 11419",
+            "article": "<div id='article'><h2>101-41 132 Street, Queens, 11419</h2><p><strong>Initial complaint:</strong> CALLER REPORTS THERE IS NO ROOF OR WINDOWS ON THE TOP FLOOROF THE BUILDING.</p><p><strong>Owner:</strong> Madeleine Cavanau</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 29/03/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected | Unstable Building: Leaning - Construction/Demolition</p><p><strong>Inspection comments:</strong> Y1 FULL VACATE SERVED DUE TO THE PRIMARY ENTRANCE IS DEFECTIVE AND UNSAFE.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4201148\">4201148</a></p></div>",
+            "name": "101-41 132 Street, Queens, 11419",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.8145399, 40.691896],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "1150 Longfellow Avenue, Bronx, 10459",
+            "article": "<div id='article'><h2>1150 Longfellow Avenue, Bronx, 10459</h2><p><strong>Initial complaint:</strong> 3 FAMILY HOME BEING CONVERTED TO SINGLE OCCUPANCY APARTMENTS. THIS IS TAKING PLACE ON EACH FLOOR.</p><p><strong>Owner:</strong> Stern, Meir</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 05/10/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> SUMMONSES & VACATE ISSUED AT CELLAR FOR CLASS 'A' APT CREATED; 2ND & 3RD FLRS SUMMONSES FOR SRO'S; W/O PERMIT FOR PARTITIONS, PLUMBING, ELECTRICAL. PLANTING & RAIN LEADER VIOLATIONS AT REAR YARD.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=2006307\">2006307</a></p></div>",
+            "name": "1150 Longfellow Avenue, Bronx, 10459",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.887827, 40.827742],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "115-81 Lefferts Boulevard, Queens, 11420",
+            "article": "<div id='article'><h2>115-81 Lefferts Boulevard, Queens, 11420</h2><p><strong>Initial complaint:</strong> STRUCTURAL STABILITY INSPECTION DUE TO FIRE.</p><p><strong>Owner:</strong> Samaroo, Deonarine</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 05/04/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y-1 FULL VACATE- STRUCTURE RENDERED NON COMPLIANT DUE TO DAMAGE FROM FIRE, FIREFIGHTING OPERATIONS, WATER AND SMOKE THROUGHOUT . ALSO ILLEGAL CLASS A APARTMENT IN CELLAR.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4253524\">4253524</a></p></div>",
+            "name": "115-81 Lefferts Boulevard, Queens, 11420",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.81929, 40.674579],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "590 West 207 Street, Manhattan, 10034",
+            "article": "<div id='article'><h2>590 West 207 Street, Manhattan, 10034</h2><p><strong>Initial complaint:</strong> ILLEGAL MASSAGE PARLOR.</p><p><strong>Owner:</strong> 582-92 West 20th Stetc</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 09/04/2020</p><p><strong>Category code:</strong> Illegal Conversion No Access Follow-Up</p><p><strong>Inspection comments:</strong> CELLAR LEVEL CONVERTED TO MASSAGE PARLOR AND SLEEPING PURPOS ES CONTRARY TO ZONING W/O REQUIRED EGRESS AND ILLEGAL WORK.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=1082053\">1082053</a></p></div>",
+            "name": "590 West 207 Street, Manhattan, 10034",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9209782, 40.8670804],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "603 Beach 68 Street, Queens, 11692",
+            "article": "<div id='article'><h2>603 Beach 68 Street, Queens, 11692</h2><p><strong>Initial complaint:</strong> THERE ARE NO SECONDARY EXIT IN THE HOME. CUSTOMER HAS 3 CHILDREN AND SHE IS CONCERNED FOR THEIR SAFETY ESPECIALLY BECAUSE SOMETIMES SHE LEAVES THEM AT HOME WHILE SHE GOES TO WORK. IF THERE IS A FIRE, THEY WILL HAVE NO WAY TO GET OUT.</p><p><strong>Owner:</strong> Sharmila Moonab</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 09/04/2020</p><p><strong>Category code:</strong> Egress - Locked/Blocked/Improper/No Secondary Means | Building Exit: Secondary Exit - None</p><p><strong>Inspection comments:</strong> Y-3 IN 2 FAMILY HOUSE ONE MEANS OF EGRESS UNOBSTRUCTED. IN ATTIC, CREATED CLASS \"A\" APT FULL HEIGHT PARTITIONS FOR 4 ROOMS, INSTALLED 3 PC BATH(TOILET, SINK AND SHOWER) RESIDENTIAL SINK AT KITCHEN, INSTALLED GAS LINE FOR STOVE. NO PERMITS ISSUED FOR THIS WORK. ATTIC HAS NO SECOND MEANS OF EGRESS.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4302533\">4302533</a></p></div>",
+            "name": "603 Beach 68 Street, Queens, 11692",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.7978158, 40.5970511],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "1071 Jefferson Avenue, Brooklyn, 11221",
+            "article": "<div id='article'><h2>1071 Jefferson Avenue, Brooklyn, 11221</h2><p><strong>Initial complaint:</strong> LANDLORD IS RENTING OUT MULTIPLE ILLEGALLY CREATED UNITS. WITH AT LEAST FOUR UNITS IN BASEMENT ALONE. MAY BE OTHERS ON OTHER FLOORS OF HOME BUT UNKNOWN TO CALLER. THERE IS ALSO A DAYCARE ON THE FIRST FLOOR. HAS EXISTING CLASS A VIOLATION: V041917AEUHAZ100366 FROM 4/29/2017.</p><p><strong>Owner:</strong> Hossain, Sm Gulzar</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 16/04/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> SUMMONSES ISSUED FOR SRO'S AT CELLAR & ADDL'T CLASS 'A' APT AT 2ND FLR. W/O PERMIT AT CELLAR & 2ND FLR FOR PARTITIONS, PLUMBING, ELECTRICAL.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3390346\">3390346</a></p></div>",
+            "name": "1071 Jefferson Avenue, Brooklyn, 11221",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9164518, 40.6882445],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "1311 Brightwater Avenue, Brooklyn, 11235",
+            "article": "<div id='article'><h2>1311 Brightwater Avenue, Brooklyn, 11235</h2><p><strong>Initial complaint:</strong> F.T.M -PARTIAL VACATE ORDER FOR ALL BALCONIES.</p><p><strong>Owner:</strong> No Record</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 16/04/2020</p><p><strong>Category code:</strong> Failure To Maintain</p><p><strong>Inspection comments:</strong> SUMMON ISSUED#35453646J PARTIAL VACATE FOR ALL BALCONIES PROVIDE SHED AROUND ENTIRE LOC./VACATE GRD.UNTIL SHED INSTAL.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3245726\">3245726</a></p></div>",
+            "name": "1311 Brightwater Avenue, Brooklyn, 11235",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.95605, 40.5759868],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "153-32 79 Street, Queens, 11414",
+            "article": "<div id='article'><h2>153-32 79 Street, Queens, 11414</h2><p><strong>Initial complaint:</strong> BASEMENT IS CONVERTED INTO A RESIDENTIAL SPACE, MADE A FEW SINGLE ROOM OCCUPANTS AND ON THE FIRST AND SECOND SECTION IT OFF.</p><p><strong>Owner:</strong> Medina, Rosa Ingrid</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 20/04/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> SUMMONSES ISSUED AT CELLAR FOR CLASS 'A' APT; W/O PERMIT FOR PARTITIONS, PLUMBING, ELECTRICAL. DEAD STORAGE VEHICLE AT LEFT YARD.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4247254\">4247254</a></p></div>",
+            "name": "153-32 79 Street, Queens, 11414",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.8551614, 40.6646466],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "214-21 35 Avenue, Queens, 11361",
+            "article": "<div id='article'><h2>214-21 35 Avenue, Queens, 11361</h2><p><strong>Initial complaint:</strong> I AM CALLING TO REPORT THAT THE BASEMENT APARTMENT WHERE I LIVE AT WITH MY TEN YEAR OLD SON, AT 214-21 35 AVENUE IN QUEENS, IS AN ILLEGAL BASEMENT. THE BOILER IS RIGHT NEXT TO MY ROOM AND IT IS UNSAFE. THE CEILINGS ARE TOO LOW AND THE ROOM IS PARTITIONED SO IT IS NOT SUITABLE FOR LIVING. NOTHING IN THE BASEMENT WAS ALTERED SINCE I MOVED IN.</p><p><strong>Owner:</strong> Qian Dawei</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 20/04/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> CELLAR VACATED, 2 SUMMONS ISSUED, RESIDENT ALTERED FROM 2 TO 3 FAMILY CLASS A APT. AT CELLAR. WORK WITHOUT PERMIT AT CELLAR. FULL HEIGHT PARTITIONS, ELECTRICAL, WATER AND WASTE LINE, AND GAS LINE FOR STOVE.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4443774\">4443774</a></p></div>",
+            "name": "214-21 35 Avenue, Queens, 11361",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.771706, 40.769636],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "2960 West 24 Street, Brooklyn, 11224",
+            "article": "<div id='article'><h2>2960 West 24 Street, Brooklyn, 11224</h2><p><strong>Initial complaint:</strong> FTM EXTERIOR BLDG FACADE AND APPURTENANCES. PARTIAL VACATEFOR ENTIRE REAR YARD. EXP 3 REAR FACADE DISPLAYS A AREA OF APPROX5'X9' BROKEN UNSTABLE MASONRY IN DANGER OF COLLAPSE.</p><p><strong>Owner:</strong> Ocean Towers Partners LLC</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 17/08/2020</p><p><strong>Category code:</strong> Failure To Maintain</p><p><strong>Inspection comments:</strong> MAINTAIN EXTERIOR FACADE. TAKE/PROVIDE SAFETY MEASURES REPAIR DAMAGE AS PER 1RCNY-103-04.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3189540\">3189540</a></p></div>",
+            "name": "2960 West 24 Street, Brooklyn, 11224",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9911294, 40.5743841],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "830 East 163 Street, Bronx, 10459",
+            "article": "<div id='article'><h2>830 East 163 Street, Bronx, 10459</h2><p><strong>Initial complaint:</strong> THE LOBBY HAS A BACK DOOR. THE STAIRCASE OF THE LOBBY LEADING TO THE BACK YARD/EXIT HAS A STEPS THAT ARE ALL SHAKING .CUSTOMER'S CHILD WENT DOWN THE STEPS AND ALMOST FELL DUE TO THE UNSTABLE STAIRCASE. THIS IS SUPPOSE TO BE THE EMERGENCY EXIT THIS IS DANGEROUS.</p><p><strong>Owner:</strong> 919 Prospect Avenue LLC</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 07/10/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected | Unstable Building: Shaking/Vibrating - Construction</p><p><strong>Inspection comments:</strong> Y-3 - FAILURE TO MAINTAIN STAIRS AT REAR - NOT AN EGRESS AND CLOSED OFF FOR THE PUBLIC AS PER PORTER - VACATE REAR STAIRS.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=2005012\">2005012</a></p></div>",
+            "name": "830 East 163 Street, Bronx, 10459",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.901104, 40.8218599],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "113 Mott Street, Manhattan, 10013",
+            "article": "<div id='article'><h2>113 Mott Street, Manhattan, 10013</h2><p><strong>Initial complaint:</strong> FDNY REQUESTS A STRUCTURAL STABILITY INSPECTION DUE TO FIRE.</p><p><strong>Owner:</strong> United China Star Cor</p><p><strong>Vacate type:</strong> Vacate Order Partially Rescinded</p><p><strong>Date issued:</strong> 09/07/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> PARTIAL RESCIND OF VACATE ORDER TO ALLOW CON-ED TO ACCESS BASEMENT TO PROVIDE ELECTRICAL SERVICE.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=1079536\">1079536</a></p></div>",
+            "name": "113 Mott Street, Manhattan, 10013",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9975392, 40.717691],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "1187 Decatur Street, Brooklyn, 11207",
+            "article": "<div id='article'><h2>1187 Decatur Street, Brooklyn, 11207</h2><p><strong>Initial complaint:</strong> 2 FAMILY HOME HAS CONVERTED THE BASEMENT INTO 2 APARTMENTS AND IS RENTING IT OUT. THERE HAS BEEN A KITCHEN AND BATHROOM ADDED IN THE BASEMENT.</p><p><strong>Owner:</strong> Medina, Humberto</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 28/04/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> SUMMONSES ISSUED FOR RESIDENCE CONVERTED FROM 2 TO 4 FAMILIES: 2 CLASS 'A' APTS CREATED AT CELLAR & W/O PERMIT FOR PARTITIONS, PLUMBING, ELECTRICAL.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3079519\">3079519</a></p></div>",
+            "name": "1187 Decatur Street, Brooklyn, 11207",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.907794, 40.6888257],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "2191 Valentine Avenue, Bronx, 10457",
+            "article": "<div id='article'><h2>2191 Valentine Avenue, Bronx, 10457</h2><p><strong>Initial complaint:</strong> DEFECTS ON THE EXTERIOR WALL OF BUILDING#2180 RYER AVE.</p><p><strong>Owner:</strong> St Simon Stock R C Ch</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 27/04/2020</p><p><strong>Category code:</strong> Failure To Maintain</p><p><strong>Inspection comments:</strong> AT TIME OF INSPECTION OBSERVED IN REAR YARD DEBRIS FALLING FROM ADJACENT BUILDING #2180 RYER AVE. EXPOSURE #2 OF 2180 RYER AVE IS IN STATE OF DISREPAIR WITH MOTAR / STUCCO FALLING TO REAR YARD / PLAYGROUND OF 2191 VALENTINE AVENUE. PARTIAL VACATE ORDER ISSUED FOR REAR YARD / PLAYGROUND ONLY OF 2191 VALENTINE AVE.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=2013547\">2013547</a></p></div>",
+            "name": "2191 Valentine Avenue, Bronx, 10457",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.8992621, 40.8550028],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "1217 Tinton Avenue, Bronx, 10456",
+            "article": "<div id='article'><h2>1217 Tinton Avenue, Bronx, 10456</h2><p><strong>Initial complaint:</strong> ILLEGAL CONVERSION THROUGHOUT.</p><p><strong>Owner:</strong> Dajc Realty LLC</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 30/04/2020</p><p><strong>Category code:</strong> Illegal Conversion</p><p><strong>Inspection comments:</strong> SUMMONSES ISSUED AT CELLAR FOR CLASS 'A' APT CREATED; W/O PERMIT FOR PARTITIONS,PLUMBING, ELECTRICAL.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=2004764\">2004764</a></p></div>",
+            "name": "1217 Tinton Avenue, Bronx, 10456",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9004914, 40.8297325],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "210 North 12 Street, Brooklyn, 11211",
+            "article": "<div id='article'><h2>210 North 12 Street, Brooklyn, 11211</h2><p><strong>Initial complaint:</strong> FAILURE TO MAINTAIN EXT'R BLDG FACDE&APPURTENANCES.ON 8/3/2OSTUCCO (EIFS) EXTERIOR INSULATION AND FINISH SYSTEM WAS DISLODGED ANDFELL ONTO ADJOINING ROOF FROM 7TH FLOOR LEVEL.</p><p><strong>Owner:</strong> 210 N 1th St LLC</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 07/08/2020</p><p><strong>Category code:</strong> Failure To Maintain</p><p><strong>Inspection comments:</strong> OPEN PARKING AREA REAR YARD.ENTIRE TERRACE -7B EXP1.ENTIRE TERRACE@8A-EXP3.ENTRE COMMON TERRACE@ 8 FLR EXP3.PART VACATE.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3855875\">3855875</a></p></div>",
+            "name": "210 North 12 Street, Brooklyn, 11211",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9538426, 40.7198085],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "489 Washington Avenue, Brooklyn, 11238",
+            "article": "<div id='article'><h2>489 Washington Avenue, Brooklyn, 11238</h2><p><strong>Initial complaint:</strong> THERE IS A SINGLE ROOM OCCUPANCY ROOM IN A MULTIPLE DWELLING THAT HAS BEEN ILLEGALLY CONVERTED INTO A DUPLEX BY WAY OF THE CELLAR. THERE IS ALSO A HALF LEVEL THAT WAS CREATED ON THE FIRST FLOOR. CURRENTLY 4 TENANTS LIVING IN THIS SRO.</p><p><strong>Owner:</strong> Washington Residence LLC</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 18/11/2020</p><p><strong>Category code:</strong> Sro - Illegal Work/No Permit/Change In Occup-Use | Single Room Occupancy: Illegal Conversion</p><p><strong>Inspection comments:</strong> THE LEGAL OCCUPANCY FOR THE FIRST FLOOR APARTMENT AS PER THE COFO# 321019544F IS ONE FAMILY AND ACCESSORY ACCESS TO THE CELLAR. OBSERVED THAT APT.#1D ILLEGALLY OCCUPIED AS SRO'S INCLUDING ONE BEDROOM AT CELLAR WITH NO EGRESS, ONE BEDROOM AT FIRST FLOOR WITH NO SPRINKLER AND TWO BEDROOMS AT SECOND FLOOR. PARTIAL VACATE ISSUED AT THE CELLAR.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3056650\">3056650</a></p></div>",
+            "name": "489 Washington Avenue, Brooklyn, 11238",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9644072, 40.6837587],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "1225 Eastern Parkway, Brooklyn, 11213",
+            "article": "<div id='article'><h2>1225 Eastern Parkway, Brooklyn, 11213</h2><p><strong>Initial complaint:</strong> FDNY REQUESTS AN INSPECTION DUE TO FIRE IN APARTMENT 2-DTHREE INJURIES REPORTED.</p><p><strong>Owner:</strong> No Record</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 22/07/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y-3 STRUCTURE RENDERED NON-COMPLIANT. IN APT 2D, FIRE HAS CAUSED EXTENSIVE SMOKE DAMAGE, FINISHED CEILINGS HAVE BEEN REMOVED. WINDOWS ARE OUT AND WATER DAMAGE THROUGHOUT. IN APT 3D, FIRE FIGHTING OPERATIONS HAVE REMOVED FINISHED WALLS THROUGHOUT APARTMENT AND SEVERAL WINDOWS ARE OUT. VACATE APT'S 2D +3D.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3037413\">3037413</a></p></div>",
+            "name": "1225 Eastern Parkway, Brooklyn, 11213",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9277687, 40.6691741],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "94-38 86 Road, Queens, 11421",
+            "article": "<div id='article'><h2>94-38 86 Road, Queens, 11421</h2><p><strong>Initial complaint:</strong> Not on record</p><p><strong>Owner:</strong> Chen, Hui Yu</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 11/05/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> ISSUED ONE SUMMONS CONTRARY TO C/O CONVERTED 2 FAMILY TO 3 FAMILY BY CREATING FULL CLASS \"A\" APT AT CELLAR LEVEL. (+).</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4182432\">4182432</a></p></div>",
+            "name": "94-38 86 Road, Queens, 11421",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.849757, 40.694947],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "284 Smith Street, Brooklyn, 11231",
+            "article": "<div id='article'><h2>284 Smith Street, Brooklyn, 11231</h2><p><strong>Initial complaint:</strong> SOMEONE LIVING IN THE BASEMENT I LIVE IN THE BUILDING I CAN LET THEM IN I HAVE A KEY TO THE BASEMENT BUT HAVE A KEY TO THE APARTMENT DOWN THERE BUT I CAN LET DOB IN IF ANY MORE QUESTION YOU CAN CONTACT ME.</p><p><strong>Owner:</strong> Robert R. Zapata</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 12/05/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> AT TIME OF INSPECTION, AT CELLAR LEVEL OATH SUMMONSES ISSUED FOR WORK WITHOUT A PERMIT AND RESIDENCE ALTERED FOR CLASS A APARTMENT. VACATE CELLAR LEVEL.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3007027\">3007027</a></p></div>",
+            "name": "284 Smith Street, Brooklyn, 11231",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.993737, 40.682174],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "3804 Greystone Avenue, Bronx, 10463",
+            "article": "<div id='article'><h2>3804 Greystone Avenue, Bronx, 10463</h2><p><strong>Initial complaint:</strong> EMERGENCY WORK/STABILIZATION OF RETAINING WALL.</p><p><strong>Owner:</strong> Av Greystone, LLC</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 20/05/2020</p><p><strong>Category code:</strong> Failure To Maintain</p><p><strong>Inspection comments:</strong> AREA(S) TO BE VACATED:ENTIRE SIDE YARD LONF EXPOSURE TWO - CONDITIONS NECESSITATING THIS VACATE.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=2084037\">2084037</a></p></div>",
+            "name": "3804 Greystone Avenue, Bronx, 10463",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.905138, 40.8875776],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "921 Montgomery Street, Brooklyn, 11213",
+            "article": "<div id='article'><h2>921 Montgomery Street, Brooklyn, 11213</h2><p><strong>Initial complaint:</strong> I LIVE IN THE BASEMENT APT AND THE MGMT/LANDLORD PUT A DEADBLOT ON BOTH EXIT LOCATIONS. ONE IN THE FRONT OF THE LOCATION AND THEOTHER IS IN THE BACK.</p><p><strong>Owner:</strong> 9215 Realty, LLC</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 15/05/2020</p><p><strong>Category code:</strong> Egress - Locked/Blocked/Improper/No Secondary Means | Building Exit: Secondary Exit - Locked/Sealed</p><p><strong>Inspection comments:</strong> Y-3, PARTIAL VACATE ISSUED FOR FRONT WEST CELLAR APARTMENT DUE TO COMPROMISED /PARTIALLY SEALED 2ND MRANS OF EGRESS AND ALL WINDOWS WITH WINDOW GUARDS. ILLEGAL PARTITIONS THROUGHOUT,ALONG WITH PLUMBING AND ELECTRICAL WORK INSTALLED FOR KITCHEN AND 3-PCS BATHROOM. (PRIOR VIOLATION35454041K WRIITEN IN ERROR AND REPLACED)#2608.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3038260\">3038260</a></p></div>",
+            "name": "921 Montgomery Street, Brooklyn, 11213",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9338199, 40.664691],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "145 Kenilworth Place, Brooklyn, 11210",
+            "article": "<div id='article'><h2>145 Kenilworth Place, Brooklyn, 11210</h2><p><strong>Initial complaint:</strong> PART OF THE 6TH FLOOR DECK HAS ALREADY FALLEN ONTO THE CUSTOMER'S DECK. THERE ARE DOZEN'S OF CHUNKS OF CONCRETE ON HIS DECK. THE REMAINDER OF 6TH FLOOR DECK HAS BUILDING MATERIAL FLAPPING IN THE WIND THAT CAN POSSIBLE FALL. THIS IS THE SECOND TIME IT FELL - IT HAPPENED LAST SUMMER.</p><p><strong>Owner:</strong> No Record</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 15/05/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected | Unstable Building: Leaning - Construction/Demolition</p><p><strong>Inspection comments:</strong> Y3- OBSERVED STUCCO DEBRIS FALLING FROM UNDERNEATH BALCONY ENCLOSURE FROM 5TH FLOOR LEVEL APT # 6A AT REAR YARD SOUTH SIDE. STUCCO DEBRIS FELL ON TO REAR DECK AT 2ND FLOOR LEVEL AND REAR SOUTH SIDE BALCONIES OF APT 3B, 4B, 5B. REMAINING STUCCO AT APT # 6A LOOSE AND POTENTIAL COLLAPSE CONDITION. PARTIAL VACATED LOWER BALCONIES AND REAR DECK.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3205836\">3205836</a></p></div>",
+            "name": "145 Kenilworth Place, Brooklyn, 11210",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.948542, 40.6327025],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "42-36 158 Street, Queens, 11358",
+            "article": "<div id='article'><h2>42-36 158 Street, Queens, 11358</h2><p><strong>Initial complaint:</strong> Illegal occupancy by multiple families in this building. Illegal construction in back yard as well as shopping carts and other iron pipes/sinks/ children's fence in front of property. Building has strong odors of vinegar like substances when walking by.</p><p><strong>Owner:</strong> Zheng, Mei Zhu</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 24/08/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> LEGAL 1 FAMILY DWELLING CONVERTED INTO 4 FAMILIES BY CREATING 3 ADDITIONAL S.R.O'S AT 1ST, 2ND AND ATTIC LEVELS. S.R.O'S HAVE KEY LOCKING DEVICES, BED, T.V. REFRIGERATOR, FOOD ITEMS, COOKING EQUIPMENT AND TOILETRIES. VACATE ATTIC LEVEL.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4121610\">4121610</a></p></div>",
+            "name": "42-36 158 Street, Queens, 11358",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.808115, 40.759909],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "165 Campbell Avenue, Staten Island, 10310",
+            "article": "<div id='article'><h2>165 Campbell Avenue, Staten Island, 10310</h2><p><strong>Initial complaint:</strong> REPORTS THE LANDLORD HAS ILLEGALLY CONVERTED BASEMENT OF A TWO FAMILY HOME INTO AN APARTMENT.</p><p><strong>Owner:</strong> Armbruster, Moonin</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 18/05/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> 2 SUMMONS ISSUE FOR RESIDENTIAL ALTERED AND WORK WITHOUT PERMIT AT CELLAR LEVEL,VACATE CELLAR.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=5004872\">5004872</a></p></div>",
+            "name": "165 Campbell Avenue, Staten Island, 10310",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-74.115944, 40.6363777],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "383 Christopher Avenue, Brooklyn, 11212",
+            "article": "<div id='article'><h2>383 Christopher Avenue, Brooklyn, 11212</h2><p><strong>Initial complaint:</strong> FDNY REQUESTS A STRUCTURAL STABILITY INSPECTION DUE TO FIRE.</p><p><strong>Owner:</strong> 383 Chris LLC</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 29/05/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y3-PARTIAL VACATE ISSUED FOR STRUCTURE RENDERED NON COMPLIANT DUE TO FIRE AT FIRST FLOOR AND ILLEGAL OCCUPANCY AT CELLAR.PARTIAL VACATE TO INCLUDE 1ST FLOOR CLASS A, CELLAR CLASS A AND CELLAR 3 SRO'S(UPDATED WITH CORRECT SUMMONS NUMBERS. PRIOR SUMMONS;S WRITTEN IN ERROR.)#2608.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3084850\">3084850</a></p></div>",
+            "name": "383 Christopher Avenue, Brooklyn, 11212",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.903861, 40.663013],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "54 East 125 Street, Manhattan, 10035",
+            "article": "<div id='article'><h2>54 East 125 Street, Manhattan, 10035</h2><p><strong>Initial complaint:</strong> FDNY REPORTED.ILLEGAL OCCUPANCY.</p><p><strong>Owner:</strong> 1941-1947 Madison Avenue Assoc</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 20/07/2020</p><p><strong>Category code:</strong> Illegal Conversion</p><p><strong>Inspection comments:</strong> 2 SUMMONSES ISSUED AT CELLAR LEVEL FOR WORK W/O A PERMIT AND OCCUPANCY CONTRARY TO DOB RECORDS FOR 1 BEDROOM.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=1081468\">1081468</a></p></div>",
+            "name": "54 East 125 Street, Manhattan, 10035",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9405286, 40.8053383],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "26-17 92 Street, Queens, 11369",
+            "article": "<div id='article'><h2>26-17 92 Street, Queens, 11369</h2><p><strong>Initial complaint:</strong> FDNY REQUEST A STRUCTRUAL STABILITY INSPECTION DUE TOCOMPROMISED ROOF,NO INJURIES REPORTED AT THIS TIME.</p><p><strong>Owner:</strong> Marta G Proulx Revocable Livin</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 27/11/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> BUILDING IS CURRENTLY UNDER CONSTRUCTION PERMIT FOR JOB NO: 440587027 IS ACTIVE AND POSTED, PARTIAL VACATE REMAINS UNTIL JOB IS SIGNED OFF.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4032534\">4032534</a></p></div>",
+            "name": "26-17 92 Street, Queens, 11369",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.8768695, 40.7626522],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "45-43 40 Street, Queens, 11104",
+            "article": "<div id='article'><h2>45-43 40 Street, Queens, 11104</h2><p><strong>Initial complaint:</strong> ILLEGAL CONVERSION AT CELLAR LEVEL.</p><p><strong>Owner:</strong> Sunnyside Golden Gate LLC</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 21/05/2020</p><p><strong>Category code:</strong> Egress - Locked/Blocked/Improper/No Secondary Means</p><p><strong>Inspection comments:</strong> Y-3 - PARTIAL VACATE ISSUED TO INCLUDE THE CELLAR APARTMENT AND APARTMENT 1R AT 1ST FLOOR. ILLEGALLY REMOVING THE FIRE STOPPING / PROTECTION OF A MULTI-DWELLING - ILLEGALLY CONVERTED THE CELLAR INTO A CLASS \"A\" APT WITH NO SECOND MEANS OF EGRESS - FIRE GUARD REQUIRED UNTIL ALL FIRE STOPPING AND PROTECTIONS ARE UP TO CODE.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4002555\">4002555</a></p></div>",
+            "name": "45-43 40 Street, Queens, 11104",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9242431, 40.7423208],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "597 Manor Road, Staten Island, 10314",
+            "article": "<div id='article'><h2>597 Manor Road, Staten Island, 10314</h2><p><strong>Initial complaint:</strong> FDNY REQUESTED A STRCUTURAL STABILITY INSPECTION DUE TO FIRE.</p><p><strong>Owner:</strong> Ases Ayoud Trust</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 21/05/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y-3 PARTIAL VACATE FOR EATING AND DRINKING ESTABLISHMENT AT 1ST AND DIRECTLY ABOVE. AT TIME OF INSPECTION BUILDING FRONTING MANOR ROAD 1ST, 2ND FLOORS HAVE SUSTAINED FIRE, WATER & SMOKE DAMAGE WITH WINDOWS, ROOF OUT OPEN TO ELEMENTS. ALSO ENTIRE 2ND FLOOR HAS BEEN NEWLY RENOVATED NO JOB FILINGS.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=5095205\">5095205</a></p></div>",
+            "name": "597 Manor Road, Staten Island, 10314",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-74.1223214, 40.6128567],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "1365 St Nicholas Avenue, Manhattan, 10033",
+            "article": "<div id='article'><h2>1365 St Nicholas Avenue, Manhattan, 10033</h2><p><strong>Initial complaint:</strong> NYCEM/FDNY REQUESTED A STRUCTURAL STABILITY INSPECTION DUETO AN UNSTABLE SIDEWALK SHED ( NO INJURIES ).</p><p><strong>Owner:</strong> The George Units LLC</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 16/11/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y3 - VACATE 1ST FLOOR CLINIC.PEDESTRIAN PROTECTION DOES NOT CONFORM TO CODE SPECIFICATION - SIDEWALK SHED PLATFORM AND PARAPET WALLS COLLAPSED ON TO THE ROADWAY DAMAGING SEVERAL VEHICLES.((DL 2283).</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=1079920\">1079920</a></p></div>",
+            "name": "1365 St Nicholas Avenue, Manhattan, 10033",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9351095, 40.8479628],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "1295 Shakespeare Avenue, Bronx, 10452",
+            "article": "<div id='article'><h2>1295 Shakespeare Avenue, Bronx, 10452</h2><p><strong>Initial complaint:</strong> CELLAR ILLEGALLY CONVERTED INTO AN APARTMENT THERE IS NOW ABATHROOM AND BEDROOM IN THE CELLAR.</p><p><strong>Owner:</strong> Molina, Julio A</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 08/07/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> SUMMONSES & VACATE ISSUED AT CELLAR FOR CLASS 'A' APT CREATED; W/O PERMIT FOR PARTITIONS, PLUMBING, ELECTRICAL; REAR EXTENSION.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=2003325\">2003325</a></p></div>",
+            "name": "1295 Shakespeare Avenue, Bronx, 10452",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9226622, 40.8397927],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "151-01 85 Drive, Queens, 11432",
+            "article": "<div id='article'><h2>151-01 85 Drive, Queens, 11432</h2><p><strong>Initial complaint:</strong> THE PROPERTY OWNER HAS STARTED BUILDING ANOTHER EXTRA DOOR ON THE RIGHT SIDE OF THE ONE FAMILY HOUSE ILLEGALLY WITHOUT THE PERMISSION FROM THE DEPT OF BUILDINGS. I STAY ON THE 3RD FLOOR AND THE OWNER IS PROVIDING THIS EXTRA DOOR FOR ME AND MY WIFE TO USE. MY HUSBAND FEELS CONGESTION WITH MY BREATHING AND I FEEL BAD.</p><p><strong>Owner:</strong> Deen, Nouras M</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 26/05/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> SUMMONSES ISSUED FOR RESIDENCE CONVERTED FROM 1 TO 4 FAMILY; CLASS 'A' APTS CREATED AT CELLAR, 2ND FLR & ATTIC; W/O PERMIT FOR PARTITIONS, PLUMBING, ELECTRICAL.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4208373\">4208373</a></p></div>",
+            "name": "151-01 85 Drive, Queens, 11432",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.80714, 40.709819],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "151-01 Gar 85 Drive, Queens, 11432",
+            "article": "<div id='article'><h2>151-01 Gar 85 Drive, Queens, 11432</h2><p><strong>Initial complaint:</strong> GARAGE CONVERTED INTO AN ILLEGAL APARTMENT.</p><p><strong>Owner:</strong> Deen, Nouras M</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 26/05/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> SUMMONSES ISSUED AT GARAGE FOR CLASS 'A' APT CREATED; W/O PERMIT FOR PARTITIONS,PLUMBING, ELECTRICAL.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4573272\">4573272</a></p></div>",
+            "name": "151-01 Gar 85 Drive, Queens, 11432",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.8081376, 40.7113007],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "246 54 Street, Brooklyn, 11220",
+            "article": "<div id='article'><h2>246 54 Street, Brooklyn, 11220</h2><p><strong>Initial complaint:</strong> THE REAR EXTERIOR WALL OF THIS PROPERTY HAS DETACHED ABOUT 1 FT FROM THE TOP. AT SOME POINT THIS ENTIRE WALL WILL FALL DOWN.</p><p><strong>Owner:</strong> Torivia L Norwood</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 29/05/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected | Unstable Building: Leaning - Construction/Demolition</p><p><strong>Inspection comments:</strong> Y1- OBSERVED REAR WALL AT EXPO # 03 PARTIALLY COLLAPSED 2ND TO 3RD FLOOR LEVEL. REMAINING REAR WALL DISLODGED, BULGING INTERIOR & EXTERIOR WITH WALL SEPARATION FROM FLOOR. FLOORINGS ARE SLOPING TOWARD REAR AND CREATED ENTIRE STRUCTURE UNSTABLE WITH POTENTIAL COLLAPSE CONDITION. A FULL VACATE ORDER ISSUED AND PROVIDE STRUCTURAL STABILITY REPORT FROM P.E TO RESCIND VACATE.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3014493\">3014493</a></p></div>",
+            "name": "246 54 Street, Brooklyn, 11220",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-74.0182353, 40.6460099],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "112-44 Dillon Street, Queens, 11433",
+            "article": "<div id='article'><h2>112-44 Dillon Street, Queens, 11433</h2><p><strong>Initial complaint:</strong> BASEMENT WAS CONVERTED INTO A HOUSING UNIT.</p><p><strong>Owner:</strong> Lambert, Roxanne G</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 02/06/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> ISSUED SUMMONS WORK WITHOUT A PERMIT ;AT CELLAR LEVEL ERECTED FULL HEIGHT PARTITIONS FOR 3 PC BATH(TOILET, SHOWER, SINK) AND SLEEPING QUARTERS. INSTALLED ELECTRICAL WIRING FOR SWITCHES ,OUTLETS AND ELECTRICAL FIXTURES. ISSUED SUMMONS FOR CONTRARY TO THAT ALLOWED BY THE C OF O .</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4263970\">4263970</a></p></div>",
+            "name": "112-44 Dillon Street, Queens, 11433",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.7880348, 40.6895214],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "3071 Villa Avenue, Bronx, 10468",
+            "article": "<div id='article'><h2>3071 Villa Avenue, Bronx, 10468</h2><p><strong>Initial complaint:</strong> MY FRIEND IS LIVING IN AND ILLEGAL CONVERSION OF A BASEMENTWHICH WAS TURNED INTO AN APARTMENT. BEING ILLEGAL THE APARTMENT NEEDSMAJOR REPAIRS.</p><p><strong>Owner:</strong> Salaheldeen, Ahmad</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 05/06/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> SUMMONSES ISSUED AT CELLAR FOR CLASS 'A' APT CREATED; W/O PERMIT FOR PARTITIONS, PLUMBING, ELECTRICAL. FAILURE TO MAINTAIN CEILING & LOOSE & HANGING ELECTRICAL LINES/DEVICES.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=2017639\">2017639</a></p></div>",
+            "name": "3071 Villa Avenue, Bronx, 10468",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.8882636, 40.8738104],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "29 Monaco Place, Brooklyn, 11233",
+            "article": "<div id='article'><h2>29 Monaco Place, Brooklyn, 11233</h2><p><strong>Initial complaint:</strong> THERE IS A HOUSE THAT HAS THREE APARTMENT WHEN IT SHOULD ONLY HAVE 2 . THE 3RD APARTMENT IS IN THE TOP LEVEL THAT SHOULD BE PART OF THE 2ND APARTMENT.</p><p><strong>Owner:</strong> 29 Monaco Pl LLC</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 29/06/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> OCCUPANCY CONTRARY TO THAT ALLOWED BY COF O AND DOB RECORDS. REF TO DOB RECORDS # # 301795136F INDICATED (3) STORIES / (2) DWELLINGS / GARAGE / OPEN PARKING SPACE. HOWEVER, OBSERVED ILLEGALLY CONVERTED INTO 1ST AND 2ND FLOORS INTO 5 SRO'S. ALL W/ KEY LOCKED DOOR, TENANT AND PERSONAL ITEMS. NO 2ND MEANS OF EGRESS IN 1ST FLOOR FRONT & REAR RIGHT SRO'S AND 2ND FLOOR THE TWO REAR SRO'S (TOTAL 4). EACH FLOOR WITH FULL KIT W/ GAS AND 3 PCS BATH. PARTIAL VACATE ORDER & VIOLATION SERVED.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3388834\">3388834</a></p></div>",
+            "name": "29 Monaco Place, Brooklyn, 11233",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9088328, 40.6764927],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "28-05 Astoria Boulevard, Queens, 11102",
+            "article": "<div id='article'><h2>28-05 Astoria Boulevard, Queens, 11102</h2><p><strong>Initial complaint:</strong> Building: 28-05 Astorias Blvd. Owner rents apartments inside above address. Owner has installed/ rents an illegal apartment down in the basement (BASEMENT) with the boiler. Appears as a distinct fire hazard.</p><p><strong>Owner:</strong> Drebsky Leonard</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 08/06/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> TWO SUMMONS ISSUED, OCCUPANCY CONTRARY CLASS A APARTMENT AT CELLAR LEVEL AND WORK WITHOUT PERMIT AT CELLAR LEVEL.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4017406\">4017406</a></p></div>",
+            "name": "28-05 Astoria Boulevard, Queens, 11102",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9205001, 40.7708897],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "236 West 10 Street, Manhattan, 10014",
+            "article": "<div id='article'><h2>236 West 10 Street, Manhattan, 10014</h2><p><strong>Initial complaint:</strong> DEBRIS FALLING FROM ADJACENT BUILDING.</p><p><strong>Owner:</strong> West 1th Street Partner LLC</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 30/11/2020</p><p><strong>Category code:</strong> Debris/Building - Falling Or In Danger Of Falling</p><p><strong>Inspection comments:</strong> AT TIME OF INSPECTION, NO WORK IN PROGRESS FOR JOB #123816460 AT THE ADJACENT BUILDINGS (240 WEST 10TH ) 5TH/6TH FLOOR WINDOWS DUE TO PARTIAL STOP WORK ORDER UNDER VIOLATION #39023510P. HOWEVER, UNABLE TO GAIN ACCESS TO THE BUILDING TO VERIFY THE SAFETY/STABILITY OF THE WOOD IN PLACE OF THE WINDOWS, AND WOOD AFFIXED TO THE WALL. CANNOT LIFT VACATE ORDER AT THIS TIME.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=1011138\">1011138</a></p></div>",
+            "name": "236 West 10 Street, Manhattan, 10014",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-74.0054263, 40.7336217],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "64-05 74 Avenue, Queens, 11385",
+            "article": "<div id='article'><h2>64-05 74 Avenue, Queens, 11385</h2><p><strong>Initial complaint:</strong> THERE IS A BIKE IN THE RESIDENTIAL BLDG THAT IS BLOCKING THE ENTRANCE/EXIT FOR 2 WEEKS.</p><p><strong>Owner:</strong> Luis Aravena</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 09/06/2020</p><p><strong>Category code:</strong> Egress - Locked/Blocked/Improper/No Secondary Means | Building Exit: Secondary Exit - Blocked Partially</p><p><strong>Inspection comments:</strong> Y-3 PARTIAL VACATE SERVED FOR CELLAR LEVEL. AT TIME OF INSPECTION OBSERVED CELLAR HAS BEEN CONVERTED INTO A CLASS A APT. NO 2ND MEANS OF EGRESS. PUBLIC HALLWAY USED AS STORAGE FOR HOUSEHOLD ITEMS.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4086911\">4086911</a></p></div>",
+            "name": "64-05 74 Avenue, Queens, 11385",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.892104, 40.700485],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "276 Nicholas Avenue, Staten Island, 10302",
+            "article": "<div id='article'><h2>276 Nicholas Avenue, Staten Island, 10302</h2><p><strong>Initial complaint:</strong> WE DO NOT HAVE A SECONDARY EXIT AT ALL| PLEASE LOOK INTO THIS ISSUE ASAP|.</p><p><strong>Owner:</strong> Ahmad, Rami A</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 19/06/2020</p><p><strong>Category code:</strong> Egress - Locked/Blocked/Improper/No Secondary Means | Building Exit: Secondary Exit - None</p><p><strong>Inspection comments:</strong> Y3-VACATE ISSUED FOR 3 SRO S ON THE 3RD LEVEL (2ND FLOOR) DUE TO INADEQUATE 2ND MEANS OF EGRESS. AT TIME OF INSPECTION 2ND FLOOR (3RD LEVEL) HAS BEEN CONVERTED INTO 3 SRO'S. BASEMENT HAS BEEN CONVERTED FROM 1 CAR GARAGE TO 1 BEDROOM. NO PERMIT FOR REAR STRUCTURE 8'X9'X9' AND GARAGE DOOR REPLACED BY FRAMED WALL W/ WINDOW. SMOKE DETECTORS MISSING IN BOILER ROOM.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=5026185\">5026185</a></p></div>",
+            "name": "276 Nicholas Avenue, Staten Island, 10302",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-74.141777, 40.633261],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "219 Irving Avenue, Brooklyn, 11237",
+            "article": "<div id='article'><h2>219 Irving Avenue, Brooklyn, 11237</h2><p><strong>Initial complaint:</strong> EXPOSURE 3 STRUCTURALLY COMPROMISED.</p><p><strong>Owner:</strong> Opal Capital LLC</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 17/07/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y1-FULL VACATE- OBSERVED REAR FACADE AT EXPO # 03 EXTERIOR WALL BULGING, DISLODGED, SLIGHTLY SEPARATED FROM FLOOR STRUCTURES AND SHAKING 2ND & 3RD FLOOR LEVEL . ENTIRE REAR FACADE WALL STRUCTURALLY COMPROMISED AND POTENTIAL COLLAPSE CONDITION. A FULL VACATE ISSUED ON ENTIRE BUILDING INCLUDING PARKING GARAGE IN REAR YARD EXPO # 03. PROVIDE STRUCTURAL STABILITY REPORT FROM P.E.(UPDATED TO ADD Y1 FULL VACATE TO COMMENTS)#2608.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3075146\">3075146</a></p></div>",
+            "name": "219 Irving Avenue, Brooklyn, 11237",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9175426, 40.7010208],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "1812 Linden Street, Queens, 11385",
+            "article": "<div id='article'><h2>1812 Linden Street, Queens, 11385</h2><p><strong>Initial complaint:</strong> THE CALLER STATED THAT CONSTRUCTION WAS BEING DONE ON A 3 FAMILY HOME THIS MORNING. THERE IS LOUD HAMMERING, DRILLING , AND BANGING NOISES FROM THE SITE. SOMETIMES HE BEGINS TO WORK BEFORE 7:00 AM. THERE IS A CHURCH ACROSS THE STREET FROM THE SITE.</p><p><strong>Owner:</strong> Ordonez, Angel</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 16/06/2020</p><p><strong>Category code:</strong> After Hours Work - Illegal | Construction In Progress: After Hours - No Special Permit/Variance</p><p><strong>Inspection comments:</strong> Y3 - ENTIRE CELLAR DUE TO ILLEGAL OCCUPANCY CONSISTING OF SRO WITH 3 PIECE BATHROOM WITH INADEQUATE LIGHT, INSUFFICIENT VENTILATION AND REQUIRED EGRESS. ALSO WORK W/O PERMIT INSTALLED DROP/SUSPENDED CEILING AT CELLAR.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4082521\">4082521</a></p></div>",
+            "name": "1812 Linden Street, Queens, 11385",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9086621, 40.7038218],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "870 Home Street, Bronx, 10459",
+            "article": "<div id='article'><h2>870 Home Street, Bronx, 10459</h2><p><strong>Initial complaint:</strong> FDNY REQUESTED A STRUCTURAL STABILITY INSPECTION DUE TO AUTILITY POLE FELL INTO BUILDING.</p><p><strong>Owner:</strong> Mtglq Investors LP</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 16/06/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y-1 FULL VACATE SERVED FOR ENTIRE PREMISES. (OPEN ROOF, BUILDING IN DISREPAIR AND VACANT). AT TIME OF INSPECTION OBSERVED STREET POWER POLE HAS DISLODGED AND IMPACTED EXPOSURE 1. NO STRUCTURAL ISSUES.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=2005278\">2005278</a></p></div>",
+            "name": "870 Home Street, Bronx, 10459",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.896598, 40.827827],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "868 Home Street, Bronx, 10459",
+            "article": "<div id='article'><h2>868 Home Street, Bronx, 10459</h2><p><strong>Initial complaint:</strong> FDNY REQUESTED A STRUCTURAL STABILITY INSPECTION DUE TOUTILITY POLE FALLING INTO BUILDING.</p><p><strong>Owner:</strong> Theresa Holmes</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 16/06/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y-1 FULL VACATE SERVED FOR ENTIRE PREMISES. (ROOF MISSING, BUILDING IN DISREPAIR). AT TIME OF INSPECTION OBSERVED UTILITY POLE HAS DISLODGED AND IMPACTED EXPOSURE 1.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=2005277\">2005277</a></p></div>",
+            "name": "868 Home Street, Bronx, 10459",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.8966804, 40.8279301],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "164-52 84 Avenue, Queens, 11432",
+            "article": "<div id='article'><h2>164-52 84 Avenue, Queens, 11432</h2><p><strong>Initial complaint:</strong> FDNY REQUESTS A STRUCTURAL STABILITY INSPECTION DUE TO BALCONY LEANING. NO INJURIES REPORTED.</p><p><strong>Owner:</strong> No Record</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 17/06/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y-3 AT FRONT OF BUILDING, 3RD FLOOR BALCONY MISSING DUE TO WATER DAMAGING DECK JOISTS CAUSING BALCONY TO COLLAPSE. INSTALLED TEMPORARY SHORING AT FOR 2ND FLOOR BALCONY WITHOUT PERMIT. 2ND FLOOR BALCONY RAILING HAS TOP RAIL OUT OF SHAPE AND NOT TO FULL HEIGHT. VACATE 2ND FLOOR BALCONY.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4210859\">4210859</a></p></div>",
+            "name": "164-52 84 Avenue, Queens, 11432",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.800609, 40.715077],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "39-03 104 Street, Queens, 11368",
+            "article": "<div id='article'><h2>39-03 104 Street, Queens, 11368</h2><p><strong>Initial complaint:</strong> THERE AN 2 FAMILY HOME THAT IS BEING RENTED TO MORE THAN TWO FAMILY. THERE ALSO PEOPLE IN THE BASEMENT THAT ARE LIVING THERE. THESE PEOPLE ARE STAYING WITH 14-21 DAYS. THEY ARE ON 2ND, 3RD FLOOR AND BASEMENT. THEY POST FILER ON THE LIGHT POST WHICH SAY ROOMS FOR RENT WITH A NUMBER.</p><p><strong>Owner:</strong> Ng, Xiao Yun</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 19/06/2020</p><p><strong>Category code:</strong> Illegal Hotel Rooms In Residential Buildings | Illegal Use: Residential Space - Used As Hotel</p><p><strong>Inspection comments:</strong> 3RD FL CONVERTED TO 4 SRO'S W/O REQ EGRESS, FIRE ALARM AND S PRINKLER SYSTEMS.35472968P/3547296R.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4044661\">4044661</a></p></div>",
+            "name": "39-03 104 Street, Queens, 11368",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.8619032, 40.7505248],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "114 West 86 Street, Manhattan, 10024",
+            "article": "<div id='article'><h2>114 West 86 Street, Manhattan, 10024</h2><p><strong>Initial complaint:</strong> FAILURE TO MAINTAIN.</p><p><strong>Owner:</strong> No Record</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 18/09/2020</p><p><strong>Category code:</strong> Failure To Maintain</p><p><strong>Inspection comments:</strong> SUMMON ISSUED#35538740H F.T.M. EXPO#3CRACKED&SPALLED PARAPET MASONRY FACADE UNSAFE COND.PER QEWI FISP3-LOOSE TERRA COTTA.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=1032166\">1032166</a></p></div>",
+            "name": "114 West 86 Street, Manhattan, 10024",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9730625, 40.7865002],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "1731 Unionport Road, Bronx, 10462",
+            "article": "<div id='article'><h2>1731 Unionport Road, Bronx, 10462</h2><p><strong>Initial complaint:</strong> FDNY REQUESTS A STRUCTURAL STABILITY INSPECTION DUE TO FRONT FACADE PULLING AWAY FROM BUILDING. NO INJURIES REPORTED.</p><p><strong>Owner:</strong> No Record</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 22/06/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y1 - FULL VACATE ORDER SERVED DUE COMPROMISED STRUCTURE STABILITY. BUILDING FACADE IN STATE OF DISREPAIR WITH A SECTION OF BRICK VENEER BOWING AND CRACKED.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=2042962\">2042962</a></p></div>",
+            "name": "1731 Unionport Road, Bronx, 10462",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.867592, 40.843936],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "1332 College Avenue, Bronx, 10456",
+            "article": "<div id='article'><h2>1332 College Avenue, Bronx, 10456</h2><p><strong>Initial complaint:</strong> THIS IS A RECREATIONAL SPACE BEING USED AS AN APARTMENT IN THE HOME.</p><p><strong>Owner:</strong> Thomas-Mackey, Erinn</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 30/07/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> SUMMONSES & VACATE ISSUED AT BSMT FOR CLASS 'A APT CREATED; W/O PERMIT AT BSMT, REAR & FRONT YARDS FOR PARTITIONS, PLUMBING, ELECTRICAL.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=2007183\">2007183</a></p></div>",
+            "name": "1332 College Avenue, Bronx, 10456",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.911185, 40.835964],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "75-08 68 Avenue, Queens, 11379",
+            "article": "<div id='article'><h2>75-08 68 Avenue, Queens, 11379</h2><p><strong>Initial complaint:</strong> FDNY REQUESTS AN INSPECTION DUE TO BRICKS FALLING.</p><p><strong>Owner:</strong> Baldassare Cattano</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 29/06/2020</p><p><strong>Category code:</strong> Debris/Building - Falling Or In Danger Of Falling</p><p><strong>Inspection comments:</strong> Y-3- BRICKS AT FRONT FACADE PARAPET WALL COLLAPSED ONTO SIDEWALK SHED. FACADE DEFECTS ALSO CAUSED DAMAGE TO INTERIOR CEILINGS OF 2ND FLOOR COLLAPSING. VACATE 2ND FL APT. DUE TO CEILING DAMAGES.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4091963\">4091963</a></p></div>",
+            "name": "75-08 68 Avenue, Queens, 11379",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.876799, 40.710553],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "4514 3 Avenue, Brooklyn, 11220",
+            "article": "<div id='article'><h2>4514 3 Avenue, Brooklyn, 11220</h2><p><strong>Initial complaint:</strong> EXTERIOR REAR YARD IS OCCUPIED.</p><p><strong>Owner:</strong> Humberto Sanchez</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 01/07/2020</p><p><strong>Category code:</strong> Illegal Conversion No Access Follow-Up</p><p><strong>Inspection comments:</strong> ILLEGALLY CONVERTED REAR YARD TO A EATING/DRINKING EST W/O 2ND MEANS OF EGRESS & VIOLATING ZONING.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3011489\">3011489</a></p></div>",
+            "name": "4514 3 Avenue, Brooklyn, 11220",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-74.0122802, 40.6503716],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "672 51 Street, Brooklyn, 11220",
+            "article": "<div id='article'><h2>672 51 Street, Brooklyn, 11220</h2><p><strong>Initial complaint:</strong> FDNY VIA OEM REQUESTS A STRUCTURAL STABILITY INSPECTION OFBUILDING DUE TO A GAS EXPLOSION.</p><p><strong>Owner:</strong> Banny Lin</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 29/06/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y-1 FULL VACATE ORDER ISSUED DUE TO EXPLOSION AT CELLAR LEVEL DAMAGING WINDOWS AND DOORS ALONG WITH DISCONNECTED SPRINKLER SYSTEM THROUGHOUT LEAVING THE STRUCTURE WITH INADEQUATE EGRESS.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3013687\">3013687</a></p></div>",
+            "name": "672 51 Street, Brooklyn, 11220",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-74.0070647, 40.6420142],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "75 Cooper Street, Brooklyn, 11207",
+            "article": "<div id='article'><h2>75 Cooper Street, Brooklyn, 11207</h2><p><strong>Initial complaint:</strong> UNSATBLE BALCONY IN REAR FACADE.</p><p><strong>Owner:</strong> Mcintosh-Kipp, Blaine</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 29/06/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y3- AT TIME OF INSPECTION OBSERVED REAR FACADE BALCONIES AT 2ND & 3RD FLOOR LEVEL INSTATE OF DISREPAIR CONDITION WITH FLOOR CONCRETE CRACKS AND FALLING A PART. ALSO OBSERVED RAILINGS ARE ROTTED, DETERIORATED, UNSTABLE AND COLLAPSE CONDITIONS. A PARTIAL VACATE ORDER ISSUED ON ALL REAR FACADE BALCONIES.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3390388\">3390388</a></p></div>",
+            "name": "75 Cooper Street, Brooklyn, 11207",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9096352, 40.6857292],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "207 Nicholas Avenue, Staten Island, 10302",
+            "article": "<div id='article'><h2>207 Nicholas Avenue, Staten Island, 10302</h2><p><strong>Initial complaint:</strong> ATTIC HAS BEEN ILLEGALLY CONVERTED INTO AN APARTMENT AND THERE IS A STAIRCASE THAT IS PULLED DOWN TO LET THE TENANTS IN OR OUT. BUT THAT PULL DOWN STAIRCASE BLOCKS OTHER TENANT DOOR & MAIN STAIRCASE.</p><p><strong>Owner:</strong> Tornabene, Alfonso</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 29/06/2020</p><p><strong>Category code:</strong> Egress - Locked/Blocked/Improper/No Secondary Means | Building Exit: Secondary Exit - Blocked Fully</p><p><strong>Inspection comments:</strong> Y-3 IN A DETACHED ,WOOD FRAME, 2 FAMILY BUILDING, IN ATTIC CREATED WITH DROP LADDER TO ATTIC, SLEEPING LOFT. ATTIC HAS NO SECOND MEANS EGRESS. VACATE ATTIC FORTHWITH.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=5025879\">5025879</a></p></div>",
+            "name": "207 Nicholas Avenue, Staten Island, 10302",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-74.1405401, 40.6348131],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "431 New Lots Avenue, Brooklyn, 11207",
+            "article": "<div id='article'><h2>431 New Lots Avenue, Brooklyn, 11207</h2><p><strong>Initial complaint:</strong> CALLER STATE ILLEGAL CONVERSION WAS DONE IN TO BRIEF UNIT, CALLER STATE UPSTAIR WAS CONVERTED TO 7 AND IT IS ONLY 1 FAMILY HOUSE. CALLER STATE IN THE OTHER SIDE OF THE APARTMENT WAS ALSO CONVERTED. CALLER STATE KITCHEN WINDOW IS BLOCKED BECAUSE HE CONVERTED INTO A ROOM.</p><p><strong>Owner:</strong> Firm Ventures LLC</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 01/07/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> AT TIME OF INSPECTION, 1 SUMMONS ISSUED FOR W/O PERMIT AND RESIDENCE ALTERED AT CELLAR AND 1 SUMMONS FOR ILLEGAL LOCKING DEVICE AT 2 ND FLOOR APT.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3085608\">3085608</a></p></div>",
+            "name": "431 New Lots Avenue, Brooklyn, 11207",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.8917977, 40.6625928],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "1310 Park Place, Brooklyn, 11213",
+            "article": "<div id='article'><h2>1310 Park Place, Brooklyn, 11213</h2><p><strong>Initial complaint:</strong> BUILDING OWNER CREATED AN ILLEGAL APARTMENT IN BASEMENT.</p><p><strong>Owner:</strong> Ketcham, Stuart W</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 18/09/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> 1 SUMMONS ISSUED FOR WORK WITHOUT PERMIT, 1 SUMMONS FOR RESIDENCE CONVERTED AT CELLAR.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3036437\">3036437</a></p></div>",
+            "name": "1310 Park Place, Brooklyn, 11213",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9340877, 40.6723852],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "55 5 Avenue, Manhattan, 10003",
+            "article": "<div id='article'><h2>55 5 Avenue, Manhattan, 10003</h2><p><strong>Initial complaint:</strong> BRICKS ARE FALLING ONTO TERRIS FROM CONSTRUCTION AT CARDOZOSCHOOL OF LAW FROM THE NORTH SIDE OF THE BUILDING.</p><p><strong>Owner:</strong> Yeshiva University</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 16/07/2020</p><p><strong>Category code:</strong> Debris/Building - Falling Or In Danger Of Falling | Debris: Falling - Building Exterior/Part</p><p><strong>Inspection comments:</strong> NO RESCIND OF PARTIAL VACATE. STRUCTURAL STABILITY REPORT FOR REAR FACADE PROVIDED BY P.E LICENSE #079049 CLEARLY STATES \" THERE ARE A NUMBER OF SIMILAR PIERS WHERE THE LINTELS ARE APPROACHING REPLACEMENT AND THEREFORE THERE APPEARS TO BE A RISK OF SIMILAR INCIDENT\". ALSO NO PERMIT OBSERVED FOR REPLACEMENT OF 100+ BRICKS ON REAR FACADE. NO RESCIND OF VACATE POSSIBLE UNTIL REAR FACADE IS SAFE.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=1009373\">1009373</a></p></div>",
+            "name": "55 5 Avenue, Manhattan, 10003",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9942558, 40.7346278],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "64-05 Woodside Avenue, Queens, 11377",
+            "article": "<div id='article'><h2>64-05 Woodside Avenue, Queens, 11377</h2><p><strong>Initial complaint:</strong> REPORTING THAT THE ABOVE TERRACE FLOORING IS FALLING APART & FALLING DOWN, SO THAT YOU CAN SEE THE BOTTOM OF THE TERRACE OF THAT TERRANCE.</p><p><strong>Owner:</strong> 64-03 Realty LLC</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 01/07/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected | Unstable Building: Shaking/Vibrating - Construction</p><p><strong>Inspection comments:</strong> Y-3 VACATE BALCONIES AT APTS 4F AND 5F AT EXPOSURE 3, UNDERSIDE OF BALCONY OF APT 5F HAS DISLODGED, HANGS LOOSE AND IS IN DANGER OF FALLING ONTO BALCONY OF APT 4F., ALSO NOTED UNDERSIDE OF BALCONY OF 6F HAS WATER SEEPAGE AND STAINING OF UNDERSIDE FINISH WITH THE POTENTIAL OF COLLAPSE.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4543423\">4543423</a></p></div>",
+            "name": "64-05 Woodside Avenue, Queens, 11377",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9005447, 40.7442772],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "1532 West 11 Street, Brooklyn, 11204",
+            "article": "<div id='article'><h2>1532 West 11 Street, Brooklyn, 11204</h2><p><strong>Initial complaint:</strong> Not on record</p><p><strong>Owner:</strong> Chu, Andy Sl</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 02/07/2020</p><p><strong>Category code:</strong> Sro - Illegal Work/No Permit/Change In Occup-Use | Single Room Occupancy: Overcrowded</p><p><strong>Inspection comments:</strong> OCCUPANCY CONTRARY TO THAT ALLOWED BY C OF O & DOB RECORD. REF TO DOB/HPD REG # 352832 INDICATED (2) STORIES / (3) DWELLINGS. HOWEVER, OBSERVED ILLEGALLY CELLAR CONVERTED INTO CLASS A UNIT, & BEING OCCUPIED BY MOTHER / DAUGHTER, 2 BEDROOMS (W BED / PERSONAL ITEMS), LIVING ROOM W/ COUCH /DIN TABLE / TV, 3 PCS BATH & F KIT W GAS STOVE. INSUFFICIENT VENTILATION & LIGHT. NO 2ND MEANS OF EGRESS. NO WORK PERMIT. PARTIAL VACATE ORDER / VIOLATION (S) SERVED.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3174068\">3174068</a></p></div>",
+            "name": "1532 West 11 Street, Brooklyn, 11204",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9849083, 40.6092822],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "75 Wadsworth Terrace, Manhattan, 10040",
+            "article": "<div id='article'><h2>75 Wadsworth Terrace, Manhattan, 10040</h2><p><strong>Initial complaint:</strong> NO CONSTRUCTION BEING DONE RIGHT NOW. FOUR TO FIVE YEARS I HAVE HAD THIS ISSUE WHEN IT RAINS WATER FILTERS INTO THE APARTMENT. TWO YEARS AGO THEY FIXED THE INSIDE OF THE APARTMENT BUT THEY HAVE NOT ADDRESS THE PROBLEM IN THE ROOF SO WHEN IT RAINS WATER COMES INTO THE APARTMENT AND DAMAGES MY CEILING AGAIN.</p><p><strong>Owner:</strong> 75-89 Associates</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 03/07/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected | Unstable Building: Shaking/Vibrating - Construction</p><p><strong>Inspection comments:</strong> Y3- OBSERVED WATER DAMAGED DISREPAIR CEILING ON BEDROOM AND LIVING ROOM. BEDROOM CEILING CRACKED IN ENTIRE LENGTH, BUMP, UNSTABLE AND COLLAPSE CONDITION. ALSO OBSERVED LIVING ROOM CEILING HAS WATER DAMAGE, CRACKS AND FALLING PAINTS. A PARTIAL VACATE ORDER ISSUED ON BEDROOM OF APT # A52.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=1084206\">1084206</a></p></div>",
+            "name": "75 Wadsworth Terrace, Manhattan, 10040",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.930994, 40.8567758],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "3821 Maple Avenue, Brooklyn, 11224",
+            "article": "<div id='article'><h2>3821 Maple Avenue, Brooklyn, 11224</h2><p><strong>Initial complaint:</strong> BUILDING IS POORLY MAINTAINED.</p><p><strong>Owner:</strong> 4932 Maple LLC</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 06/07/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y1- FULL VACATE ISSUED DUE TO HOUSE IN DISREPAIR. WINDOWS MISSING , ROOF OPEN, WHOLES IN FLOOR AND REAR PASSAGE WAY BLOCKED FROM FALLING DEBRIS AT TIME OF INSPECTION.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3188048\">3188048</a></p></div>",
+            "name": "3821 Maple Avenue, Brooklyn, 11224",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-74.0069911, 40.579438],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "205 East 38 Street, Manhattan, 10016",
+            "article": "<div id='article'><h2>205 East 38 Street, Manhattan, 10016</h2><p><strong>Initial complaint:</strong> FDNY REQUESTS A STRUCTURAL STABILITY INSPECTION DUE TO A PARTIAL WALL COLLAPSE.</p><p><strong>Owner:</strong> I Bldg Co Inc</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 08/07/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y1- OBSERVED APPROX. 40'-0\" X 10'-0\" SECTION OF BRICK VENEER COLLAPSED ONTO PEDESTRIANS SIDEWALK/STREET AT EXPO # 01 FROM TO FLOOR. ALSO OBSERVED REMAINING FACADE BRICKS ARE LOOSE & HANGING AT ROOF LEVEL & POTENTIAL FURTHER COLLAPSE AND STRUCTURAL STABILITY COMPROMISED. VACATE ENTIRE BUILDING. PROVIDE SIDEWALK SHED & STRUCTURAL STABILITY REPORT FROM P.E TO RESCIND VACATE ORDER.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=1020352\">1020352</a></p></div>",
+            "name": "205 East 38 Street, Manhattan, 10016",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9757044, 40.7482373],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "32-13 54 Street, Queens, 11377",
+            "article": "<div id='article'><h2>32-13 54 Street, Queens, 11377</h2><p><strong>Initial complaint:</strong> ILLEGAL BASEMENT AT LOCATION.</p><p><strong>Owner:</strong> Lobsang, Ngawang</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 10/07/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> 2 SUMMONS ISSUED 1 FOR WORK WITHOUT PERMIT AND 1 FOR RESIDENCE CONVERTED FROM 1 TO 2 FAMILY BY THE ADDITION OF A CLASS A APT IN CELLAR. VACATE ISSUED.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4026027\">4026027</a></p></div>",
+            "name": "32-13 54 Street, Queens, 11377",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9067376, 40.7549424],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "161 West 133 Street, Manhattan, 10030",
+            "article": "<div id='article'><h2>161 West 133 Street, Manhattan, 10030</h2><p><strong>Initial complaint:</strong> A UNIT OWNER HAS CONVERTED THE DUPLEX INTO 2 APARTMENTS. SHE REMOVED A SPIRAL STAIRCASE ON THE 1ST FLOOR UNIT. THEN IT WAS SEALED OFF AND REPLACED BY HARDWOOD FLOOR. SO NOW IT IS 2 FULL APARTMENT. SHE PULLED OUT THE WASHER AND DRYER , ADDED IN A STAND UP SHOWER. THEN INSTALLED A SMALL KITCHENETTE. THIS BASEMENT UNIT IS 100 SQ FEET. THEIR IS A OCCUPANT LIVING IN THE BASEMENT UNIT THAT HAS BEEN CONVERTED. THE CONVERSION TOOK PLACE WITHOUT A PERMIT, THIS WAS DONE BY A AN OUTSIDE CONTRACTOR . CONTRACTOR NAME IS RAY. THIS CONVERSION HAPPENED IN APT 1D AND THE BASEMENT.</p><p><strong>Owner:</strong> No Record</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 14/07/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> SUMMONSES & VACATE ISSUED AT CELLAR AREA OF APT 1D/1RR FOR CLASS 'A' APT CREATED; W/O PERMIT FOR PLUMBING & REMOVAL OF INTERIOR STAIRS.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=1058214\">1058214</a></p></div>",
+            "name": "161 West 133 Street, Manhattan, 10030",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9436169, 40.8138066],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "1069 Sterling Place, Brooklyn, 11213",
+            "article": "<div id='article'><h2>1069 Sterling Place, Brooklyn, 11213</h2><p><strong>Initial complaint:</strong> ILLEGAL CONVERSION TO BASEMENT.</p><p><strong>Owner:</strong> East 53Rd Street 1069 LLC</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 14/07/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> SUMMONS ISSUED FOR W/O PERMIT AND RESIDENCE CONVERTED AT CELLAR LEVEL.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3031673\">3031673</a></p></div>",
+            "name": "1069 Sterling Place, Brooklyn, 11213",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9431921, 40.672396],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "3181 Grand Concourse, Bronx, 10468",
+            "article": "<div id='article'><h2>3181 Grand Concourse, Bronx, 10468</h2><p><strong>Initial complaint:</strong> PASSAGWAY OBSTRUCTED.</p><p><strong>Owner:</strong> Persaud, Parmanand P.</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 27/11/2020</p><p><strong>Category code:</strong> Egress - Locked/Blocked/Improper/No Secondary Means</p><p><strong>Inspection comments:</strong> Y1- STRUCTURE RENDERED NON-COMPLIANT. AT TIME OF INSPECTION, DAMAGED & BLOCKED OBSERVED TO HAVE BEEN SUSTAINED TO EMERGENCY EXIT PASSAGEWAY AT EXPO # 04 DUE TO ADJACENT CONSTRUCTION FENCE & OPERATION AT 3181 GRAND CONCOURSE BX. VACATE ENTIRE BUILDING UNTIL PROVIDE UNOBSTRUCTED SECOND MEANS OF EGRESS OR PROVIDE A FIRE GUARD 24 HOURS A DAY & 7-DAYS A WEEK TO KEEP BUILDING OCCUPIED.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=2017344\">2017344</a></p></div>",
+            "name": "3181 Grand Concourse, Bronx, 10468",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.8862054, 40.8763801],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "31-70 41 Street, Queens, 11103",
+            "article": "<div id='article'><h2>31-70 41 Street, Queens, 11103</h2><p><strong>Initial complaint:</strong> Not on record</p><p><strong>Owner:</strong> Chondrogiannis, Alexandra</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 17/07/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> 2 SUMMONS ISSUED. WORK WITHOUT A PERMIT FOR ELECTRICAL PARTITIONS AND PLUMBING. RESIDENCE CONVERTED FROM A (2) FAMILY TO (3) FAMILY AT CELLAR LEVEL. VACATE ORDER ISSUED.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4011148\">4011148</a></p></div>",
+            "name": "31-70 41 Street, Queens, 11103",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9179149, 40.7593279],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "1075 Sheepshead Bay Road, Brooklyn, 11229",
+            "article": "<div id='article'><h2>1075 Sheepshead Bay Road, Brooklyn, 11229</h2><p><strong>Initial complaint:</strong> HANGING RUSTED OUT BEAMS AND CRACKS THROUGHOUT THE BUILDING.</p><p><strong>Owner:</strong> 1075 Sheepshead Owners Corp</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 23/09/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y-3 PARTIAL VACATE OF ENTIRE POOL AREA AND SNACK BAR KITCHEN AT CELLAR ON GROUND. AT TIME OF INSPECTION OBSERVED STRUCTURAL STEEL MEMBERS HAVE CORRODED AND BUCKLED.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3201740\">3201740</a></p></div>",
+            "name": "1075 Sheepshead Bay Road, Brooklyn, 11229",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9583151, 40.5938003],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "9407 Kings Highway, Brooklyn, 11212",
+            "article": "<div id='article'><h2>9407 Kings Highway, Brooklyn, 11212</h2><p><strong>Initial complaint:</strong> ILLEGAL OCCUPANCY OF SRO AT CELLAR LEVEL.</p><p><strong>Owner:</strong> Tidy Realty LLC</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 14/05/2020</p><p><strong>Category code:</strong> Illegal Conversion</p><p><strong>Inspection comments:</strong> AT TIME OF INSPECTION, CELLAR ALREADY VACATED BY HPD, NO SROS OBSERVED.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3327791\">3327791</a></p></div>",
+            "name": "9407 Kings Highway, Brooklyn, 11212",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.920964, 40.6585759],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "162 Westervelt Avenue, Staten Island, 10301",
+            "article": "<div id='article'><h2>162 Westervelt Avenue, Staten Island, 10301</h2><p><strong>Initial complaint:</strong> FDNY REQUESTS AN INSPECTION DUE TO ILLEGAL OCCUPANCY THROUGHOUT.</p><p><strong>Owner:</strong> Sze, Cho Hing</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 23/07/2020</p><p><strong>Category code:</strong> Illegal Conversion</p><p><strong>Inspection comments:</strong> 2 SUMMONS ISSUED ON RESIDENCE ALTERED AND WORK WITHOUT PERMIT FOR CLASS \"A\" APARTMENT IN CELLAR LEVEL AND A STUDIO APARTMENT IN ATTIC LEVEL.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=5001165\">5001165</a></p></div>",
+            "name": "162 Westervelt Avenue, Staten Island, 10301",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-74.0846506, 40.6438095],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "148 Westervelt Avenue, Staten Island, 10301",
+            "article": "<div id='article'><h2>148 Westervelt Avenue, Staten Island, 10301</h2><p><strong>Initial complaint:</strong> Not on record</p><p><strong>Owner:</strong> Lam, Po Chai</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 23/07/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> 2 SUMMONS ISSUED ON OCCUPANCY CONTRARY AND WORK WITHOUT PERMIT AT CELLAR FOR FULL BATHROOM AND SLEEPING QUARTERS.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=5001163\">5001163</a></p></div>",
+            "name": "148 Westervelt Avenue, Staten Island, 10301",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-74.08488, 40.6440352],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "1333 Chisholm Street, Bronx, 10459",
+            "article": "<div id='article'><h2>1333 Chisholm Street, Bronx, 10459</h2><p><strong>Initial complaint:</strong> Not on record</p><p><strong>Owner:</strong> Lawrence, Alice</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 29/07/2020</p><p><strong>Category code:</strong> Sro - Illegal Work/No Permit/Change In Occup-Use | Single Room Occupancy: Overcrowded</p><p><strong>Inspection comments:</strong> PARTIAL VACATE ORDER ISSUED FOR BASEMENT. C OF O #201105259F INDICATES BASEMENT AS ACCESSORY USE AND ONE CAR GARAGE. 3 VIOLATIONS ISSUED: 1. RESIDENCE CONVERTED FROM 2 FAMILY T O THREE FAMILY 2. WORK WITHOUT PERMIT: (FULL HEIGHT WALL ERECTED AT 2ND FLR. LIVING RM. AND BASEMENT), 3. OCCUPANCY CONTRARY: GARAGE OCCUPIED AS BEDRM AND LIVING RM.).</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=2010398\">2010398</a></p></div>",
+            "name": "1333 Chisholm Street, Bronx, 10459",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.8960123, 40.8315107],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "98 Clinton Street, Manhattan, 10002",
+            "article": "<div id='article'><h2>98 Clinton Street, Manhattan, 10002</h2><p><strong>Initial complaint:</strong> WORK W/O PERMIT SEE COMPLAINT 1548405 FOR MORE INFORMATION.</p><p><strong>Owner:</strong> No Record</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 23/07/2020</p><p><strong>Category code:</strong> Work Without A Permit - Occupied Multiple Dwelling</p><p><strong>Inspection comments:</strong> ILLEGAL S.R.O. WITHIN APT. 5 ON FIFTH FLOOR BEING USED AS SL EEPING QUARTERS AND NO PERMIT FOR MAKING SAID ENCLOSURE.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=1004194\">1004194</a></p></div>",
+            "name": "98 Clinton Street, Manhattan, 10002",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9853625, 40.7181784],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "1647 East 48 Street, Brooklyn, 11234",
+            "article": "<div id='article'><h2>1647 East 48 Street, Brooklyn, 11234</h2><p><strong>Initial complaint:</strong> FDNY DIV 015 HAVE FILED A NORMAL PRIORITY REFERRAL REPORTING \"BASEMENT HAS LIVING SPACE INCL A BED AND A KITCHEN, ACCESS IS ONLY BY THE 1ST FLOOR KITCHEN\".</p><p><strong>Owner:</strong> Boreland, Dhalia</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 24/07/2020</p><p><strong>Category code:</strong> Illegal Conversion</p><p><strong>Inspection comments:</strong> AT TIME OF INSPECTION 1 SUMMONS ISSUED FOR W/O PERMIT AT CELLAR AND 1 SUMMONS FOR RESIDENCE ALTERED.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3219862\">3219862</a></p></div>",
+            "name": "1647 East 48 Street, Brooklyn, 11234",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9287604, 40.6203454],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "881 St Johns Place, Brooklyn, 11216",
+            "article": "<div id='article'><h2>881 St Johns Place, Brooklyn, 11216</h2><p><strong>Initial complaint:</strong> FDNY VIA NYCEM IS REQUESTING A STRUCTURAL STABILITY INSPECTION DUE TO FIRE.</p><p><strong>Owner:</strong> White, William</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 23/07/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y1-FULL VACATE OF BLDG AND REAR YARD, PLUS ECB AND 2 DOB SUMMONS ISSUED, DUE TO FIRE IN BUILDING WITH REAR FIRE ESCAPE IN DISREPAIR BEING STRUCTURALLY UNSOUND.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3031959\">3031959</a></p></div>",
+            "name": "881 St Johns Place, Brooklyn, 11216",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9490554, 40.6717609],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "357 Amboy Street, Brooklyn, 11212",
+            "article": "<div id='article'><h2>357 Amboy Street, Brooklyn, 11212</h2><p><strong>Initial complaint:</strong> FDNY REPORTED ILLEGAL OCCUAPNCY IN THE BASEMENT.WITHOUTSECONDARY MEANS OF EGRESS.</p><p><strong>Owner:</strong> Kraus, Raizy</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 24/09/2020</p><p><strong>Category code:</strong> Egress - Locked/Blocked/Improper/No Secondary Means</p><p><strong>Inspection comments:</strong> UPON INSPECTION, OBSERVED, THE CELLAR VACANT. THE THREE PIECES BATHROOM, THE FULL KITCHEN AND THE FULL HEIGHT PARTITIONS THAT WAS BUILT ILLEGALLY ALL STILL EXISTS. C/O INDICATED CELLAR IS ORDINARY AND LAUNDRY ONLY. DENIED VACATE RESCIND.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3082112\">3082112</a></p></div>",
+            "name": "357 Amboy Street, Brooklyn, 11212",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.91228, 40.661519],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "642 East 31 Street, Brooklyn, 11210",
+            "article": "<div id='article'><h2>642 East 31 Street, Brooklyn, 11210</h2><p><strong>Initial complaint:</strong> BEDROOM IN CELLAR NEXT TO BOILER ROOM.</p><p><strong>Owner:</strong> Simon, Carol</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 31/03/2020</p><p><strong>Category code:</strong> Illegal Conversion</p><p><strong>Inspection comments:</strong> 2 FAMILY DWELLING CONVERTED TO 3 FAMILY UNITS BY CREATING A CLASS A APT AT CELLAR LEVEL, WITH 3PCS BATHROOM, KITCHEN AREA WITH RESIDENTIAL SINK AND ELECTRICAL OUTLETS FOR COOKING EQUIPMENT ( HOT PLATE ). VACATE ORDER AND SUMMONS ISSUED.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3113969\">3113969</a></p></div>",
+            "name": "642 East 31 Street, Brooklyn, 11210",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9471644, 40.6352135],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "3653 East Tremont Avenue, Bronx, 10465",
+            "article": "<div id='article'><h2>3653 East Tremont Avenue, Bronx, 10465</h2><p><strong>Initial complaint:</strong> FDNY REQUESTS AN INSPECTION OF BUILDING DUE TO ILLEGALOCCUPANCY AT CELLAR/BASEMENT.</p><p><strong>Owner:</strong> 3653 Tremont LLC</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 28/04/2020</p><p><strong>Category code:</strong> Egress - Locked/Blocked/Improper/No Secondary Means</p><p><strong>Inspection comments:</strong> Y-3 APARTMENT AT CELLAR LEVEL WITH FULL HEIGHT PARTITIONS AND FULL KITCHEN ALONG WITH 3 PIECE BATH CREATING A CLASS A APARTMENT, 2 ADDITIONAL SINGLE ROOMS OCCUPIED AT FRONT OF CELLAR BOTH WITH 3 PIECE BATHS. WORK WITHOUT A PERMIT FULL HEIGHT PARTITIONS THROUGHOUT CREATING 1 CLASS A APARTMENT AND AN ADDITIONAL 2 SRO'S IN CELLAR.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=2076660\">2076660</a></p></div>",
+            "name": "3653 East Tremont Avenue, Bronx, 10465",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.8235039, 40.828171],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "117-47 Gar 222 Street, Queens, 11411",
+            "article": "<div id='article'><h2>117-47 Gar 222 Street, Queens, 11411</h2><p><strong>Initial complaint:</strong> DETACHED GARAGE BELONGING TO ONE FAMILY HOME LEANING ON NEIGHBOR'S GARAGE ROOF IS MISSING AND LIFTING ONTO OTHER BUILDING.</p><p><strong>Owner:</strong> Elvira Coppin</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 09/05/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected | Unstable Building: Leaning - Construction/Demolition</p><p><strong>Inspection comments:</strong> Y-1 VACATE ORDER ISSUED TO REAR GARAGE DUE TO CRACKS IN BRICK FACADE, HOLES IN ROOF, AND ROTTED WOOD JOISTS THROUGHOUT STRUCTURE.(UPDATED . PRIOR DISPOSITION OF A8 ENTERRED IN ERROR.)#2608.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4577877\">4577877</a></p></div>",
+            "name": "117-47 Gar 222 Street, Queens, 11411",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.8268124, 40.6882439],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "27 Bank Street, Manhattan, 10014",
+            "article": "<div id='article'><h2>27 Bank Street, Manhattan, 10014</h2><p><strong>Initial complaint:</strong> CUSTOMER STATES THAT THERE ARE MANY PEOPLE ARRIVING AND LEAVING WITH SUIT CASES CONSTANTLY.</p><p><strong>Owner:</strong> Oldfield, Anthony</p><p><strong>Vacate type:</strong> Vacate Order Partially Rescinded</p><p><strong>Date issued:</strong> 13/05/2020</p><p><strong>Category code:</strong> Illegal Hotel Rooms In Residential Buildings | Illegal Use: Residential Space - Used As Hotel</p><p><strong>Inspection comments:</strong> ILLEGALLYCONVERTED PREMISES TO 10 SRO'S UNITS W/O REQUIRED E GRESS,FIRE ALARM AND SPRINKLER SYSTEMS 1 FLOOR TO 4 FLOOR.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=1011028\">1011028</a></p></div>",
+            "name": "27 Bank Street, Manhattan, 10014",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-74.0029512, 40.737141],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "191-20 113 Road, Queens, 11412",
+            "article": "<div id='article'><h2>191-20 113 Road, Queens, 11412</h2><p><strong>Initial complaint:</strong> ILLEGAL CONVERSION.</p><p><strong>Owner:</strong> No Record</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 22/05/2020</p><p><strong>Category code:</strong> Illegal Conversion</p><p><strong>Inspection comments:</strong> LEGAL 1 FAMILY CONVERTED INTO 2 FAMILIES BY CREATING 1 ADDITIONAL CLASS \"A\" APT. AT THE CELLAR LEVEL WITH SLEEPING QUARTERS, KITCHEN WITH ELECTRIC COOKING EQUIPMENT AND 3 PIECE BATHROOM. VACATE CELLAR.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4235666\">4235666</a></p></div>",
+            "name": "191-20 113 Road, Queens, 11412",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.761775, 40.698677],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "870 East 94 Street, Brooklyn, 11236",
+            "article": "<div id='article'><h2>870 East 94 Street, Brooklyn, 11236</h2><p><strong>Initial complaint:</strong> PRIVATE HOUSE WITH 2 CAR GARAGE HAS BEEN CONVERTED INTO A TWO BEDROOM APARTMENT WITH A BATHROOM, KITCHEN AND LITTLE DINING AREA.</p><p><strong>Owner:</strong> Johnson, Philmore</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 08/06/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> AT TIME OF INSPECTION, AT CELLAR LEVEL SUMMONS ISSUED FOR WORK WITHOUT A PERMIT FOR ERECTING MASONRY WALL WITH DOOR TO REPLACE GARAGE DOOR, INSTALLED WATER AND WASTE LINES TO SHOWER. RESIDENCE ALTERED ISSUED FOR CREATING 1 CLASS A APT. AT CELLAR LEVEL. VACATE CELLAR LEVEL.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3406763\">3406763</a></p></div>",
+            "name": "870 East 94 Street, Brooklyn, 11236",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.909623, 40.647682],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "902 57 Street, Brooklyn, 11219",
+            "article": "<div id='article'><h2>902 57 Street, Brooklyn, 11219</h2><p><strong>Initial complaint:</strong> FDNY REQUESTS A STRUCTURAL STABILITY INSPECTION DUE TO TREEFALLING INTO A BUILDING.</p><p><strong>Owner:</strong> Cheung, Kam Wong</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 30/06/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y-3 PARTIAL VACATE ORDER ISSUED DUE TO 2 CLASS A APARTMENTS AT 2ND FLOOR LEVEL WITH NO SECONDARY MEANS OF EGRESS, ALONG WITH SECOND FLOOR BALCONY IN A STATE OF DISREPAIR DUE TO TREE COLLAPSE ONTO STRUCTURE.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3140224\">3140224</a></p></div>",
+            "name": "902 57 Street, Brooklyn, 11219",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-74.005625, 40.635613],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "127 Eagle Street, Brooklyn, 11222",
+            "article": "<div id='article'><h2>127 Eagle Street, Brooklyn, 11222</h2><p><strong>Initial complaint:</strong> FTM BLDG:DUE TO ONGOING CONST WRK@ADJ PROP BLDG DEVLP CRCKS@FRNT FACDE CELR-ROOF.CRCKS ARND WINDW OPENGS OBS.@FRNT BLDG.INTR UNITS#4,8,12&16 ALIGN VERT BLD.DMG OBS.ROOF PARAPET.CELR SLAB HORIZ CRACKS.</p><p><strong>Owner:</strong> Jachimowicz Nina</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 06/10/2020</p><p><strong>Category code:</strong> Failure To Maintain</p><p><strong>Inspection comments:</strong> VACATE UNITS #4(1ST FL),#8(2ND FL), #12(3RD FL) AND #14(4TH FL).</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3063829\">3063829</a></p></div>",
+            "name": "127 Eagle Street, Brooklyn, 11222",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9558456, 40.7352415],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "111-36 42 Avenue, Queens, 11368",
+            "article": "<div id='article'><h2>111-36 42 Avenue, Queens, 11368</h2><p><strong>Initial complaint:</strong> THIS IS AN ILLEGAL BASEMENT APARTMENT AND THE LANDLORD IS TRYING TO SAY I OWE MORE BACK RENT THAN I OWE AND MAKING FALSE CHARGES AGAINST ME.</p><p><strong>Owner:</strong> Reyes-Santo, Juan D</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 21/07/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> 3 SUMMONS ISSUED. WORK WITHOUT A PERMIT FOR PARTITION ,ELECTRICAL AND PLUMBING. RESIDENCE CONVERTED FROM A 2 FAMILY TO 3 CLASS A AT CELLAR. ILLEGAL HARDWARE DOOR LOCKED ROOM.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4050019\">4050019</a></p></div>",
+            "name": "111-36 42 Avenue, Queens, 11368",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.853806, 40.750379],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "183 South 2 Street, Brooklyn, 11211",
+            "article": "<div id='article'><h2>183 South 2 Street, Brooklyn, 11211</h2><p><strong>Initial complaint:</strong> ILLEGAL BASEMENT APARTMENT.</p><p><strong>Owner:</strong> 183S2St, LLC</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 23/09/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> AT TIME OF INSPECTION, AT BASEMENT LEVEL REAR 2 VIOLATIONS ISSUED FOR CLASS A APARTMENT WITH FULL KITCHEN, 3 PIECE BATHROOM AND ROOM FOR SLEEPING. BASEMENT REAR HAS ILLEGAL GAS LINE TO GAS STOVE AND RESIDENTIAL SINK.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3062995\">3062995</a></p></div>",
+            "name": "183 South 2 Street, Brooklyn, 11211",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9602057, 40.7127319],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "177 Beach 134 Street, Queens, 11694",
+            "article": "<div id='article'><h2>177 Beach 134 Street, Queens, 11694</h2><p><strong>Initial complaint:</strong> NYPD REPORTS BUILDING IN A STATE OF DISREPAIR WITH BRICKS MISSING.</p><p><strong>Owner:</strong> No Record</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 03/04/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y-3 PARTIAL VACATE SERVED FOR EXPOSURE 2 (LEFT SIDE) YARD. AT TIME OF INSPECTION OBSERVED MASONRY BRICK CHIMNEY IN A STATE OF DISREPAIR WHERE MORTAR HAS DETACHED AND FALLEN ALONG WITH LOOSE BRICKS.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4306265\">4306265</a></p></div>",
+            "name": "177 Beach 134 Street, Queens, 11694",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.8517085, 40.5735932],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "45-45 196 Street, Queens, 11358",
+            "article": "<div id='article'><h2>45-45 196 Street, Queens, 11358</h2><p><strong>Initial complaint:</strong> The entire house are being rented out as BNB on each floor including the basement and attic. They are not the owner but rented out to multiple people. more than 8 different people coming in and out of the house daily.</p><p><strong>Owner:</strong> Zheng, Xinqi</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 24/07/2020</p><p><strong>Category code:</strong> Illegal Conversion</p><p><strong>Inspection comments:</strong> ISSUED SUMMONS; WORK WITHOUT A PERMIT AT CELLAR LEVEL ERECTED FULL HEIGHT PARTITIONS FOR SLEEPING QUARTERS. INSTALLED WATER AND WASTE LINES FOR SHOWER STALL AND ILLEGAL GAS LINE. ISSUED SUMMONS RESIDENCE CONVERTED FROM A LEGAL 1 FAMILY TO 2 FAMILY BY CREATING CLASS A APT AT CELLAR LEVEL. DOB RECORDS INDICATES RESIDENCE AS A 1 FAMILY AND NOW CONVERTED AND OCCUPIED AS A 2 FAMILY BY CREATING CLASS A APT AT CELLAR LEVEL WITH FULL KITCHEN, 3 PC BATHROOM AND SLEEPING QUARTERS.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4125138\">4125138</a></p></div>",
+            "name": "45-45 196 Street, Queens, 11358",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.7850394, 40.7546865],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "691 Quincy Street, Brooklyn, 11221",
+            "article": "<div id='article'><h2>691 Quincy Street, Brooklyn, 11221</h2><p><strong>Initial complaint:</strong> FDNY IS REQUESTING BUILDINGS DO TO FIRE WITH ILLEGAL OCCUPANCY.</p><p><strong>Owner:</strong> Mary A. Gandy</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 22/03/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y1-FULL VACATE ISSUED FOR STRUCTURE RENDERED NON COMPLIANT DUE TO FIRE THROUGHOUT ENTIRE HOUSE.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3044340\">3044340</a></p></div>",
+            "name": "691 Quincy Street, Brooklyn, 11221",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9311715, 40.6893951],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "177 Garage Beach 134 Street, Queens, 11694",
+            "article": "<div id='article'><h2>177 Garage Beach 134 Street, Queens, 11694</h2><p><strong>Initial complaint:</strong> SECTION OF ROOF ROTTED AND COLLAPSED.</p><p><strong>Owner:</strong> Adam'S Trust Under Gail Sisson</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 03/04/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y-1 FULL VACATE SERVED FOR ENTIRE GARAGE. AT TIME OF INSPECTION OBSERVED 1 STORY GARAGE IN A STATE OF DISREPAIR WHERE SECTIONS OF THE ROOF AT EXPO: 2,3 HAS COLLAPSED.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4595149\">4595149</a></p></div>",
+            "name": "177 Garage Beach 134 Street, Queens, 11694",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.8530696, 40.5762091],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "92 Madison Street, Brooklyn, 11216",
+            "article": "<div id='article'><h2>92 Madison Street, Brooklyn, 11216</h2><p><strong>Initial complaint:</strong> FDNY REQUESTS A STRUCTURAL STABILITY INSPECTION DUE TO A LOAD BEARING WALL IN DANGER OF COLLAPSE.</p><p><strong>Owner:</strong> Ybn 712 LLC</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 12/04/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y-1 FULL VACATE ISSUED DUE TO A SECTION OF THE EXTERIOR EXPOSURE 4 WALL COLLAPSING LEAVING THE JOISTS EXPOSED AND UNSUPPORTED.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3057201\">3057201</a></p></div>",
+            "name": "92 Madison Street, Brooklyn, 11216",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.955375, 40.683898],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "222-01 Merrick Boulevard, Queens, 11413",
+            "article": "<div id='article'><h2>222-01 Merrick Boulevard, Queens, 11413</h2><p><strong>Initial complaint:</strong> NYCEM/FDNY REPORTED PARTIAL COLLAPSE OF 2 1/2 STORY ATTACHED BUILDING IN REAR. NEXT DOOR TO AND EMS STATION.</p><p><strong>Owner:</strong> 222-01 Merrick LLC</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 14/04/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y1-FULL VACATE. AT TIME OF INSPECTION OBSERVED PLYWOOD AND 2\" X 4\" WOOD STUDS FELL FROM 2ND FLOOR LEVEL REAR SIDE AT EXPO # 02 & 03 BY HIGH WIND WHERE PREVIOUSLY EXTENDED. REMAINING EXTENDED WOOD FRAME STRUCTURE LOOSE AND FALLING A PARTS. REMOVE OR DEMO DEFECTIVE ENTIRE WOOD STRUCTURE IN 2ND FLOOR LEVEL.(DISP. UPDATED TO REFLECT THE FULL VACATE.)#2608.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4279280\">4279280</a></p></div>",
+            "name": "222-01 Merrick Boulevard, Queens, 11413",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.747016, 40.678604],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "45-53 160 Street, Queens, 11358",
+            "article": "<div id='article'><h2>45-53 160 Street, Queens, 11358</h2><p><strong>Initial complaint:</strong> ITS A RESIDENTIAL 2 FAMILY HOUSE OVERCROWDED CALLER STATESSEEN 8 FAMILIES IN THAT FAMILY HOUSE.</p><p><strong>Owner:</strong> Zheng, Yi Shui</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 21/04/2020</p><p><strong>Category code:</strong> Sro - Illegal Work/No Permit/Change In Occup-Use | Single Room Occupancy: Overcrowded</p><p><strong>Inspection comments:</strong> SUMMONSES ISSUED FOR RESIDENCE CONVERTED FROM 2 TO 6 FAMILIES: ADDL'T CLASS 'A' APTS CREATED AT CELLAR, 1ST & 3RD FLOORS; W/O PERMIT FOR PARTITIONS, PLUMBING, ELECTRICAL. REMOVAL OF SPRINKLERS AT CELLAR.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4607329\">4607329</a></p></div>",
+            "name": "45-53 160 Street, Queens, 11358",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.8063036, 40.7550879],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "726 Leonard Street, Brooklyn, 11222",
+            "article": "<div id='article'><h2>726 Leonard Street, Brooklyn, 11222</h2><p><strong>Initial complaint:</strong> FDNY VIA NYCEM REQUESTS A STRUCTURAL STABILITY INSPECTION DUE TO FIRE.</p><p><strong>Owner:</strong> Trzcianowska, Halina</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 22/04/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y1-FULL VACATE DUE TO STRUCTURAL DAMAGE FROM FIRE. ALSO ECBS ISSUED FOR 3 ADDTIONAL SRO UNITS CREATED, INADEQUATE EGRESS FOR OCCUPANCY, AND WORK WITHOUT PERMIT FOR KITCHEN IN CELLAR/ DECK AT REAR.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3065187\">3065187</a></p></div>",
+            "name": "726 Leonard Street, Brooklyn, 11222",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9527767, 40.7294834],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "6412 15 Avenue, Brooklyn, 11219",
+            "article": "<div id='article'><h2>6412 15 Avenue, Brooklyn, 11219</h2><p><strong>Initial complaint:</strong> Not on record</p><p><strong>Owner:</strong> Yee, Wah Lap</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 29/04/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> AT TIME OF INSPECTION, AT CELLAR LEVEL OATH SUMMONSES ISSUED FOR CLASS A APARTMENT. VACATE CELLAR LEVEL.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3142123\">3142123</a></p></div>",
+            "name": "6412 15 Avenue, Brooklyn, 11219",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9970255, 40.6237583],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "32-31 Rear 169 Street, Queens, 11358",
+            "article": "<div id='article'><h2>32-31 Rear 169 Street, Queens, 11358</h2><p><strong>Initial complaint:</strong> THERE IS A GARAGE THAT IS FALLING DOWN AND NOW LEANING ON THE FENCE. THIS BUILDING HAS BECOME DANGEROUS. THERE IS NOT ANY CONSTRUCTION GOING ON AT THIS TIME.</p><p><strong>Owner:</strong> John H Hutchins</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 02/06/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected | Unstable Building: Leaning - Construction/Demolition</p><p><strong>Inspection comments:</strong> Y1-FULL VACATE OF GARAGE. AT THE REAR YARD A SINGLE CAR GARAGE HAS AN OPEN ROOF AND IS LEANING APPROXIMATELY 12\" AT TIME OF INSPECTION.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4601121\">4601121</a></p></div>",
+            "name": "32-31 Rear 169 Street, Queens, 11358",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.7964603, 40.7176028],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "2034 Richmond Terrace, Staten Island, 10302",
+            "article": "<div id='article'><h2>2034 Richmond Terrace, Staten Island, 10302</h2><p><strong>Initial complaint:</strong> THERE ARE HOLES IN THE ROOF OF THE BUILDING AND IT LOOKS ASTHOUGH IT MAY CAVE IN. THERE IS NO ONE IN THE BUILDING. IT APPEARS TOBE ABANDON. IT IS A ONE STORY BUILDING.</p><p><strong>Owner:</strong> Grinberg Management & Develope</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 03/06/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected | Unstable Building: Leaning - Construction/Demolition</p><p><strong>Inspection comments:</strong> Y-1 FULL VACATE SERVED. AT TIME OF INSPECTION OBSERVED STRUCTURE IN COMPLETE DISREPAIR WITH ROOF OPEN CEILING JOIST HAVE ROTTED AND IN DANGER OF COLLAPSE. BUILDING UNSECURED WITH OPENING APPROX: 2'X3' WHERE PUBLIC HAS ACCESS TO PREMISES.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=5023699\">5023699</a></p></div>",
+            "name": "2034 Richmond Terrace, Staten Island, 10302",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-74.1310522, 40.6401743],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "175 Clymer Street, Brooklyn, 11211",
+            "article": "<div id='article'><h2>175 Clymer Street, Brooklyn, 11211</h2><p><strong>Initial complaint:</strong> FDNY REQUESTED A STRUCTURAL STABILITY INSPECTION DUE TO FIRE.</p><p><strong>Owner:</strong> Rubin, Herman</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 16/06/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y3- STRUCTURE RENDERED NON-COMPLIANT. AT TIME OF INSPECTION, DAMAGED OBSERVED TO HAVE BEEN SUSTAINED TO 1ST & 2ND FLOOR DUE TO FIRE AT 175 CLYMER STREET, BROOKLYN. ALSO OBSERVED LACK OF REQUIRED NUMBER OF MEANS OF EGRESS FOR EVERY FLOOR. REMOVED ENTIRE MAIN STAIRWELL FROM 1ST TO 5TH FLOOR LEVEL WITHOUT PROVIDING ALTERNATE ACCESS. VACATE ENTIRE BUILDING.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3059852\">3059852</a></p></div>",
+            "name": "175 Clymer Street, Brooklyn, 11211",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9628257, 40.707281],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "748 40 Street, Brooklyn, 11232",
+            "article": "<div id='article'><h2>748 40 Street, Brooklyn, 11232</h2><p><strong>Initial complaint:</strong> DOOR TO EXIT THE BACKYARD IS BLOCKED WITH WOODEN PLYWOOD. IF YOU ARE IN THE BASEMENT AND THERE IS A FIRE YOU WOULD NOT HAVE A SECONDARY EXIT.</p><p><strong>Owner:</strong> Yue Lan Zhang</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 17/06/2020</p><p><strong>Category code:</strong> Egress - Locked/Blocked/Improper/No Secondary Means | Building Exit: Secondary Exit - Blocked Fully</p><p><strong>Inspection comments:</strong> Y-3 PARTIAL VACATE SERVED FOR ENTIRE CELLAR. AT TIME OF INSPECTION OBSERVED CELLAR HAS BEEN CONVERTED INTO 2 CLASS A APARTMENTS, WHERE RIGHT SIDE APT HAS A REDUCED 2ND MEANS, LEFT SIDE APT DOES NOT HAVE 2ND MEANS OF EGRESS. NO PERMITS FOR WORK AT CELLAR LEVEL AND REAR CONSTRUCTION FENCE.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3018071\">3018071</a></p></div>",
+            "name": "748 40 Street, Brooklyn, 11232",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9990216, 40.6472037],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "158 Bay 37 Street, Brooklyn, 11214",
+            "article": "<div id='article'><h2>158 Bay 37 Street, Brooklyn, 11214</h2><p><strong>Initial complaint:</strong> Not on record</p><p><strong>Owner:</strong> Chan, Yuk-Pui</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 26/06/2020</p><p><strong>Category code:</strong> Permit - None (Building/ Pa/ Demo Etc.) | No Building Permit: Construction</p><p><strong>Inspection comments:</strong> OCCUPANCY CONTRARY TO THAT ALLOWED C OF O OR DOB RECORDS. OBSERVED, CELLAR BEING ILLEGALLY CONVERTED INTO CLASS A UNIT. INSTALLED FULL HEIGHT PARTITION CREATED 1 BEDROOM (W BED AND PERSONAL ITEMS), BUNK BED, LIVING ROOM, 2 (3 PCS BATHS), F KIT W GAS STOVE. NO SECOND MEANS OF EGRESS. NO WORK PERMITS. PARTIAL VACATE & 2 VIOLATION (S) ISSUED.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3186051\">3186051</a></p></div>",
+            "name": "158 Bay 37 Street, Brooklyn, 11214",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9920248, 40.5958191],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "73 A Cooper Street, Brooklyn, 11207",
+            "article": "<div id='article'><h2>73 A Cooper Street, Brooklyn, 11207</h2><p><strong>Initial complaint:</strong> UNSTABLE BALCONY IN REAR FACADE.</p><p><strong>Owner:</strong> Cooper Gardens LLC</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 29/06/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y3- AT TIME OF INSPECTION OBSERVED REAR FACADE BALCONIES AT 2ND & 3RD FLOOR LEVEL INSTATE OF DISREPAIR CONDITION WITH FLOOR CONCRETE CRACKS AND FALLING A PART. ALSO OBSERVED RAILINGS ARE ROTTED, DETERIORATED, UNSTABLE AND COLLAPSE CONDITIONS. A PARTIAL VACATE ORDER ISSUED ON ALL REAR FACADE BALCONIES.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3390389\">3390389</a></p></div>",
+            "name": "73 A Cooper Street, Brooklyn, 11207",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9096853, 40.6857543],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "73 Cooper Street, Brooklyn, 11207",
+            "article": "<div id='article'><h2>73 Cooper Street, Brooklyn, 11207</h2><p><strong>Initial complaint:</strong> FDNY REQUESTS A STRUCTURAL STABILITY INSPECTION DUE TO BALCONY RAILING FALLING.</p><p><strong>Owner:</strong> 73 Cooper LLC</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 29/06/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y3 - 2ND AND 3RD FLOOR REAR BALCONIES VACATED DUE TO COLLAPSE OF 3RD FLOOR BALCONY AND CAUSED AN INDIVIDUAL TO FALL APPROX. 30 FT. (ADDRESS CORRECTION) 2779.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3390390\">3390390</a></p></div>",
+            "name": "73 Cooper Street, Brooklyn, 11207",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9096224, 40.6856565],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "167 Putnam Avenue, Brooklyn, 11216",
+            "article": "<div id='article'><h2>167 Putnam Avenue, Brooklyn, 11216</h2><p><strong>Initial complaint:</strong> WORK WITHOUT A PERMIT.</p><p><strong>Owner:</strong> 167 Putnam Ave, LLC</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 09/07/2020</p><p><strong>Category code:</strong> Construction Enforcement Work Order (Dob) | Enforcement Work Order: Correspondence Response</p><p><strong>Inspection comments:</strong> FAILURE TO MAINTAIN BUILDING IN COMPLETE MANNER. COMPLETE INTERIOR STRUCTURAL FAILURE. UNSAFE STAIRCASES, HOLES ON FLOORS, WINDOWS OPEN, ALL FLOORS UNSTABLE, REMOVED ALL WALLS, KIT AND BATH, PART OF REAR BRICK WALL FALLEN ON ATTACHED HOUSE. MAIN 3 STORY 100%. GUTTED, AND ROOF LEAKING. FULL VACATE.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3057228\">3057228</a></p></div>",
+            "name": "167 Putnam Avenue, Brooklyn, 11216",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9553957, 40.6835888],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "145 Hendricks Avenue, Staten Island, 10301",
+            "article": "<div id='article'><h2>145 Hendricks Avenue, Staten Island, 10301</h2><p><strong>Initial complaint:</strong> 2 FAMILY HOME IN WHICH BASEMENT WAS ILLEGALLY CONVERTED TO ALLOW TWO PEOPLE TO LIVE THERE.</p><p><strong>Owner:</strong> Muraco, Laura</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 10/07/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> AT TIME OF INSPECTION, 1 SUMMONS ISSUED FOR OCCUPANCY CONTRARY AT ATTIC.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=5001039\">5001039</a></p></div>",
+            "name": "145 Hendricks Avenue, Staten Island, 10301",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-74.0864288, 40.6401243],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "702 Eagle Avenue, Bronx, 10455",
+            "article": "<div id='article'><h2>702 Eagle Avenue, Bronx, 10455</h2><p><strong>Initial complaint:</strong> THERE ARE 2 PEOPLE LIVING IN THE BASEMENT ILLEGALLY AND ARE SUPPOSED TO TAKE CARE OF THE GARBAGE BUT ARE NOT. THE BASEMENT GETS FLOODED WHEN ANYONE USES ANY WATER. THE BASEMENT IS CONNECTED TO THE BOILER ROOM SO THEY GO AND TURN OF TENANTS WATER TO AVOID WATER LEAKS.</p><p><strong>Owner:</strong> Faigmay Holdings LLC</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 15/07/2020</p><p><strong>Category code:</strong> Illegal Conversion | Illegal Conversion: Residential Space</p><p><strong>Inspection comments:</strong> SUMMONSES ISSUED AT FRONT BLDG FOR DWELLING CONVERTED FROM 4 TO 8 FAMILIES; CELLAR VACATED; W/O PERMIT FOR PARTITIONS, PLUMBING, ELECTRICAL.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=2091324\">2091324</a></p></div>",
+            "name": "702 Eagle Avenue, Bronx, 10455",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9097309, 40.81826],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "965 46 Street, Brooklyn, 11219",
+            "article": "<div id='article'><h2>965 46 Street, Brooklyn, 11219</h2><p><strong>Initial complaint:</strong> EXP #4 WALL IS DEFECTIVE AND IS IN DANGER OF COLLAPSING ONTO SHARED DRIVEWAY.</p><p><strong>Owner:</strong> No Record</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 20/07/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected</p><p><strong>Inspection comments:</strong> Y3 - SHARED DRIVEWAY VACATED DUE TO EXP 4 WALL DEFECTIVE AND IN DANGER OF COLLAPSING ONTO SHARED DRIVEWAY.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3136588\">3136588</a></p></div>",
+            "name": "965 46 Street, Brooklyn, 11219",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9973964, 40.6412009],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "111-02 39 Avenue, Queens, 11368",
+            "article": "<div id='article'><h2>111-02 39 Avenue, Queens, 11368</h2><p><strong>Initial complaint:</strong> ILLEGAL CONVERSION BASEMENT.</p><p><strong>Owner:</strong> Saint, Andrea</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 13/05/2020</p><p><strong>Category code:</strong> Illegal Conversion</p><p><strong>Inspection comments:</strong> 2 SUMMON ISSUED WORK WITHOUT A PERMIT FOR PLUMBING AND ELECTRICAL OCCUPANCY CONTRARY TO DOB RECORDS 3 FAMILY NOW 4 FAMILY ADDITIONAL APT AT CELLAR.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4044934\">4044934</a></p></div>",
+            "name": "111-02 39 Avenue, Queens, 11368",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.8563668, 40.7520373],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "1915 West 6 Street, Brooklyn, 11223",
+            "article": "<div id='article'><h2>1915 West 6 Street, Brooklyn, 11223</h2><p><strong>Initial complaint:</strong> THERE WAS NO CONSTRUCTION DONE TO MY NEIGHBORS HOUSE BUT IT IS POORLY KEPT. THEY ROOF HAS FALLING DEBRIS THAT IS FALLING INTO MY PROPERTY. THE FRONT WALL OF THE HOUSE IS LEANING AND THE BACK OF THE HOUSE THE HAS CRACKS AND HAS PIECES MISSING. THIS IS AN EMERGENCY BECAUSE WE HAVE A FEAR OF THE ROOF COMING DOWN.</p><p><strong>Owner:</strong> Kak Yee Lau</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 02/07/2020</p><p><strong>Category code:</strong> Building Shaking/Vibrating/Struct Stability Affected | Unstable Building: Leaning - Construction/Demolition</p><p><strong>Inspection comments:</strong> Y3 PARTIAL VACATE SERVED FOR ENTIRE 2ND FLOOR. AT TIME OF INSPECTION OBSERVED AT 2ND FL., ALL FIRE STOPPING HAS BEEN REMOVED ALONG WITH 3PCS BATH AND KITCHEN. AT ROOF, ROOFING MATERIAL IN DISREPAIR WHERE RAIN WATER HAS PENETRATED INTO INTERIOR. AT 1ST FLOOR PARTITION WALLS HAVE BEEN ERECTED ALONG WITH NEW PLUMBING FOR NEW URINAL.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3190272\">3190272</a></p></div>",
+            "name": "1915 West 6 Street, Brooklyn, 11223",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9780213, 40.6007601],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "1036 Manhattan Avenue, Brooklyn, 11222",
+            "article": "<div id='article'><h2>1036 Manhattan Avenue, Brooklyn, 11222</h2><p><strong>Initial complaint:</strong> FDNY REQUESTS AN INSPECTION DUE TO DEBRIS FALLING FROM THE ROOF OF A BUILDING.</p><p><strong>Owner:</strong> Marshall Kesten, LLC</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 11/07/2020</p><p><strong>Category code:</strong> Debris/Building - Falling Or In Danger Of Falling</p><p><strong>Inspection comments:</strong> Y1-FULL VACATE ISSUED. SIDING AND BRICKS FALLEN / FALLING ONTO THE ADJACENT PROPERTY AND ONTO THEPUBLIC SIDEWALK FROM EXPOSURE 2 WALL. EXPOSURE 4 WALL ALSO IN DISREPAIR. (PREVIOUS DISPOSITION ENTERED IN ERROR, # 2632).</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3064053\">3064053</a></p></div>",
+            "name": "1036 Manhattan Avenue, Brooklyn, 11222",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9546572, 40.7342463],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "110-18 198 Street, Queens, 11412",
+            "article": "<div id='article'><h2>110-18 198 Street, Queens, 11412</h2><p><strong>Initial complaint:</strong> FTM BLD SAFE CONDN:BLD UNDR RENOV W/ELECT PLUMB EXP'D.MULTIWINDW OPNG@EXP4 FDN WALL W/NON ENGNR'D HEADRS&DMG FDN.FDN OPNG@EXP1.WDFRME@ATIC REMV BELW ROOF@EXP4 1/4 CRNR.GAR@REAR YARD SLAB REMV.UNSAFE.</p><p><strong>Owner:</strong> 110 18 19th Street Corp.</p><p><strong>Vacate type:</strong> Full Vacate</p><p><strong>Date issued:</strong> 06/10/2020</p><p><strong>Category code:</strong> Failure To Maintain</p><p><strong>Inspection comments:</strong> OWNR ENGAGE PE EVAL ENTRE PROP&PREP RPR DWGS.STRT NL 11/16/2 & CMPLT&SIGNOFF 1/1/21.VACATE REMAIN TIL HAZ CONDNS REMEDIED.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4234080\">4234080</a></p></div>",
+            "name": "110-18 198 Street, Queens, 11412",
+            "color": "#FF2700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.7589922, 40.7044666],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "107-31 Fern Place, Queens, 11433",
+            "article": "<div id='article'><h2>107-31 Fern Place, Queens, 11433</h2><p><strong>Initial complaint:</strong> NEIGHBOR IS USING BASEMENT AS A SALON.</p><p><strong>Owner:</strong> Sukhra, Vakhanand</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 24/06/2020</p><p><strong>Category code:</strong> Illegal Commercial/Manufacturing Use In Residential Zone | Illegal Use: Residential Space - Used As Business</p><p><strong>Inspection comments:</strong> AT THE TIME OF INSPECTION, HAZARDOUS CONDITIONS OBSERVED AT CELLAR LEVEL THAT IS OCCUPIED AND ARRANGE AS SLEEPING QUARTERS THAT HAS INADEQUATE LIGHTING, VENTILATION, AND SECONDARY MEANS OF EGRESS AND A STOVE GAS LINE. 2 ECB WITH PARTIAL VACATE ISSUED AND SERVED.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4452200\">4452200</a></p></div>",
+            "name": "107-31 Fern Place, Queens, 11433",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.7811895, 40.7012217],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "40-24 58 Street, Queens, 11377",
+            "article": "<div id='article'><h2>40-24 58 Street, Queens, 11377</h2><p><strong>Initial complaint:</strong> FDNY REPORTED ILLEGAL OCCUPANCY IN THE BASEMENT WITH NOSECONDARY MEANS OF EGRESS.</p><p><strong>Owner:</strong> Kritikos Ekaterini</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 24/06/2020</p><p><strong>Category code:</strong> Egress - Locked/Blocked/Improper/No Secondary Means</p><p><strong>Inspection comments:</strong> Y-3 PARTIAL VACATE TO INCLUDE THE CELLAR., CONTRARY TO CERTIFICATE OF BUILDINGS RECORDS, CELLAR SETUP AND ARRANGED FOR LIVING, OBSERVED CELLAR BEING OCCUPIED WITH THREE PIECE BATHROOM, AND HOT STOVE IN USES. WORK W/O A PERMIT.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4031124\">4031124</a></p></div>",
+            "name": "40-24 58 Street, Queens, 11377",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9069378, 40.7449454],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "37-59 93 Street, Queens, 11372",
+            "article": "<div id='article'><h2>37-59 93 Street, Queens, 11372</h2><p><strong>Initial complaint:</strong> FDNY VIA NYCEM REQUESTS AN INSPECTION FOR ILLEGAL CELLAR ART WITH NO 2ND MEANS OF EGRESS.</p><p><strong>Owner:</strong> No Record</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 12/07/2020</p><p><strong>Category code:</strong> Egress - Locked/Blocked/Improper/No Secondary Means</p><p><strong>Inspection comments:</strong> Y3 - CELLAR APT. VACATED DUE TO NO 2ND MEANS OF EGRESS. ALSO ILLEGAL PARTITIONS/PLUMBIBG AND ELECTRICAL WORK W/O PERMIT.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=4036515\">4036515</a></p></div>",
+            "name": "37-59 93 Street, Queens, 11372",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.873441, 40.749173],
+            "type": "Point"
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "headline": "1134 Herkimer Street, Brooklyn, 11233",
+            "article": "<div id='article'><h2>1134 Herkimer Street, Brooklyn, 11233</h2><p><strong>Initial complaint:</strong> FDNY REPORTED ILLEGAL OCCUPANCY IN THE 3RD FLOOR.</p><p><strong>Owner:</strong> Styles, Jessica Ann</p><p><strong>Vacate type:</strong> Partial Vacate</p><p><strong>Date issued:</strong> 25/06/2020</p><p><strong>Category code:</strong> Egress - Locked/Blocked/Improper/No Secondary Means</p><p><strong>Inspection comments:</strong> Y3- PARTIAL VACATE TO INCLUDE 1ST AND 2ND FLOOR CENTER SRO'S. TWO-FAMILY DWELLING CONVERTED INTO 7-FAMILY APARTMENTS. FAILURE TO PROVIDE NUMBER OF REQUIRED MEANS OF EGRESS. OCCUPANCY CONTRARY TO THAT ALLOWED BY C OF O OR DOB RECORD. EXCESSIVE COMBUSTIBLE HOUSEHOLD DEBRIS STORED IN CELLAR LEVEL.</p><p><strong>Building record:</strong> <a target=\"_blank\" href=\"http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=2&bin=3042438\">3042438</a></p></div>",
+            "name": "1134 Herkimer Street, Brooklyn, 11233",
+            "color": "#FFA700",
+            "radius": 5
+        },
+        "geometry": {
+            "coordinates": [-73.9159435, 40.6776094],
+            "type": "Point"
+        }
+    }]
+}

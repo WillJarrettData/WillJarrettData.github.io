@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<!-- saved from url=(0079)https://willjarrettdata.com/wp-content/uploads/2021/03/NewYorkEvictionsMap.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<link rel="icon" href="https://willjarrettdata.com/wp-content/uploads/2021/03/favicon-32x32-1.png" type="image/x-icon">
+
+	<title>Vacate orders in New York</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script src="./evictionMap_files/mapbox-gl.js.download"></script>
+	<script src="./evictionMap_files/turf.min.js.download"></script>
+	<link href="./evictionMap_files/mapbox-gl.css" rel="stylesheet">
+	<script src="./evictionMap_files/jquery-2.1.1.min.js.download"></script>
+
+	<style>
+        ::-webkit-scrollbar {
+            width: 0px;
+            background: transparent;
+        }
+
+        .info {
+            padding: 6px 8px;
+            font: 14px/16px Arial, Helvetica, sans-serif;
+            background: red;
+            background: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+        }
+
+		.info h4 {
+			margin: 0 0 5px;
+			color: #777;
+		}
+
+		.legend {
+			text-align: left;
+			line-height: 18px;
+			color: #555;
+		}
+
+		.legend i {
+			width: 18px;
+			height: 18px;
+			float: left;
+			margin-right: 8px;
+			opacity: 0.7;
+		}
+
+		body {
+			display: flex;
+		}
+
+		#select-menu {
+			position: absolute;
+			left: 50px;
+			top: 10px;
+			z-index: 10;
+		}
+#headPlace {
+			position: absolute;
+			right: 0px;
+			top: 0px;
+			z-index: 10;
+
+		padding: 10px;
+		width: 250px;
+			background-color: #DDDDDD;
+
+		}
+        #map,
+        #articlePlace {
+            flex: 1;
+            font: 20px Calibri, sans-serif;
+            height: calc(100vh - 30px);
+            overflow: scroll;
+            margin: 15px;
+        }
+		
+
+	</style>
+
+</head>
+
+<body>
+
+	<div id="map" class="mapboxgl-map">
+		<div id="headPlace">Rollover to see address</div>
+	<div class="mapboxgl-canary" style="visibility: hidden;"></div><div class="mapboxgl-canvas-container mapboxgl-interactive mapboxgl-touch-drag-pan mapboxgl-touch-zoom-rotate"><canvas class="mapboxgl-canvas" tabindex="0" aria-label="Map" width="912" height="771" style="position: absolute; width: 730px; height: 617px;"></canvas></div><div class="mapboxgl-control-container"><div class="mapboxgl-ctrl-top-left"><div class="mapboxgl-ctrl mapboxgl-ctrl-group"><button class="mapboxgl-ctrl-icon mapboxgl-ctrl-zoom-in" type="button" title="Zoom in" aria-label="Zoom in"></button><button class="mapboxgl-ctrl-icon mapboxgl-ctrl-zoom-out" type="button" title="Zoom out" aria-label="Zoom out"></button><button class="mapboxgl-ctrl-icon mapboxgl-ctrl-compass" type="button" title="Reset bearing to north" aria-label="Reset bearing to north"><span class="mapboxgl-ctrl-compass-arrow" style="transform: rotate(0deg);"></span></button></div></div><div class="mapboxgl-ctrl-top-right"></div><div class="mapboxgl-ctrl-bottom-left"><div class="mapboxgl-ctrl" style="display: block;"><a class="mapboxgl-ctrl-logo" target="_blank" rel="noopener" href="https://www.mapbox.com/" aria-label="Mapbox logo"></a></div></div><div class="mapboxgl-ctrl-bottom-right"><div class="mapboxgl-ctrl mapboxgl-ctrl-attrib"><div class="mapboxgl-ctrl-attrib-inner"><a href="https://www.mapbox.com/about/maps/" target="_blank" title="Mapbox" aria-label="Mapbox" role="listitem">© Mapbox</a> <a href="http://www.openstreetmap.org/about/" target="_blank" title="OpenStreetMap" aria-label="OpenStreetMap" role="listitem">© OpenStreetMap</a> <a href="https://www.mapbox.com/map-feedback/" target="_blank" title="Improve this map" aria-label="Improve this map" role="listitem">Improve this map</a></div></div></div></div></div>
+	
+	<div id="articlePlace">
+	<h2>Mandatory vacate orders in New York City</h2>
+	<p>Although New York's eviction moratorium has provided some protection to tenants during the pandemic, many people have still been pushed out of their homes.</p>
+	<p>Each dot represents a building that has been ordered to vacate since lockdown began on 20th March. Red dots show buildings ordered to fully vacate and orange dots show buildings ordered to partially vacate.</p>
+	<p>Click each dot for information on the vacate order and a link to the building record.</p>
+	</div>
+
+	<script type="text/javascript" src="./evictionMap_files/geo-data.json"></script>
+
+	<script type="text/javascript">
+
+        mapboxgl.accessToken = 'pk.eyJ1Ijoid2lsbGphcnJldHQiLCJhIjoiY2tpZzl4a2R3MDRnMDM0bHM2eHdud2w5MyJ9.3wLMHFZDXs2W9KFD5Aagyw';
+
+		var map = new mapboxgl.Map({
+			container: 'map', // HTML container ID
+			style: 'mapbox://styles/mapbox/dark-v10', // style URL
+            center: [-73.91532897949219,
+            40.71603763556807], // starting position as [lng, lat]
+			zoom: 9
+		});
+		map.addControl(new mapboxgl.NavigationControl(), 'top-left');
+
+// Hover and click display
+		var popup = new mapboxgl.Popup({ closeButton: false, closeOnClick: false });
+
+		let hoverCurrentId = null
+		var datalayer;
+
+		function updateArticle(e) {
+			let feature = e.features[0]
+			document.getElementById("articlePlace").innerHTML = feature.properties.article
+		}
+		function updateHead(e) {
+			let feature = e.features[0]
+			map.getCanvas().style.cursor = 'pointer';
+			document.getElementById("headPlace").innerHTML = feature.properties.headline
+
+		}
+		function removeHead(e) {
+			document.getElementById("headPlace").innerHTML = "Rollover to see address"
+			map.getCanvas().style.cursor = '';
+
+		}
+
+		function startHover(e) {
+			let feature = e.features[0]
+
+			if (hoverCurrentId) {
+				map.setFeatureState({ source: 'datalayer', id: hoverCurrentId }, { hover: false });
+			}
+			hoverCurrentId = feature.id
+			map.setFeatureState({ source: 'datalayer', id: hoverCurrentId }, { hover: true });
+		}
+
+		function stopHover(e) {
+			if (hoverCurrentId) {
+				map.setFeatureState({ source: 'datalayer', id: hoverCurrentId }, { hover: false });
+			}
+			hoverCurrentId = null;
+		}
+
+		function drawPopup(e) {
+			let feature = e.features[0]
+			map.getCanvas().style.cursor = 'pointer';
+
+			var coordinates = feature.geometry.coordinates.slice();
+			var headline = feature.properties.headline;
+
+			while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+				coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+			}
+
+			popup.setLngLat(coordinates)
+				.setHTML(`<h4>${headline}</h4>`)
+				.addTo(map);
+		}
+
+		function removePopup(e) {
+			map.getCanvas().style.cursor = '';
+			popup.remove();
+		}
+
+		map.on('load', function () {
+			for (let i = 0; i < infoData.features.length; i++) {
+				infoData.features[i]['id'] = i + 1
+			}
+// Styles of the colors based on properties
+			datalayer = map.addLayer({
+				id: "datalayer",
+				type: "circle",
+				source: {
+					type: "geojson",
+					data: infoData,
+				},
+				paint: {
+					'circle-radius': ['to-number', ['get', 'radius']],
+					'circle-stroke-color': 'white',
+					'circle-stroke-width': 0,
+					'circle-color': [
+						'case',
+						['boolean', ['feature-state', 'hover'], false],
+						'#666',
+						['get', 'color'],
+					],
+					'circle-opacity': [
+						'case',
+						['boolean', ['feature-state', 'hover'], false],
+						1,
+						0.5
+					]
+				}
+			});
+// Mouse actions
+
+			map.on('mouseenter', 'datalayer', function (e) {
+				startHover(e)
+// uncomment this line to get pop-ups
+// 				drawPopup(e)
+				updateHead(e)
+			});
+
+			map.on('mouseleave', 'datalayer', function (e) {
+				stopHover(e)
+// uncomment this line to get pop-ups
+// 				removePopup(e)
+				removeHead(e)
+			});
+
+			map.on('click', 'datalayer', function (e) {
+				updateArticle(e)
+			})
+
+// Automatically centre and zoom the map
+
+			map.fitBounds(turf.bbox(infoData), { padding: 80, linear: true })
+		})
+
+
+	</script>
+	<script>
+
+		var groupsObj = {};
+
+		$(document).ready(function () {
+			infoData.features.forEach(function (feature) {
+				groupsObj[feature.properties.group_id] = feature.properties.group_name;
+			})
+
+			$.each(groupsObj, function (key, value) {
+				$('#select-menu')
+					.append($("<option></option>")
+						.attr("value", value)
+						.text(value));
+			});
+
+			$('#select-menu').change(function () {
+				var selectedGroup = $('#select-menu').val();
+
+				if (!selectedGroup) {
+					map.setFilter('datalayer', null);
+				} else {
+					map.setFilter('datalayer', ['==', ['get', 'group_name'], selectedGroup]);
+				}
+			});
+		});
+	</script>
+
+
+
+
+</body></html>
