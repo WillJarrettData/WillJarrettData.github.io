@@ -77,12 +77,14 @@
       // set y axis
       var yAxis = d3.axisLeft(yPositionScale);
       svg.append("g")
+        .style("font-size","14px")
         .attr("class", "axis y-axis")
         .call(yAxis)
 
       // set x axis
       var xAxis = d3.axisBottom(xPositionScale)
       svg.append("g")
+        .style("font-size","14px")
         .attr("class", "axis x-axis")
         .attr("transform", "translate(0," + height + ")")
         .call(xAxis)
