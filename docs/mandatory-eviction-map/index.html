@@ -27,7 +27,7 @@
 		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 										
 		<style>
-			::-webkit-scrollbar {
+			.turn-off-scroll ::-webkit-scrollbar {
 				width: 0px;
 				background: transparent;
 			}
@@ -131,7 +131,7 @@
 		</header>
 		<img src="images/newYork_header.jpg" id="header-image">
 
-		<main>
+		<main class="turn-off-scroll">
 			<div class="py-5">
 				<div class="container">
 					<div class="row form-group justify-content-md-center">
@@ -317,15 +317,15 @@
 					startHover(e)
 				
 				// uncomment this line to get pop-ups
-	// 				drawPopup(e)
+				// drawPopup(e)
 					updateHead(e)
 				});
 	
 				map.on('mouseleave', 'datalayer', function (e) {
 					stopHover(e)
 				
-				// uncomment this line to get pop-ups
-				// 	removePopup(e)
+				//  uncomment this line to get pop-ups
+				//  removePopup(e)
 					removeHead(e)
 				});
 	
