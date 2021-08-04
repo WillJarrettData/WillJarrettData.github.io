@@ -20,7 +20,8 @@ let footerDiv =
   "<h3>Gas power and political power</h3>" +
   '<img src="images/GasPlant_SantaClara.jpg">' +
   '<p class="imageCredit"><a href="https://unsplash.com/photos/bv2pvCGMtzg">American Public Power Association</a></p>' +
-  '<p>Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants.</p>';
+  '<p>Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants.</p>' +
+  '<img height="80px" src="images/key1.svg">';
 
 let divChapter2 =
   "<h3>Pollution in Los Angeles</h3>" +
@@ -32,7 +33,6 @@ let divChapter3 =
   "<h3>Thousands live close to Magnolia</h3>" +
   '<img src="images/MagnoliaPowerPlant.jpg">' +
   '<p class="imageCredit"><a href="https://www.google.com/earth/download/gep/agree.html?hl=en-GB">Google Earth Pro</a></p>' +
-  '<p>Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants.</p>' +
   '<p>Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants.</p>';
  
 let divChapter4 =
