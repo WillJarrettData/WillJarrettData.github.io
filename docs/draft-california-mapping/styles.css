@@ -90,7 +90,7 @@ a, a:hover, a:visited {
 }
 
 .hidden {
-    visibility: hidden;
+    visibility: visible;
   }
   .centered {
     width: 50vw;
@@ -118,7 +118,7 @@ a, a:hover, a:visited {
   }
   .step {
     padding-bottom: 50vh;
-    opacity: 0.15;
+    opacity: 0.99;
   }
   .step.active {
     opacity: 0.99;

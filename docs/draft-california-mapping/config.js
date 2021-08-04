@@ -79,14 +79,14 @@ var config = {
         {
           layer: "gasPlantData",
           opacity: 1,
-          duration: 300,
+          duration: 200,
         },
       ],
       onChapterExit: [
         {
           layer: "gasPlantData",
           opacity: 0,
-          duration: 300,
+          duration: 200,
         },
       ],
     },
@@ -112,14 +112,14 @@ var config = {
         {
           layer: "gasPlantData",
           opacity: 1,
-          duration: 300,
+          duration: 200,
         },
       ],
       onChapterExit: [
         {
           layer: "gasPlantData",
           opacity: 0,
-          duration: 300,
+          duration: 200,
         },
       ],
     },
