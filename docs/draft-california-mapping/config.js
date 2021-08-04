@@ -36,11 +36,12 @@ let divChapter3 =
   '<p>Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants.</p>';
  
 let divChapter4 =
-  '<img style="padding:0; margin:0;" src="images/Magnolia.jpg">' +
+  '<img style="margin:0;" src="images/Magnolia.jpg">' +
   "<p style='max-width:600px; margin-left:auto; margin-right:auto'>Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants.</p>" +
   "<p style='max-width:600px; margin-left:auto; margin-right:auto'>Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants.</p>" +
   "<p style='max-width:600px; margin-left:auto; margin-right:auto'>Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants.</p>" +
   "<p style='max-width:600px; margin-left:auto; margin-right:auto'>Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants.</p>" +
+  '<div style="margin-left:200; margin-right:200;"><img src="images/GasPlantUnitBuilds.svg"></div>' +
   "<p style='max-width:600px; margin-left:auto; margin-right:auto'>Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants.</p>" +
   "<p style='max-width:600px; margin-left:auto; margin-right:auto'>Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants.</p>" +
   "<p style='max-width:600px; margin-left:auto; margin-right:auto'>Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants.</p>";
@@ -79,14 +80,14 @@ var config = {
         {
           layer: "gasPlantData",
           opacity: 1,
-          duration: 200,
+          duration: 100,
         },
       ],
       onChapterExit: [
         {
           layer: "gasPlantData",
           opacity: 0,
-          duration: 200,
+          duration: 100,
         },
       ],
     },
@@ -112,14 +113,14 @@ var config = {
         {
           layer: "gasPlantData",
           opacity: 1,
-          duration: 200,
+          duration: 100,
         },
       ],
       onChapterExit: [
         {
           layer: "gasPlantData",
           opacity: 0,
-          duration: 200,
+          duration: 100,
         },
       ],
     },
@@ -141,7 +142,13 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
+      onChapterEnter: [
+        {
+          layer: "gasPlantData",
+          opacity: 0,
+          duration: 100,
+        },
+      ],
       onChapterExit: [],
     },
     {

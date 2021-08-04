@@ -21,7 +21,7 @@ body {
 
 #features {
     padding-top: 80vh;
-    padding-bottom: 10vh;
+    padding-bottom: 0;
   }
   @media (max-width: 750px) {
     #features {
@@ -150,4 +150,8 @@ a, a:hover, a:visited {
     width: 100%;
     position: relative;
     z-index: 5;
+}
+
+#satellite {
+  padding-bottom: 0;
 }
