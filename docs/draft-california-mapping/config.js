@@ -3,7 +3,7 @@ let topTitleDiv = "<h4>Wednesday 4th August 2021</h4>";
 let titleDiv =
   "<h1>Gas plants that emit harmful pollutants are focused in disadvantaged communities.</h1>";
 
-let bylineDiv = "<p>By Will Jarrett, Eromo Egbejule, and Harrison Connery</p>";
+let bylineDiv = "<p>By Eromo Egbejule, Will Jarrett, and Harrison Connery</p>";
 
 let descriptionDiv =
   '<p>Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants.</p>' +
@@ -36,7 +36,11 @@ let divChapter3 =
   '<p>Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants.</p>';
  
 let divChapter4 =
-  '<img style="margin:0;" src="images/Magnolia.jpg">' +
+  "<p style='max-width:600px; margin-left:auto; margin-right:auto'>Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants.</p>" +
+  "<p style='max-width:600px; margin-left:auto; margin-right:auto'>Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants.</p>" +
+  "<p style='max-width:600px; margin-left:auto; margin-right:auto'>Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants.</p>" +
+  "<p style='max-width:600px; margin-left:auto; margin-right:auto'>Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants.</p>" +
+  '<embed type="text/html" src="images/GasPlantSchoolSmallMultiples_1280_V2.html" width="100%" height="800px">' +
   "<p style='max-width:600px; margin-left:auto; margin-right:auto'>Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants.</p>" +
   "<p style='max-width:600px; margin-left:auto; margin-right:auto'>Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants.</p>" +
   "<p style='max-width:600px; margin-left:auto; margin-right:auto'>Opening copy all about power plants. Opening copy all about power plants. Opening copy all about power plants.</p>" +
@@ -133,10 +137,10 @@ var config = {
       description: "",
       chapterDiv: divChapter3,
       location: {
-        center: [-118.3166, 34.177],
-        zoom: 16,
+        center: [-118.31655, 34.1775],
+        zoom: 17,
         zoomSmall: 20,
-        pitch: 0,
+        pitch: 50,
         bearing: -20,
       },
       mapAnimation: "flyTo",
