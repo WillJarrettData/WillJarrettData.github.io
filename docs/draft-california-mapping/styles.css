@@ -54,11 +54,12 @@ body {
 }
 #header p {
     font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     text-align: left;
-    font-size: 1.2em;
+    font-size: 18px;
     max-width: 600px;
     margin: 1em auto 1em auto;
+    line-height: 1.6;
 }
 #features h3 {
     font-weight: 700;
@@ -83,6 +84,16 @@ body {
   max-width: 600px;
   padding: 0.75em 0em;
   margin: 0px auto;
+}
+
+.bigFeature {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 350;
+  text-align: left;
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: 1em auto 1em auto;
+  line-height: 1.6;
 }
 
 a, a:hover, a:visited {
