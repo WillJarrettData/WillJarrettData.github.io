@@ -37,7 +37,7 @@ let divChapter3 =
   "<h3>Magnolia and Olive</h3>" +
   '<img src="images/MagnoliaPowerPlant.jpg">' +
   '<p class="imageCredit"><a href="https://www.google.com/earth/download/gep/agree.html?hl=en-GB">Google Earth Pro</a></p>' +
-  '<p>Some gas plants are built in open areas with few neighbors to breathe the pollutants. But many, such as the Magnolia and Olive gas power plants in Burbank, are sited in the center of urban communities. There are over 33,000 people living within a mile of these plants and the tract is in the top 1% most polluted in the state.</p>' +
+  '<p>Some gas plants are built in open areas with few neighbors to breathe the pollutants. But many, such as the Magnolia and Olive plants in Burbank, are sited in the center of urban communities. There are over 33,000 people living within a mile of these plants and the tract is in the top 1% most polluted in the state.</p>' +
   '<p>It is hard to say exactly what impacts plants like these have on health, because their pollution mixes with emissions from other sources. But data shows that tracts that host gas plants typically have higher-than-average rates of cardiovascular disease, asthma, and even low birth-weights.</p>';
  
 let divChapter4 =
