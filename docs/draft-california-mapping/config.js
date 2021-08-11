@@ -1,7 +1,7 @@
 let topTitleDiv = "<h4>Wednesday 4th August 2021</h4>";
 
 let titleDiv =
-  "<h1>Gas plants that emit harmful pollutants are focused in disadvantaged communities.</h1>";
+  "<h1>Disadvantaged communities bear the brunt of polluting gas plants in California.</h1>";
 
 let bylineDiv = "<h4>By Eromo Egbejule, Will Jarrett, and Harrison Connery</h4>";
 
@@ -42,8 +42,11 @@ let divChapter3 =
  
 let divChapter4 =
   "<p style='max-width:600px; margin-left:auto; margin-right:auto; font-size:18px' class='bigFeature'>The health impacts of harmful pollutants are particularly pronounced for people whose respiratory systems are already weaker than usual. This includes the elderly, the infirm – and children.</p>" +
-  "<p style='max-width:600px; margin-left:auto; margin-right:auto; font-size:18px' class='bigFeature'>According to data from <a href='https://www.openstreetmap.org/'>OpenStreetMap</a>, at least 80 schools across California fall within a mile of a gas power station. Children in poor minority communities face the greatest exposure, as around two-thirds of these schools are in disadvantaged areas.</p>" +
-  '<div style="display:flex; justify-content:center; align-items:center;"><img style="min-width:2000px; min-width:200px;" src="images/GasPlantSchoolSmallMultiples.svg"></div>' +
+  "<p style='max-width:600px; margin-left:auto; margin-right:auto; font-size:18px' class='bigFeature'>Around Magnolia alone, there are five schools within a mile.</p>" +
+  '<div style="display:flex; justify-content:center; align-items:center;"><img style="max-width:400px; min-width:200px;" src="images/MagnoliaSchools.svg"></div>' +
+  "<p style='max-width:600px; margin-left:auto; margin-right:auto; font-size:18px' class='bigFeature'>And the schools in Burbank are not an outlier. According to data from <a href='https://www.openstreetmap.org/'>OpenStreetMap</a>, at least 80 schools across California fall within a mile of a gas power station.</p>" +
+  "<p style='max-width:600px; margin-left:auto; margin-right:auto; font-size:18px' class='bigFeature'>Children in poor minority communities face the greatest exposure, as around two-thirds of these schools are in disadvantaged areas.</p>" +
+  '<div style="display:flex; justify-content:center; align-items:center;"><img style="max-width:2000px; min-width:200px;" src="images/GasPlantSchoolSmallMultiples.svg"></div>' +
   "<p style='max-width:600px; margin-left:auto; margin-right:auto; font-size:18px' class='bigFeature'>Experts say that communities inhabited by wealthy white residents are often barely considered by energy companies.</p>" +
   "<p style='max-width:600px; margin-left:auto; margin-right:auto; font-size:18px' class='bigFeature'>“The vital work of ensuring just and equitable access to the benefits of a clean energy economy must start with eliminating the historical inequities which plague the renewable energy sector and our most vulnerable communities,” says Panama Batholomy, Director of the Building Decarbonization Coalition. She noted that renewable power has often benefitted richer communities, while poorer areas tend to be reliant on dirty fuels like gas for longer.</p>" +
   "<p style='max-width:600px; margin-left:auto; margin-right:auto; font-size:18px' class='bigFeature'>Activists say that regulators sometimes overlook complaints about new gas projects in poorer areas. A law enacted during an energy crisis in the 1970s gives the CEC the right to make the final decision on power plant sites, subject to judicial review, so citizens have limited tools to stop new constructions.</p>" +
