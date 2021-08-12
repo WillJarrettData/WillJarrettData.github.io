@@ -227,6 +227,7 @@ map.on("load", function () {
         data: "data/gasPlantsDisadvantage.geojson",
       },
       paint: {
+        "circle-opacity": 0,
         'circle-radius': {
           'base': 5,
           'stops': [
@@ -247,6 +248,113 @@ map.on("load", function () {
     },
     "water-point-label"
   );
+  map.loadImage("images/blackSquare.png", function (error, image) {
+    if (error) throw error;
+    map.addImage("blackSquare", image);
+  });
+  map.addLayer({
+    id: "plants",
+    type: "symbol",
+    source: {
+      type: "geojson",
+      data: "data/plantLocations.geojson",
+    },
+    layout: {
+      "icon-image": "blackSquare",
+      "icon-size": 0.05,
+      "icon-anchor": "bottom-left",
+      "icon-offset": [0, 0],
+      "text-justify": "left",
+      "text-anchor": "top-left",
+      "text-offset": [0.5, 0.5],
+      "text-font": ["literal", ["Oswald Regular"]],
+      "text-padding": 1,
+      "icon-padding": 0,
+      "icon-allow-overlap": true,
+      "text-allow-overlap": true,
+      "text-padding": 0,
+    },
+    paint: {
+      "text-color": "#666666",
+      "text-halo-color": "white",
+      "text-halo-width": 1,
+      "icon-halo-color": "white",
+      "icon-halo-width": 1,
+
+    },
+});
+map.addLayer({
+  id: 'allSensors1',
+  type: 'circle',
+  source: {
+    type: "geojson",
+    data: "data/allSensors1.geojson",
+  },
+  paint: {
+    'circle-opacity': 0.5,
+    'circle-color': [
+    'interpolate',
+    ['linear'],
+    ['get', 'arithmetic_mean'],
+    0,
+    '#0ec91c',
+    10,
+    '#92c90e',
+    20,
+    '#ffe100',
+    30,
+    '#B13433',
+    40,
+    '#ff0000',
+    ],
+}})
+
+// Create the popup
+map.on('click', 'plants', function (e) {
+  var name = e.features[0].properties.facility_name;
+  var year = e.features[0].properties.start_date;
+  new mapboxgl.Popup()
+      .setLngLat(e.lngLat)
+      .setHTML('The ' +name + ' plant went online on ' +year)
+      .addTo(map);
+});
+// Change the cursor to a pointer when the mouse is over the us_states_elections layer.
+map.on('mouseenter', 'plants', function () {
+  map.getCanvas().style.cursor = 'pointer';
+});
+// Change it back to a pointer when it leaves.
+map.on('mouseleave', 'plants', function () {
+  map.getCanvas().style.cursor = '';
+});
+
+map.on('click', 'allSensors1', function (e) {
+  var name = e.features[0].properties.local_site_name;
+  var pollution = e.features[0].properties.arithmetic_mean;
+  new mapboxgl.Popup()
+      .setLngLat(e.lngLat)
+      .setHTML('The nitrogen oxide reading at '+name+ ' sensor is '+ pollution+  ' parts per billion.')
+      .addTo(map);
+});
+map.on('mouseenter', 'allSensors1', function () {
+  map.getCanvas().style.cursor = 'pointer';
+});
+map.on('mouseleave', 'allSensors1', function () {
+  map.getCanvas().style.cursor = '';
+});
+map.on('click', 'nox', function (e) {
+  var name = e.features[0].properties.local_site_name;
+  var pollution = e.features[0].properties.arithmetic_mean;
+  new mapboxgl.Popup()
+      .setLngLat(e.lngLat)
+      .setHTML(name+' The nitrogen oxide reading at this sensor is '+ pollution+  ' parts per billion')
+      .addTo(map);
+});
+map.on('mouseenter', 'nox', function () {
+  map.getCanvas().style.cursor = 'pointer';
+});
+map.on('mouseleave', 'nox', function () {
+  map.getCanvas().style.cursor = '';
+});
 
   // Setup the instance, pass callback functions
   scroller
