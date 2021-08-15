@@ -24,7 +24,7 @@
     .range(["#EA0000","#0022EA","#575757"])
   
   // Define states
-  const states = ["Florida","Missouri","West Virginia","Wisconsin","Pennsylvania","Montana","Iowa","North Carolina","Arizona","Texas","Utah","Minnesota","Washington","Oregon","Colorado","Michigan","Virginia","New Mexico","Maine","New Jersey","South Carolina","Georgia","Maryland","Connecticut","Nevada","Illinois","New York"]
+  const states = ["Missouri","Florida","West Virginia","Iowa","Wisconsin","Montana","Pennsylvania","Arizona","North Carolina","Texas","Minnesota","Utah","Washington","Oregon","Michigan","Colorado","Virginia","New Mexico","Maine","New Jersey","South Carolina","Georgia","Maryland","Nevada","Connecticut"]
 
   // Define y axis position
   const yPositionScale = d3.scalePoint()
