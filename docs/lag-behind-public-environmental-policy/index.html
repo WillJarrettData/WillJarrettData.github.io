@@ -1,0 +1,1198 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Will Jarrett">
+		<meta name="description" content="Data suggests that Congress lags behind public opinion on the environment. Partisan politics and the fossil fuel lobby may be to blame.">
+		<meta property="og:image" content="images/environmentGovernment_og.jpg">
+		<title>Federal legislators lag behind the public on environmental policy | Will Jarrett Data</title>
+
+		<!-- import bootstrap stuff -->
+		<link href="../bootstrap.min.css" rel="stylesheet">
+		<link rel="icon" type="image/png" href="../images/site_favicon.png"/>
+
+		<!-- import local style -->
+		<link href="../style.css" rel="stylesheet">
+
+		<!-- import google font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+		
+		<style>
+			/* These are the styles for ai2html */
+			#g-ClimateRepresentation_MobileV3-box, #g-CongressOpinionVotes_Mobile_V3-box, #g-CongressLobbying_MobileV3-box, #g-ClimateRepresentation_DesktopV3-box, #g-AwardsTweaked_Desktop-box, #g-CongressLobbying_DesktopV3-box {
+				display: none;
+			}
+	
+			@media (max-width: 700px) {
+				#g-ClimateRepresentation_MobileV3-box {
+					display: block;
+				}
+				#g-CongressOpinionVotes_Mobile_V3-box {
+					display: block;
+				}
+				#g-CongressLobbying_MobileV3-box {
+					display: block;
+				}
+			}
+	
+			@media (min-width: 700px)  {
+				#g-ClimateRepresentation_DesktopV3-box {
+					display: block;
+				}
+				#g-AwardsTweaked_Desktop-box {
+					display: block;
+				}
+				#g-CongressLobbying_DesktopV3-box {
+					display: block;
+				}
+			}
+		</style>
+
+	</head>
+	<body>
+
+		<header>
+			<!-- find out more bar -->
+			<div class="collapse bg-dark" id="navbarHeader">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 col-md-7 py-4">
+							<h4 class="text-white">About</h4>
+							<p class="text-white-50">
+								I graduated from <strong>Oxford University</strong> with First Class Honours in English in 2017.
+								For the next few years, I worked as <strong>editor</strong> of the Oxford University Press education website Oxford Owl.
+							</p>
+							<p class="text-white-50">
+								Last year, I moved to New York to pursue M.S. Data Journalism at <strong>Columbia University</strong>.
+								I am now joining San Francisco's <strong>Mission Local</strong> to do reporting and data viz.
+							</p>
+							<p class="text-white-50">
+								I have a particular interest in <strong>environmental news</strong> and building fun data tools.
+								In my spare time, I love hiking, drawing, and writing web bios.
+							</p>
+						</div>
+						<div class="col-sm-4 offset-md-1 py-4">
+							<h4 class="text-white">Contact</h4>
+							<ul class="list-unstyled">
+								<li><a href="https://twitter.com/WillJarrettData" class="text-white">Twitter</a></li>
+								<li><a href="https://github.com/WillJarrettData" class="text-white">GitHub</a></li>
+								<li><a href="https://www.linkedin.com/in/willjarrett/" class="text-white">LinkedIn</a></li>
+								<li><a target="_blank" href="../contents/WillJarrett_CV.pdf" class="text-white">Download my CV</a></li>
+								<li><a href="mailto:william.d.jarrett@gmail.com" class="text-white">william.d.jarrett@gmail.com</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="navbar navbar-dark bg-dark">
+				<div class="container">
+					<a href="https://willjarrettdata.github.io/" class="navbar-brand d-flex align-items-center">WillJarrett<strong>Data</strong></a>
+					<button type="button" class="btn btn-outline-light" data-bs-toggle="collapse" data-bs-target="#navbarHeader">Find out more</button>
+				</div>
+			</div>
+		</header>
+		<img src="images/environmentGovernment_header.jpg" id="header-image">
+
+		<main>
+			<div class="py-5">
+				<div class="container">
+					<div class="row form-group justify-content-md-center">
+						<div class="col-md-6">
+
+							<!-- article begins here -->
+							<h3><strong>Federal legislators lag behind the public on environmental policy.</strong></h3>
+							<div class="text-muted">By Will Jarrett</div>
+
+							<div class="body-text">
+								<br />
+								<p>Two years ago, a <a href="https://scorecard.lcv.org/roll-call-vote/2019-324-stopping-rollbacks-carbon-pollution-limits-power-plants">bill</a> came into the US Senate that would have seen meaningful limits imposed on carbon emissions from power plants.</p>
+								<p>
+									The idea behind the bill was popular across the country.
+									<a href="https://climatecommunication.yale.edu/visualizations-data/ycom-us/">Opinion polling</a> shows that 68% of people in the US were in favor of setting strict emissions limits on coal-fired power stations, and there was not a single state in which public opposition outweighed support.
+									Even in Wyoming, the coal capital of America, 52% approved of limits.
+									The public appetite for meaningful action on climate change was strong and this could have been a step in the right direction.
+								</p>
+								<p>
+									The bill was shot down in flames.
+									It failed 41 votes to 53.
+								</p>
+								<p>
+									This failure was not an outlier, but part of a pattern in which Congress consistently lags behind public opinion on environmental and climate policy, according to analysis of data from <a href="https://climatecommunication.yale.edu/visualizations-data/ycom-us/">Yale University</a> and the <a href="https://scorecard.lcv.org/">League of Conservation Voters</a>.
+									Partisan politics and the influential fossil fuel lobby have helped see green laws rejected even when they have widespread support from the public.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- aitohtml -->
+			<style media="screen,print">
+				#g-ClimateRepresentation_MobileV3-box ,
+				#g-ClimateRepresentation_MobileV3-box .g-artboard {
+					margin:0 auto;
+					font-family: Calibri;
+				}
+				#g-ClimateRepresentation_MobileV3-box p {
+					margin:0;
+				}
+				#g-ClimateRepresentation_MobileV3-box .g-aiAbs {
+					position:absolute;
+				}
+				#g-ClimateRepresentation_MobileV3-box .g-aiImg {
+					position:absolute;
+					top:0;
+					display:block;
+					width:100% !important;
+				}
+				#g-ClimateRepresentation_MobileV3-box .g-aiSymbol {
+					position: absolute;
+					box-sizing: border-box;
+				}
+				#g-ClimateRepresentation_MobileV3-box .g-aiPointText p { white-space: nowrap; }
+				#g-ClimateRepresentation_MobileV3-Artboard_1 {
+					position:relative;
+					overflow:hidden;
+				}
+				#g-ClimateRepresentation_MobileV3-Artboard_1 p {
+					font-weight:500;
+					line-height:16px;
+					height:auto;
+					filter:alpha(opacity=100);
+					-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+					opacity:1;
+					letter-spacing:0em;
+					font-size:13px;
+					text-align:left;
+					color:rgb(0,0,0);
+					text-transform:none;
+					padding-bottom:0;
+					padding-top:0;
+					mix-blend-mode:normal;
+					font-style:normal;
+					position:static;
+				}
+				#g-ClimateRepresentation_MobileV3-Artboard_1 .g-pstyle0 {
+					font-weight:700;
+					line-height:28px;
+					height:28px;
+					font-size:23px;
+				}
+				#g-ClimateRepresentation_MobileV3-Artboard_1 .g-pstyle1 {
+					height:16px;
+				}
+				#g-ClimateRepresentation_MobileV3-Artboard_1 .g-pstyle2 {
+					font-weight:700;
+					line-height:38px;
+					height:38px;
+					font-size:32px;
+					text-align:right;
+				}
+				#g-ClimateRepresentation_MobileV3-Artboard_1 .g-pstyle3 {
+					line-height:20px;
+					height:20px;
+					font-size:17px;
+				}
+				#g-ClimateRepresentation_MobileV3-Artboard_1 .g-pstyle4 {
+					line-height:20px;
+					height:20px;
+					font-size:17px;
+					text-align:center;
+				}
+				#g-ClimateRepresentation_MobileV3-Artboard_1 .g-pstyle5 {
+					line-height:20px;
+					height:20px;
+					font-size:17px;
+					text-align:right;
+				}
+				#g-ClimateRepresentation_MobileV3-Artboard_1 .g-cstyle0 {
+					font-weight:700;
+				}
+			</style>
+
+			<div id="g-ClimateRepresentation_MobileV3-box" class="ai2html">
+
+				<!-- Artboard: Artboard_1 -->
+				<div id="g-ClimateRepresentation_MobileV3-Artboard_1" class="g-artboard" style="max-width: 351px;max-height: 427px" data-aspect-ratio="0.822" data-min-width="0">
+			<div style="padding: 0 0 121.61% 0;"></div>
+					<img id="g-ClimateRepresentation_MobileV3-Artboard_1-img" class="g-aiImg" alt="" src="images/ClimateRepresentation_MobileV3-Artboard_1.png">
+					<div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:9.1884%;margin-top:-30.2px;left:4.8094%;width:346px;">
+						<p class="g-pstyle0">The climate-conscious majority</p>
+						<p class="g-pstyle0">is underrepresented in Congress. </p>
+					</div>
+					<div id="g-ai0-2" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:21.7692%;margin-top:-16.9px;left:7.3954%;width:311px;">
+						<p class="g-pstyle1">% of the <span class="g-cstyle0">public</span></p>
+						<p class="g-pstyle1">who want Congress to do more about climate change </p>
+					</div>
+					<div id="g-ai0-3" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:33.644%;margin-top:-21.6px;right:45.3343%;width:78px;">
+						<p class="g-pstyle2">60%</p>
+					</div>
+					<div id="g-ai0-4" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:47.0707%;margin-top:-16.9px;left:7.5503%;width:316px;">
+						<p class="g-pstyle1">% of the <span class="g-cstyle0">House</span></p>
+						<p class="g-pstyle1">who vote for green legislation more than half the time </p>
+					</div>
+					<div id="g-ai0-5" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:59.4141%;margin-top:-21.6px;right:49.0258%;width:78px;">
+						<p class="g-pstyle2">55%</p>
+					</div>
+					<div id="g-ai0-6" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:71.9039%;margin-top:-16.9px;left:7.6943%;width:316px;">
+						<p class="g-pstyle1">% of the <span class="g-cstyle0">Senate</span></p>
+						<p class="g-pstyle1">who vote for green legislation more than half the time </p>
+					</div>
+					<div id="g-ai0-7" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:83.7786%;margin-top:-21.6px;right:56.4601%;width:78px;">
+						<p class="g-pstyle2">47%</p>
+					</div>
+					<div id="g-ai0-8" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.1387%;margin-top:-10.8px;left:5.5722%;width:30px;">
+						<p class="g-pstyle3">0</p>
+					</div>
+					<div id="g-ai0-9" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.1387%;margin-top:-10.8px;left:23.3999%;margin-left:-18.5px;width:37px;">
+						<p class="g-pstyle4">20</p>
+					</div>
+					<div id="g-ai0-10" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.373%;margin-top:-10.8px;left:40.7304%;margin-left:-18.5px;width:37px;">
+						<p class="g-pstyle4">40</p>
+					</div>
+					<div id="g-ai0-11" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.373%;margin-top:-10.8px;left:58.2351%;margin-left:-18.5px;width:37px;">
+						<p class="g-pstyle4">60</p>
+					</div>
+					<div id="g-ai0-13" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.373%;margin-top:-10.8px;left:75.8505%;margin-left:-18.5px;width:37px;">
+						<p class="g-pstyle4">80</p>
+					</div>
+					<div id="g-ai0-12" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.373%;margin-top:-10.8px;right:6.053%;width:45px;">
+						<p class="g-pstyle5">100</p>
+					</div>
+				</div>
+			</div>
+			<!-- End ai2html - 2021-07-05 14:07 -->
+
+			<!-- aitohtml -->
+			<style media="screen,print">
+				#g-ClimateRepresentation_DesktopV3-box ,
+				#g-ClimateRepresentation_DesktopV3-box .g-artboard {
+					margin:0 auto;
+					font-family: Calibri;
+				}
+				#g-ClimateRepresentation_DesktopV3-box p {
+					margin:0;
+				}
+				#g-ClimateRepresentation_DesktopV3-box .g-aiAbs {
+					position:absolute;
+				}
+				#g-ClimateRepresentation_DesktopV3-box .g-aiImg {
+					position:absolute;
+					top:0;
+					display:block;
+					width:100% !important;
+				}
+				#g-ClimateRepresentation_DesktopV3-box .g-aiSymbol {
+					position: absolute;
+					box-sizing: border-box;
+				}
+				#g-ClimateRepresentation_DesktopV3-box .g-aiPointText p { white-space: nowrap; }
+				#g-ClimateRepresentation_DesktopV3-Artboard_1 {
+					position:relative;
+					overflow:hidden;
+				}
+				#g-ClimateRepresentation_DesktopV3-Artboard_1 p {
+					font-weight:500;
+					line-height:16px;
+					height:auto;
+					filter:alpha(opacity=100);
+					-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+					opacity:1;
+					letter-spacing:0em;
+					font-size:13px;
+					text-align:left;
+					color:rgb(0,0,0);
+					text-transform:none;
+					padding-bottom:0;
+					padding-top:0;
+					mix-blend-mode:normal;
+					font-style:normal;
+					position:static;
+				}
+				#g-ClimateRepresentation_DesktopV3-Artboard_1 .g-pstyle0 {
+					font-weight:700;
+					line-height:24px;
+					height:24px;
+					font-size:20px;
+				}
+				#g-ClimateRepresentation_DesktopV3-Artboard_1 .g-pstyle1 {
+					height:16px;
+				}
+				#g-ClimateRepresentation_DesktopV3-Artboard_1 .g-pstyle2 {
+					font-weight:700;
+					line-height:38px;
+					height:38px;
+					font-size:32px;
+					text-align:right;
+				}
+				#g-ClimateRepresentation_DesktopV3-Artboard_1 .g-pstyle3 {
+					line-height:20px;
+					height:20px;
+					font-size:17px;
+					text-align:center;
+				}
+				#g-ClimateRepresentation_DesktopV3-Artboard_1 .g-pstyle4 {
+					line-height:20px;
+					height:20px;
+					font-size:17px;
+					text-align:right;
+				}
+				#g-ClimateRepresentation_DesktopV3-Artboard_1 .g-cstyle0 {
+					font-weight:700;
+				}
+
+			</style>
+
+			<div id="g-ClimateRepresentation_DesktopV3-box" class="ai2html">
+
+				<!-- Artboard: Artboard_1 -->
+				<div id="g-ClimateRepresentation_DesktopV3-Artboard_1" class="g-artboard" style="max-width: 666px;max-height: 370px" data-aspect-ratio="1.801" data-min-width="0">
+					<div style="padding: 0 0 55.5332% 0;"></div>
+					<img id="g-ClimateRepresentation_DesktopV3-Artboard_1-img" class="g-aiImg" alt="" src="images/ClimateRepresentation_DesktopV3-Artboard_1.png">
+					<div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:5.821%;margin-top:-13.5px;left:1.6338%;width:555px;">
+						<p class="g-pstyle0">The climate-conscious majority is underrepresented in Congress. </p>
+					</div>
+					<div id="g-ai0-2" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:13.5774%;margin-top:-9.2px;left:3.8976%;width:395px;">
+						<p class="g-pstyle1">% of the <span class="g-cstyle0">public</span> who want Congress to do more about climate change </p>
+					</div>
+					<div id="g-ai0-3" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:26.3917%;margin-top:-21.6px;right:42.7429%;width:78px;">
+						<p class="g-pstyle2">60%</p>
+					</div>
+					<div id="g-ai0-4" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:41.1561%;margin-top:-9.2px;left:3.9792%;width:449px;">
+						<p class="g-pstyle1">% of the <span class="g-cstyle0">House</span> who vote for environmental legislation more than half the time </p>
+					</div>
+					<div id="g-ai0-5" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:54.2407%;margin-top:-21.6px;right:46.9406%;width:78px;">
+						<p class="g-pstyle2">55%</p>
+					</div>
+					<div id="g-ai0-6" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:68.4645%;margin-top:-9.2px;left:4.0551%;width:452px;">
+						<p class="g-pstyle1">% of the <span class="g-cstyle0">Senate</span> who vote for environmental legislation more than half the time </p>
+					</div>
+					<div id="g-ai0-7" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:81.549%;margin-top:-21.6px;right:54.6124%;width:78px;">
+						<p class="g-pstyle2">47%</p>
+					</div>
+					<div id="g-ai0-11" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.8577%;margin-top:-10.8px;left:3.5705%;margin-left:-15px;width:30px;">
+						<p class="g-pstyle3">0</p>
+					</div>
+					<div id="g-ai0-12" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.8577%;margin-top:-10.8px;left:12.4605%;margin-left:-18.5px;width:37px;">
+						<p class="g-pstyle3">10</p>
+					</div>
+					<div id="g-ai0-10" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.5873%;margin-top:-10.8px;left:21.942%;margin-left:-18.5px;width:37px;">
+						<p class="g-pstyle3">20</p>
+					</div>
+					<div id="g-ai0-15" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.8577%;margin-top:-10.8px;left:31.354%;margin-left:-18.5px;width:37px;">
+						<p class="g-pstyle3">30</p>
+					</div>
+					<div id="g-ai0-13" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.8577%;margin-top:-10.8px;left:40.8354%;margin-left:-18.5px;width:37px;">
+						<p class="g-pstyle3">40</p>
+					</div>
+					<div id="g-ai0-16" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.8577%;margin-top:-10.8px;left:50.1889%;margin-left:-18.5px;width:37px;">
+						<p class="g-pstyle3">50</p>
+					</div>
+					<div id="g-ai0-14" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.8577%;margin-top:-10.8px;left:59.6705%;margin-left:-18.5px;width:37px;">
+						<p class="g-pstyle3">60</p>
+					</div>
+					<div id="g-ai0-18" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:95.128%;margin-top:-10.8px;left:69.0825%;margin-left:-18.5px;width:37px;">
+						<p class="g-pstyle3">70</p>
+					</div>
+					<div id="g-ai0-17" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.8577%;margin-top:-10.8px;left:78.5639%;margin-left:-18.5px;width:37px;">
+						<p class="g-pstyle3">80</p>
+					</div>
+					<div id="g-ai0-8" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.5873%;margin-top:-10.8px;left:88.0602%;margin-left:-18.5px;width:37px;">
+						<p class="g-pstyle3">90</p>
+					</div>
+					<div id="g-ai0-9" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.5873%;margin-top:-10.8px;right:2.2892%;width:45px;">
+						<p class="g-pstyle4">100</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- End ai2html - 2021-07-05 14:07 -->
+
+			<div class="py-5">
+				<div class="container">
+					<div class="row form-group justify-content-md-center">
+						<div class="col-md-6">
+							<div class="body-text">
+								<p>
+									“The preferences of the average American appear to have only a minuscule, near-zero, statistically non-significant impact upon public policy,” wrote Martin Gilens and Benjamin Page, experts in policy and public opinion at Princeton University, in their controversial <a href="https://scholar.princeton.edu/sites/default/files/mgilens/files/gilens_and_page_2014_-testing_theories_of_american_politics.doc.pdf">2016 report</a> on how decisions get made in America.
+									They argued that special interest groups (especially ones with buckets of money) are the key drivers of the legislative agenda.
+								</p>
+								<p>
+									Using state-by-state opinion polling from Yale and aggregated voting data from the League of Conservation Voters, we can see that public opinion on climate change does seem to correlate with environmental legislative action – but perhaps not as much as one might hope or expect.
+								</p>
+								<p>
+									In every state except Wyoming, North Dakota, and West Virginia, all of which are heavily invested in fossil fuel, a majority of the public wants Congress to do more to combat climate change.
+									But last year, representatives from the House and Senate in half of US states voted against environmental bills more often than they voted for them.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- aitohtml -->
+			<style media="screen,print">
+				#g-CongressOpinionVotes_Mobile_V3-box ,
+				#g-CongressOpinionVotes_Mobile_V3-box .g-artboard {
+					margin:0 auto;
+					font-family:Calibri;
+				}
+				#g-CongressOpinionVotes_Mobile_V3-box p {
+					margin:0;
+				}
+				#g-CongressOpinionVotes_Mobile_V3-box .g-aiAbs {
+					position:absolute;
+				}
+				#g-CongressOpinionVotes_Mobile_V3-box .g-aiImg {
+					position:absolute;
+					top:0;
+					display:block;
+					width:100% !important;
+				}
+				#g-CongressOpinionVotes_Mobile_V3-box .g-aiSymbol {
+					position: absolute;
+					box-sizing: border-box;
+				}
+				#g-CongressOpinionVotes_Mobile_V3-box .g-aiPointText p { white-space: nowrap; }
+				#g-CongressOpinionVotes_Mobile_V3-Artboard_1 {
+					position:relative;
+					overflow:hidden;
+				}
+				#g-CongressOpinionVotes_Mobile_V3-Artboard_1 p {
+					font-weight:700;
+					line-height:18px;
+					height:auto;
+					filter:alpha(opacity=100);
+					-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+					opacity:1;
+					letter-spacing:0em;
+					font-size:15px;
+					text-align:left;
+					color:rgb(0,0,0);
+					text-transform:none;
+					padding-bottom:0;
+					padding-top:0;
+					mix-blend-mode:normal;
+					font-style:normal;
+					position:static;
+				}
+				#g-CongressOpinionVotes_Mobile_V3-Artboard_1 .g-pstyle0 {
+					height:18px;
+				}
+				#g-CongressOpinionVotes_Mobile_V3-Artboard_1 .g-pstyle1 {
+					font-weight:500;
+					line-height:14px;
+					height:14px;
+					font-size:12px;
+				}
+				#g-CongressOpinionVotes_Mobile_V3-Artboard_1 .g-pstyle2 {
+					font-weight:500;
+					line-height:14px;
+					height:14px;
+					font-size:12px;
+					text-align:right;
+				}
+				#g-CongressOpinionVotes_Mobile_V3-Artboard_1 .g-pstyle3 {
+					font-weight:500;
+					line-height:14px;
+					height:14px;
+					font-size:12px;
+					text-align:center;
+				}
+
+			</style>
+
+			<div id="g-CongressOpinionVotes_Mobile_V3-box" class="ai2html">
+
+				<!-- Artboard: Artboard_1 -->
+				<div id="g-CongressOpinionVotes_Mobile_V3-Artboard_1" class="g-artboard" style="max-width: 352px;max-height: 862px" data-aspect-ratio="0.408" data-min-width="0">
+					<div style="padding: 0 0 245.0193% 0;"></div>
+					<img id="g-CongressOpinionVotes_Mobile_V3-Artboard_1-img" class="g-aiImg" alt="" src="images/CongressOpinionVotes_Mobile_V3-Artboard_1.png">
+					<div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:3.9619%;margin-top:-28.2px;left:3.9025%;width:345px;">
+						<p class="g-pstyle0">In 47 states, the public wants Congress to do more</p>
+						<p class="g-pstyle0">about climate change. But half of states vote against</p>
+						<p class="g-pstyle0">environmental bills the majority of the time.</p>
+					</div>
+					<div id="g-ai0-2" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:9.1332%;margin-top:-7.8px;left:2.9096%;width:76px;">
+						<p class="g-pstyle1">% votes for</p>
+					</div>
+					<div id="g-ai0-5" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:11.1042%;margin-top:-7.8px;left:2.9096%;width:74px;">
+						<p class="g-pstyle1">green laws</p>
+					</div>
+					<div id="g-ai0-3" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:10.3158%;margin-top:-15px;left:79.9304%;width:76px;">
+						<p class="g-pstyle1">Republican</p>
+						<p class="g-pstyle1">controlled</p>
+					</div>
+					<div id="g-ai0-4" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:10.3158%;margin-top:-15px;right:48.1021%;width:72px;">
+						<p class="g-pstyle2">Democrat</p>
+						<p class="g-pstyle2">controlled</p>
+					</div>
+					<div id="g-ai0-7" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:16.1182%;margin-top:-10px;left:11.7425%;width:60px;">
+						<p class="g-pstyle0">House</p>
+					</div>
+					<div id="g-ai0-6" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:14.4667%;margin-top:-7.8px;right:92.2632%;width:40px;">
+						<p class="g-pstyle2">100</p>
+					</div>
+					<div id="g-ai0-8" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:21.3075%;margin-top:-7.8px;right:92.2399%;width:34px;">
+						<p class="g-pstyle2">80</p>
+					</div>
+					<div id="g-ai0-9" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:28.2643%;margin-top:-7.8px;right:92.2399%;width:34px;">
+						<p class="g-pstyle2">60</p>
+					</div>
+					<div id="g-ai0-10" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:35.2211%;margin-top:-7.8px;right:92.2399%;width:34px;">
+						<p class="g-pstyle2">40</p>
+					</div>
+					<div id="g-ai0-11" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:42.1779%;margin-top:-7.8px;right:92.2399%;width:34px;">
+						<p class="g-pstyle2">20</p>
+					</div>
+					<div id="g-ai0-12" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:49.1346%;margin-top:-7.8px;right:92.2166%;width:28px;">
+						<p class="g-pstyle2">0</p>
+					</div>
+					<div id="g-ai0-13" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:50.6419%;margin-top:-7.8px;left:8.1281%;width:34px;">
+						<p class="g-pstyle1">40</p>
+					</div>
+					<div id="g-ai0-14" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:50.6419%;margin-top:-7.8px;left:36.3968%;width:34px;">
+						<p class="g-pstyle1">50</p>
+					</div>
+					<div id="g-ai0-15" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:50.6419%;margin-top:-7.8px;left:64.7849%;width:34px;">
+						<p class="g-pstyle1">60</p>
+					</div>
+					<div id="g-ai0-16" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:50.6419%;margin-top:-7.8px;right:5.2883%;width:34px;">
+						<p class="g-pstyle2">70</p>
+					</div>
+					<div id="g-ai0-17" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:54.1435%;margin-top:-15px;left:51.7592%;margin-left:-92px;width:184px;">
+						<p class="g-pstyle3">% of public who want Congress</p>
+						<p class="g-pstyle3">to do more about climate change</p>
+					</div>
+					<div id="g-ai0-19" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:59.5969%;margin-top:-10px;left:12.156%;width:63px;">
+						<p class="g-pstyle0">Senate</p>
+					</div>
+					<div id="g-ai0-18" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:57.8306%;margin-top:-7.8px;right:92.2632%;width:40px;">
+						<p class="g-pstyle2">100</p>
+					</div>
+					<div id="g-ai0-20" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:64.6714%;margin-top:-7.8px;right:92.2399%;width:34px;">
+						<p class="g-pstyle2">80</p>
+					</div>
+					<div id="g-ai0-21" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:71.5123%;margin-top:-7.8px;right:92.2399%;width:34px;">
+						<p class="g-pstyle2">60</p>
+					</div>
+					<div id="g-ai0-22" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:78.469%;margin-top:-7.8px;right:92.2399%;width:34px;">
+						<p class="g-pstyle2">40</p>
+					</div>
+					<div id="g-ai0-23" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:85.5418%;margin-top:-7.8px;right:92.2399%;width:34px;">
+						<p class="g-pstyle2">20</p>
+					</div>
+					<div id="g-ai0-24" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:92.4986%;margin-top:-7.8px;right:92.2166%;width:28px;">
+						<p class="g-pstyle2">0</p>
+					</div>
+					<div id="g-ai0-25" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.0059%;margin-top:-7.8px;left:8.3002%;width:34px;">
+						<p class="g-pstyle1">40</p>
+					</div>
+					<div id="g-ai0-26" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.0059%;margin-top:-7.8px;left:36.5689%;width:34px;">
+						<p class="g-pstyle1">50</p>
+					</div>
+					<div id="g-ai0-27" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.0059%;margin-top:-7.8px;left:64.9571%;width:34px;">
+						<p class="g-pstyle1">60</p>
+					</div>
+					<div id="g-ai0-28" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.0059%;margin-top:-7.8px;right:5.4002%;width:34px;">
+						<p class="g-pstyle2">70</p>
+					</div>
+					<div id="g-ai0-29" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:97.3915%;margin-top:-15px;left:51.6829%;margin-left:-92px;width:184px;">
+						<p class="g-pstyle3">% of public who want Congress</p>
+						<p class="g-pstyle3">to do more about climate change</p>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- End ai2html - 2021-07-05 14:07 -->
+
+			
+			<!-- aitohtml -->
+			<style media="screen,print">
+				#g-CongressOpinionVotes_DesktopV3-box ,
+				#g-CongressOpinionVotes_DesktopV3-box .g-artboard {
+					margin:0 auto;
+					font-family:Calibri;
+				}
+				#g-CongressOpinionVotes_DesktopV3-box p {
+					margin:0;
+				}
+				#g-CongressOpinionVotes_DesktopV3-box .g-aiAbs {
+					position:absolute;
+				}
+				#g-CongressOpinionVotes_DesktopV3-box .g-aiImg {
+					position:absolute;
+					top:0;
+					display:block;
+					width:100% !important;
+				}
+				#g-CongressOpinionVotes_DesktopV3-box .g-aiSymbol {
+					position: absolute;
+					box-sizing: border-box;
+				}
+				#g-CongressOpinionVotes_DesktopV3-box .g-aiPointText p { white-space: nowrap; }
+				#g-CongressOpinionVotes_DesktopV3-Artboard_1 {
+					position:relative;
+					overflow:hidden;
+				}
+				#g-CongressOpinionVotes_DesktopV3-Artboard_1 p {
+					font-weight:500;
+					line-height:17px;
+					height:auto;
+					filter:alpha(opacity=100);
+					-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+					opacity:1;
+					letter-spacing:0em;
+					font-size:14px;
+					text-align:left;
+					color:rgb(0,0,0);
+					text-transform:none;
+					padding-bottom:0;
+					padding-top:0;
+					mix-blend-mode:normal;
+					font-style:normal;
+					position:static;
+				}
+				#g-CongressOpinionVotes_DesktopV3-Artboard_1 .g-pstyle0 {
+					font-weight:700;
+					line-height:20px;
+					height:20px;
+					font-size:17px;
+				}
+				#g-CongressOpinionVotes_DesktopV3-Artboard_1 .g-pstyle1 {
+					font-weight:700;
+					line-height:20px;
+					height:20px;
+					font-size:16px;
+				}
+				#g-CongressOpinionVotes_DesktopV3-Artboard_1 .g-pstyle2 {
+					height:17px;
+					text-align:right;
+				}
+				#g-CongressOpinionVotes_DesktopV3-Artboard_1 .g-pstyle3 {
+					height:17px;
+				}
+				#g-CongressOpinionVotes_DesktopV3-Artboard_1 .g-pstyle4 {
+					font-weight:700;
+					line-height:26px;
+					height:26px;
+					font-size:22px;
+				}
+				#g-CongressOpinionVotes_DesktopV3-Artboard_1 .g-pstyle5 {
+					height:17px;
+					text-align:center;
+				}
+
+			</style>
+
+			<div id="g-CongressOpinionVotes_DesktopV3-box" class="ai2html">
+
+				<!-- Artboard: Artboard_1 -->
+				<div id="g-CongressOpinionVotes_DesktopV3-Artboard_1" class="g-artboard" style="max-width: 552px;max-height: 1191px" data-aspect-ratio="0.464" data-min-width="0">
+					<div style="padding: 0 0 215.6838% 0;"></div>
+					<img id="g-CongressOpinionVotes_DesktopV3-Artboard_1-img" class="g-aiImg" alt="" src="images/CongressOpinionVotes_DesktopV3-Artboard_1.png">
+					<div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:2.045%;margin-top:-11.3px;left:3.2306%;width:533px;">
+						<p class="g-pstyle0">In 47 states, the public wants Congress to do more about climate change.</p>
+					</div>
+					<div id="g-ai0-2" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:3.74%;margin-top:-11.5px;left:3.2306%;width:528px;">
+						<p class="g-pstyle1">But half of states vote against environmental bills the majority of the time.</p>
+					</div>
+					<div id="g-ai0-5" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:6.8369%;margin-top:-9.4px;left:4.4481%;width:85px;">
+						<p class="g-pstyle3">% votes for</p>
+					</div>
+					<div id="g-ai0-6" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:8.2648%;margin-top:-9.4px;left:4.4481%;width:83px;">
+						<p class="g-pstyle3">green laws</p>
+					</div>
+					<div id="g-ai0-3" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:7.2905%;margin-top:-17.8px;right:50.6811%;width:80px;">
+						<p class="g-pstyle2">Democrat</p>
+						<p class="g-pstyle2">controlled</p>
+					</div>
+					<div id="g-ai0-4" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:7.2905%;margin-top:-17.8px;left:84.3726%;width:85px;">
+						<p class="g-pstyle3">Republican</p>
+						<p class="g-pstyle3">controlled</p>
+					</div>
+					<div id="g-ai0-8" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:12.7514%;margin-top:-14.8px;left:13.6452%;width:79px;">
+						<p class="g-pstyle4">House</p>
+					</div>
+					<div id="g-ai0-7" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:10.8686%;margin-top:-9.4px;right:90.0437%;width:43px;">
+						<p class="g-pstyle2">100</p>
+					</div>
+					<div id="g-ai0-9" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:18.344%;margin-top:-9.4px;right:90.0263%;width:36px;">
+						<p class="g-pstyle2">80</p>
+					</div>
+					<div id="g-ai0-10" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:25.9034%;margin-top:-9.4px;right:90.0263%;width:36px;">
+						<p class="g-pstyle2">60</p>
+					</div>
+					<div id="g-ai0-11" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:33.4627%;margin-top:-9.4px;right:90.0263%;width:36px;">
+						<p class="g-pstyle2">40</p>
+					</div>
+					<div id="g-ai0-12" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:41.1061%;margin-top:-9.4px;right:90.0263%;width:36px;">
+						<p class="g-pstyle2">20</p>
+					</div>
+					<div id="g-ai0-13" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:48.6655%;margin-top:-9.4px;right:90.009%;width:29px;">
+						<p class="g-pstyle2">0</p>
+					</div>
+					<div id="g-ai0-14" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:50.3454%;margin-top:-9.4px;left:10.1763%;width:36px;">
+						<p class="g-pstyle3">40</p>
+					</div>
+					<div id="g-ai0-15" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:50.3454%;margin-top:-9.4px;left:38.7404%;margin-left:-18px;width:36px;">
+						<p class="g-pstyle5">50</p>
+					</div>
+					<div id="g-ai0-16" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:50.3454%;margin-top:-9.4px;left:66.1685%;margin-left:-18px;width:36px;">
+						<p class="g-pstyle5">60</p>
+					</div>
+					<div id="g-ai0-17" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:50.3454%;margin-top:-9.4px;right:6.6875%;width:36px;">
+						<p class="g-pstyle2">70</p>
+					</div>
+					<div id="g-ai0-18" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:52.6972%;margin-top:-9.4px;left:52.6602%;margin-left:-195px;width:390px;">
+						<p class="g-pstyle5">% of public who want Congress to do more about climate change</p>
+					</div>
+					<div id="g-ai0-20" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:57.4358%;margin-top:-14.8px;left:13.871%;width:84px;">
+						<p class="g-pstyle4">Senate</p>
+					</div>
+					<div id="g-ai0-19" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:55.4689%;margin-top:-9.4px;right:90.0437%;width:43px;">
+						<p class="g-pstyle2">100</p>
+					</div>
+					<div id="g-ai0-21" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:63.1123%;margin-top:-9.4px;right:90.0263%;width:36px;">
+						<p class="g-pstyle2">80</p>
+					</div>
+					<div id="g-ai0-22" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:70.6717%;margin-top:-9.4px;right:90.0263%;width:36px;">
+						<p class="g-pstyle2">60</p>
+					</div>
+					<div id="g-ai0-23" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:78.2311%;margin-top:-9.4px;right:90.0263%;width:36px;">
+						<p class="g-pstyle2">40</p>
+					</div>
+					<div id="g-ai0-24" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:85.7904%;margin-top:-9.4px;right:90.0263%;width:36px;">
+						<p class="g-pstyle2">20</p>
+					</div>
+					<div id="g-ai0-25" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:93.2658%;margin-top:-9.4px;right:90.009%;width:29px;">
+						<p class="g-pstyle2">0</p>
+					</div>
+					<div id="g-ai0-26" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.8617%;margin-top:-9.4px;left:10.1792%;width:36px;">
+						<p class="g-pstyle3">40</p>
+					</div>
+					<div id="g-ai0-27" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.8617%;margin-top:-9.4px;left:37.2986%;width:36px;">
+						<p class="g-pstyle3">50</p>
+					</div>
+					<div id="g-ai0-28" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.8617%;margin-top:-9.4px;left:64.7139%;width:36px;">
+						<p class="g-pstyle3">60</p>
+					</div>
+					<div id="g-ai0-29" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.8617%;margin-top:-9.4px;right:6.7522%;width:36px;">
+						<p class="g-pstyle2">70</p>
+					</div>
+					<div id="g-ai0-30" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:97.2135%;margin-top:-9.4px;left:52.4503%;margin-left:-195px;width:390px;">
+						<p class="g-pstyle5">% of public who want Congress to do more about climate change</p>
+					</div>
+				</div>
+			</div>
+			<!-- End ai2html - 2021-07-05 14:07 -->
+
+			<div class="py-5">
+				<div class="container">
+					<div class="row form-group justify-content-md-center">
+						<div class="col-md-6">
+							<div class="body-text">
+								<p>
+									This analysis reveals that voting is deeply partisan.
+									States with Republican federal representatives are far more likely to vote against environmental bills, and Democrats are likely to vote in favor.
+								</p>
+
+								<p>
+									The partisanship is most pronounced in the Senate.
+									For example, in 2020, six in every ten Floridians were in favor of Congress doing more for the climate.
+									That proportion is more or less reflected in the voting records of their House representatives.
+									But their two Republican Senators voted in favor of environmental legislation less than 10% of the time last year.
+									In the sharply divided Senate chamber, where every vote counts, politicians appear to be more likely to toe the party line.
+								</p>
+
+								<p>
+									It is not just party allegiance that has the potential to dictate votes.
+									According to <a href="https://www.opensecrets.org/federal-lobbying/top-spenders?cache=1619030339">OpenSecrets</a>, the oil and gas industries have poured upwards of $100 million into lobbying every year for the past decade.
+									Although Democrats take their fair share of fossil fuel money – $1.6 million went to Joe Biden in 2020 – more than three-quarters ends up in the hands of Republicans.
+								</p>
+
+								<p>
+									And this money appears to affect policy.
+									Members of Congress from states where votes typically go against environmental bills get more than twice as much fossil fuel money as those from pro-environment states.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- aitohtml -->
+			<style media="screen,print">
+				#g-CongressLobbying_MobileV3-box ,
+				#g-CongressLobbying_MobileV3-box .g-artboard {
+					margin:0 auto;
+					font-family:Calibri;
+				}
+				#g-CongressLobbying_MobileV3-box p {
+					margin:0;
+				}
+				#g-CongressLobbying_MobileV3-box .g-aiAbs {
+					position:absolute;
+				}
+				#g-CongressLobbying_MobileV3-box .g-aiImg {
+					position:absolute;
+					top:0;
+					display:block;
+					width:100% !important;
+				}
+				#g-CongressLobbying_MobileV3-box .g-aiSymbol {
+					position: absolute;
+					box-sizing: border-box;
+				}
+				#g-CongressLobbying_MobileV3-box .g-aiPointText p { white-space: nowrap; }
+				#g-CongressLobbying_MobileV3-Artboard_1 {
+					position:relative;
+					overflow:hidden;
+				}
+				#g-CongressLobbying_MobileV3-Artboard_1 p {
+					font-weight:700;
+					line-height:36px;
+					height:auto;
+					filter:alpha(opacity=100);
+					-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+					opacity:1;
+					letter-spacing:0em;
+					font-size:30px;
+					text-align:left;
+					color:rgb(0,0,0);
+					text-transform:none;
+					padding-bottom:0;
+					padding-top:0;
+					mix-blend-mode:normal;
+					font-style:normal;
+					position:static;
+				}
+				#g-CongressLobbying_MobileV3-Artboard_1 .g-pstyle0 {
+					height:36px;
+				}
+				#g-CongressLobbying_MobileV3-Artboard_1 .g-pstyle1 {
+					font-weight:500;
+					line-height:14px;
+					height:14px;
+					font-size:12px;
+				}
+				#g-CongressLobbying_MobileV3-Artboard_1 .g-pstyle2 {
+					font-weight:500;
+					line-height:14px;
+					height:14px;
+					font-size:12px;
+					text-align:right;
+				}
+				#g-CongressLobbying_MobileV3-Artboard_1 .g-pstyle3 {
+					font-weight:500;
+					line-height:13px;
+					height:13px;
+					font-size:11px;
+					text-align:center;
+				}
+
+			</style>
+
+			<div id="g-CongressLobbying_MobileV3-box" class="ai2html">
+
+				<!-- Artboard: Artboard_1 -->
+				<div id="g-CongressLobbying_MobileV3-Artboard_1" class="g-artboard" style="max-width: 342px;max-height: 434px" data-aspect-ratio="0.788" data-min-width="0">
+					<div style="padding: 0 0 126.913% 0;"></div>
+					<img id="g-CongressLobbying_MobileV3-Artboard_1-img" class="g-aiImg" alt="" src="images/CongressLobbying_MobileV3-Artboard_1.png">
+					<div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:6.753%;margin-top:-20.3px;left:3.7486%;width:321px;">
+						<p class="g-pstyle0">States with lots of fossil </p>
+					</div>
+					<div id="g-ai0-2" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:15.0472%;margin-top:-20.3px;left:3.7486%;width:339px;">
+						<p class="g-pstyle0">fuel lobbying vote against</p>
+					</div>
+					<div id="g-ai0-3" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:23.1109%;margin-top:-20.3px;left:3.7486%;width:301px;">
+						<p class="g-pstyle0">green bills more often.</p>
+					</div>
+					<div id="g-ai0-4" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:33.6305%;margin-top:-15px;left:3.0677%;width:106px;">
+						<p class="g-pstyle1">% Congress votes</p>
+						<p class="g-pstyle1">for green laws</p>
+					</div>
+					<div id="g-ai0-5" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:33.8609%;margin-top:-15px;right:50.4729%;width:72px;">
+						<p class="g-pstyle2">Democrat</p>
+						<p class="g-pstyle2">controlled</p>
+					</div>
+					<div id="g-ai0-6" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:34.0913%;margin-top:-15px;left:81.3676%;width:76px;">
+						<p class="g-pstyle1">Republican</p>
+						<p class="g-pstyle1">controlled</p>
+					</div>
+					<div id="g-ai0-7" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:41.4177%;margin-top:-7.8px;right:90.5667%;width:40px;">
+						<p class="g-pstyle2">100</p>
+					</div>
+					<div id="g-ai0-8" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:50.1726%;margin-top:-7.8px;right:90.6447%;width:34px;">
+						<p class="g-pstyle2">80</p>
+					</div>
+					<div id="g-ai0-9" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:58.9275%;margin-top:-7.8px;right:90.7468%;width:34px;">
+						<p class="g-pstyle2">60</p>
+					</div>
+					<div id="g-ai0-10" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:67.9128%;margin-top:-7.8px;right:90.8487%;width:34px;">
+						<p class="g-pstyle2">40</p>
+					</div>
+					<div id="g-ai0-11" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:76.6677%;margin-top:-7.8px;right:90.9507%;width:34px;">
+						<p class="g-pstyle2">20</p>
+					</div>
+					<div id="g-ai0-12" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:85.653%;margin-top:-7.8px;right:91.0286%;width:28px;">
+						<p class="g-pstyle2">0</p>
+					</div>
+					<div id="g-ai0-13" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:88.1873%;margin-top:-7.8px;left:10.3691%;width:28px;">
+						<p class="g-pstyle1">0</p>
+					</div>
+					<div id="g-ai0-14" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:88.1873%;margin-top:-7.8px;left:23.4629%;width:34px;">
+						<p class="g-pstyle1">40</p>
+					</div>
+					<div id="g-ai0-15" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:88.1873%;margin-top:-7.8px;left:37.493%;width:34px;">
+						<p class="g-pstyle1">80</p>
+					</div>
+					<div id="g-ai0-16" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:88.1873%;margin-top:-7.8px;left:50.548%;width:40px;">
+						<p class="g-pstyle1">120</p>
+					</div>
+					<div id="g-ai0-17" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:88.1873%;margin-top:-7.8px;left:64.5779%;width:40px;">
+						<p class="g-pstyle1">160</p>
+					</div>
+					<div id="g-ai0-18" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:88.1873%;margin-top:-7.8px;left:78.6079%;width:40px;">
+						<p class="g-pstyle1">200</p>
+					</div>
+					<div id="g-ai0-19" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:88.1873%;margin-top:-7.8px;right:4.5373%;width:40px;">
+						<p class="g-pstyle2">240</p>
+					</div>
+					<div id="g-ai0-20" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.1857%;margin-top:-13.8px;left:53.2771%;margin-left:-87px;width:174px;">
+						<p class="g-pstyle3">Fossil fuel lobbying money</p>
+						<p class="g-pstyle3">per Member of Congress ($1000s)</p>
+					</div>
+				</div>
+			</div>
+			<!-- End ai2html - 2021-07-05 14:19 -->
+
+			<!-- aitohtml -->
+			<style media="screen,print">
+				#g-CongressLobbying_DesktopV3-box ,
+				#g-CongressLobbying_DesktopV3-box .g-artboard {
+					margin:0 auto;
+					font-family: Calibri;
+				}
+				#g-CongressLobbying_DesktopV3-box p {
+					margin:0;
+				}
+				#g-CongressLobbying_DesktopV3-box .g-aiAbs {
+					position:absolute;
+				}
+				#g-CongressLobbying_DesktopV3-box .g-aiImg {
+					position:absolute;
+					top:0;
+					display:block;
+					width:100% !important;
+				}
+				#g-CongressLobbying_DesktopV3-box .g-aiSymbol {
+					position: absolute;
+					box-sizing: border-box;
+				}
+				#g-CongressLobbying_DesktopV3-box .g-aiPointText p { white-space: nowrap; }
+				#g-CongressLobbying_DesktopV3-Artboard_1 {
+					position:relative;
+					overflow:hidden;
+				}
+				#g-CongressLobbying_DesktopV3-Artboard_1 p {
+					font-weight:500;
+					line-height:14px;
+					height:auto;
+					filter:alpha(opacity=100);
+					-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+					opacity:1;
+					letter-spacing:0em;
+					font-size:12px;
+					text-align:left;
+					color:rgb(0,0,0);
+					text-transform:none;
+					padding-bottom:0;
+					padding-top:0;
+					mix-blend-mode:normal;
+					font-style:normal;
+					position:static;
+				}
+				#g-CongressLobbying_DesktopV3-Artboard_1 .g-pstyle0 {
+					font-weight:700;
+					line-height:41px;
+					height:41px;
+					font-size:34px;
+				}
+				#g-CongressLobbying_DesktopV3-Artboard_1 .g-pstyle1 {
+					line-height:15px;
+					height:15px;
+					font-size:13px;
+				}
+				#g-CongressLobbying_DesktopV3-Artboard_1 .g-pstyle2 {
+					height:14px;
+					text-align:right;
+				}
+				#g-CongressLobbying_DesktopV3-Artboard_1 .g-pstyle3 {
+					height:14px;
+				}
+				#g-CongressLobbying_DesktopV3-Artboard_1 .g-pstyle4 {
+					height:14px;
+					text-align:center;
+				}
+
+			</style>
+
+			<div id="g-CongressLobbying_DesktopV3-box" class="ai2html">
+
+				<!-- Artboard: Artboard_1 -->
+				<div id="g-CongressLobbying_DesktopV3-Artboard_1" class="g-artboard" style="max-width: 563px;max-height: 541px" data-aspect-ratio="1.041" data-min-width="0">
+					<div style="padding: 0 0 96.0746% 0;"></div>
+					<img id="g-CongressLobbying_DesktopV3-Artboard_1-img" class="g-aiImg" alt="" src="images/CongressLobbying_DesktopV3-Artboard_1.png">
+					<div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:6.5482%;margin-top:-23.4px;left:3.0409%;width:550px;">
+						<p class="g-pstyle0">States with lots of fossil fuel lobbying</p>
+					</div>
+					<div id="g-ai0-2" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:14.4728%;margin-top:-23.3px;left:3.0409%;width:519px;">
+						<p class="g-pstyle0">vote against green bills more often.</p>
+					</div>
+					<div id="g-ai0-3" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:23.4509%;margin-top:-15.8px;left:4.4618%;width:112px;">
+						<p class="g-pstyle1">% Congress votes</p>
+						<p class="g-pstyle1">for green laws</p>
+					</div>
+					<div id="g-ai0-4" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:24.0286%;margin-top:-15px;right:34.6655%;width:72px;">
+						<p class="g-pstyle2">Democrat</p>
+						<p class="g-pstyle2">controlled</p>
+					</div>
+					<div id="g-ai0-5" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:24.0286%;margin-top:-15px;left:84.214%;width:76px;">
+						<p class="g-pstyle3">Republican</p>
+						<p class="g-pstyle3">controlled</p>
+					</div>
+					<div id="g-ai0-7" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:46.7315%;margin-top:-43.8px;left:31.6479%;margin-left:-57px;width:114px;">
+						<p class="g-pstyle4">Democratic states</p>
+						<p class="g-pstyle4">tend to vote for</p>
+						<p class="g-pstyle4">green laws � and</p>
+						<p class="g-pstyle4">receive less money</p>
+						<p class="g-pstyle4">from fossil</p>
+						<p class="g-pstyle4">fuel lobbyists</p>
+					</div>
+					<div id="g-ai0-11" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:76.6076%;margin-top:-29.4px;left:82.8736%;margin-left:-71px;width:142px;">
+						<p class="g-pstyle4">Montana, Louisiana, and</p>
+						<p class="g-pstyle4">Georgia get the most</p>
+						<p class="g-pstyle4">lobbying money per</p>
+						<p class="g-pstyle4">Member of Congress</p>
+					</div>
+					<div id="g-ai0-6" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:30.0925%;margin-top:-7.8px;right:90.9698%;width:40px;">
+						<p class="g-pstyle2">100</p>
+					</div>
+					<div id="g-ai0-8" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:41.5549%;margin-top:-7.8px;right:90.9261%;width:34px;">
+						<p class="g-pstyle2">80</p>
+					</div>
+					<div id="g-ai0-9" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:53.2022%;margin-top:-7.8px;right:90.9261%;width:34px;">
+						<p class="g-pstyle2">60</p>
+					</div>
+					<div id="g-ai0-10" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:64.6645%;margin-top:-7.8px;right:90.9261%;width:34px;">
+						<p class="g-pstyle2">40</p>
+					</div>
+					<div id="g-ai0-12" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:76.1269%;margin-top:-7.8px;right:90.9261%;width:34px;">
+						<p class="g-pstyle2">20</p>
+					</div>
+					<div id="g-ai0-13" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:87.7742%;margin-top:-7.8px;right:91.0149%;width:28px;">
+						<p class="g-pstyle2">0</p>
+					</div>
+					<div id="g-ai0-14" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:90.1776%;margin-top:-7.8px;left:9.9986%;width:28px;">
+						<p class="g-pstyle3">0</p>
+					</div>
+					<div id="g-ai0-15" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:90.1776%;margin-top:-7.8px;left:24.3705%;margin-left:-17px;width:34px;">
+						<p class="g-pstyle4">40</p>
+					</div>
+					<div id="g-ai0-16" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:90.1776%;margin-top:-7.8px;left:38.2159%;margin-left:-17px;width:34px;">
+						<p class="g-pstyle4">80</p>
+					</div>
+					<div id="g-ai0-17" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:90.1776%;margin-top:-7.8px;left:52.0241%;margin-left:-20px;width:40px;">
+						<p class="g-pstyle4">120</p>
+					</div>
+					<div id="g-ai0-18" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:90.1776%;margin-top:-7.8px;left:65.8692%;margin-left:-20px;width:40px;">
+						<p class="g-pstyle4">160</p>
+					</div>
+					<div id="g-ai0-19" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:90.1776%;margin-top:-7.8px;left:79.7146%;margin-left:-20px;width:40px;">
+						<p class="g-pstyle4">200</p>
+					</div>
+					<div id="g-ai0-20" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:90.1776%;margin-top:-7.8px;right:6.2634%;width:40px;">
+						<p class="g-pstyle2">240</p>
+					</div>
+					<div id="g-ai0-21" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:95.6175%;margin-top:-8.2px;left:23.6594%;width:338px;">
+						<p class="g-pstyle1">Fossil fuel lobbying money per Member of Congress ($1000s)</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- End ai2html - 2021-07-05 14:07 -->
+
+			<div class="py-5">
+				<div class="container">
+					<div class="row form-group justify-content-md-center">
+						<div class="col-md-6">
+							<div class="body-text">
+								<p>
+									“If it seems like the government isn’t working for the people, part of the problem is they’re effectively being bribed, very often by lobbyists,” reads a statement by <a href="https://represent.us/action/is-lobbying-good-or-bad/">Represent Us</a>, an anti-corruption campaigning group.
+								</p>
+
+								<p>
+									“Because they’ve become dependent on money from lobbyists to fund their political careers, Congress ends up passing laws to keep the lobbyists and their clients happy, instead of laws that benefit the American people.”
+								</p>
+
+								<p>
+									Some Members of Congress even have substantial personal stakes in fossil fuels.
+									Greg Gianforte, now the Governor of Montana, was the state’s sole representative in the House from 2017.
+									As well as benefitting from lobbyists, he had just shy of $5 million in fossil fuel investments as of 2019.
+									Gianforte uniformly voted against climate change measures during his time in the House, and he recently accused Biden of pandering to “radical environmentalists” for opposing the Keystone XL pipeline – despite a recent poll showing that a majority of registered voters with an opinion on the matter support cancelling the project.
+								</p>
+
+								<p>
+									With today’s <a href="https://www.bbc.com/news/science-environment-56837927">announcement</a> that the US is aiming to cut carbon emissions to 50% of 2005 levels in the next ten years, the pressure will be on Congress to pass strong climate policy in the immediate future.
+									It remains to be seen whether Congress will catch up with popular opinion and meet the country’s new, ambitious target, or if party politics and vested interests will continue to keep environmental bills from being signed into law.
+								</p>
+
+								<br />
+								<h5><strong>Methodology</strong></h5>
+
+								<p>
+									I used data from the <a href="https://climatecommunication.yale.edu/visualizations-data/ycom-us/">Yale Climate Opinion Maps</a> to find state-by-state opinions on climate-related positions; data from the <a href="https://scorecard.lcv.org/">League of Conservation Voters</a> to find voting records of each Member of Congress on environmental policy; and data from <a href="https://www.opensecrets.org/federal-lobbying/top-spenders?cache=1619030339">OpenSecrets</a> to find how much every Member of Congress gets from fossil fuel lobbyists.
+								</p>
+
+								<p>
+									I grouped the voting records of every House Representative and Senator into their states in order to plot them against state opinion polls.
+									For the final graph, I grouped House and Senate votes together, with equal weight given to both chambers, to come to a culumative state environmental voting record.
+								</p>
+
+								<p>
+									The color gradient for Democratic/Republican control was arrived at by dividing the number of Democrats by the total number of Congresspeople.
+									This gave a 0 to 1 range that was mapped onto a red-to-blue scale.
+									For the final graph, I again grouped the House and Senate together with equal weight given to both chambers.
+									This method does exclude independents, but using a color scheme that included them seemed to confuse the article without changing the conclusions.
+								</p>
+
+								<p>
+									Graphs were made in Altair and tweaked in Illustrator.
+									I used the New York Times’ <a href="http://ai2html.org/">aitohtml</a> tool to make the images responsive, and included different versions for viewing on mobile.
+								</p>
+
+								<p>
+									This methodology plots opinions on climate change against votes on environmental legislation.
+									Climate change policy is a major part of environmental policy, but it is important to note that the two are not identical.
+									Votes on the environment more broadly were used here because 1) the data was more readily available, 2) far more data exists for general environmental policy, making it more possible to find trends, and 3) positivity towards environmental legislation correlates strongly (and overlaps) with positivity towards climate legislation, making it a reasonable proxy.
+								</p>
+
+								<p>–</p>
+
+								<p>Header photo credit <a href="https://unsplash.com/photos/6kA9FjqUxhM">Andy Feliciotti</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<script src="../bootstrap.bundle.min.js"></script>
+
+	</body>
+</html>
