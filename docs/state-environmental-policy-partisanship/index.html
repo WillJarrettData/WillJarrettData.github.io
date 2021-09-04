@@ -105,15 +105,31 @@
 				}
 			}
 		</style>
+
+		<style>
+			/* set tooltip styles */
+			.svg-tooltip {
+				font-family: Calibri;
+				background: rgb(255, 255, 255);
+				border-color: black;
+				border-style: solid;
+				border-radius: .1rem;
+				color: rgb(0, 0, 0);
+				display: block;
+				font-size: 14px;
+				max-width: 320px;
+				padding: .2rem .4rem;
+				position: absolute;
+				text-overflow: ellipsis;
+				white-space: pre;
+				z-index: 300;
+				visibility: hidden;
+			}
+			
+		</style>
+
 	</head>
 	<body>
-
-		<img src="images/current_legislators.svg" style="display: none;">
-		<img src="images/current_legislators_demHigh.svg" style="display: none;">
-		<img src="images/current_legislators_repHigh.svg" style="display: none;">
-		<img src="images/former_legislators.svg" style="display: none;">
-		<img src="images/former_legislators_demHigh.svg" style="display: none;">
-		<img src="images/former_legislators_repHigh.svg" style="display: none;">
 
 		<header>
 			<!-- find out more bar -->
@@ -166,6 +182,13 @@
 							<!-- article begins here -->
 							<h3><strong>In state legislatures, the partisan divide on environmental policy is deepening.</strong></h3>
 							<div class="text-muted">By Will Jarrett</div>
+
+							<img src="images/current_legislators.svg" style="display: none;">
+							<img src="images/current_legislators_demHigh.svg" style="display: none;">
+							<img src="images/current_legislators_repHigh.svg" style="display: none;">
+							<img src="images/former_legislators.svg" style="display: none;">
+							<img src="images/former_legislators_demHigh.svg" style="display: none;">
+							<img src="images/former_legislators_repHigh.svg" style="display: none;">
 
 							<div class="body-text">
 								<br />
@@ -274,6 +297,22 @@
 								<p>
 									Copy copy copy.
 								</p>
+								<br /><br />
+								<input style="font-size:18px" id="input" type="text">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div id="chart" style="text-align:center;"></div>
+
+			<div class="py-5">
+				<div class="container">
+					<div class="row form-group justify-content-md-center">
+						<div class="col-md-6">
+							<div class="body-text">
+								<br />
 								<p>–</p>
 								<p>
 									Header photo credit <a href="https://unsplash.com/photos/lVDnLUACI18">Guy Bowden</a>
@@ -283,7 +322,6 @@
 					</div>
 				</div>
 			</div>
-
 		</main>
 
 		<!-- scrollytelling script -->
@@ -323,9 +361,12 @@
 			// kick things off
 			init();
 
-		</script>		
+		</script>
 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.7.0/d3.min.js" integrity="sha512-cd6CHE+XWDQ33ElJqsi0MdNte3S+bQY819f7p3NUHgwQQLXSKjE4cPZTeGNI+vaxZynk1wVU3hoHmow3m089wA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="d3.js"></script>
 		<script src="../bootstrap.bundle.min.js"></script>
+		
 
 	</body>
 </html>
