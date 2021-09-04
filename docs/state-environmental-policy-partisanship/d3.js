@@ -21,7 +21,7 @@
   // Define colour scale
   const colorScale = d3.scaleOrdinal()
     .domain(["red","blue","purple","grey"])
-    .range(["#EA0000","#0022EA","#9B30FF","#575757"])
+    .range(["#F03A3A","#3B75D4","#9B30FF","#575757"])
   
   // Define states
   const states = ["Missouri","Florida","West Virginia","Iowa","Wisconsin","Montana","Pennsylvania","Arizona","North Carolina","Texas","Minnesota","Utah","Washington","Oregon","Michigan","Colorado","Virginia","New Mexico","Maine","New Jersey","South Carolina","Georgia","Maryland","Nevada","Connecticut"]
