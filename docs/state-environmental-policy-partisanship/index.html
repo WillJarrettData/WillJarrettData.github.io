@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Will Jarrett">
+		<meta name="description" content="As the climate crisis deepens, the partisan divide on environmental issues at the state level is only getting worse.">
+		<meta property="og:image" content="images/environment2_og.jpg">
+		<title>Partisanship in state environmental policy | Will Jarrett Data</title>
+
+		<!-- import bootstrap stuff -->
+		<link href="../bootstrap.min.css" rel="stylesheet">
+		<link rel="icon" type="image/png" href="../images/site_favicon.png"/>
+
+		<!-- import local style -->
+		<link href="../style.css" rel="stylesheet">
+
+		<!-- import google font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+		<style>
+			/* scrolly style stuff */
+			#scrolly {
+				position: relative;
+			}
+
+			article {
+				position: relative;
+				padding: 0;
+				max-width: 20rem;
+				margin: 0 auto;
+				padding-bottom: 275px;
+			}
+
+			.sticky-thing {
+				transition: 0.25s linear;
+				position: -webkit-sticky;
+				position: sticky;
+				left: 0;
+				max-width: 100%;
+				top: 5vh;
+				height: 90vh;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				background-image: url('images/FCC_ISPs_0.svg');
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: center center;
+				z-index: -1;
+			}
+
+			.sticky-thing p {
+				font-size: 8rem;
+				font-weight: 900;
+				color: #fff;
+			}
+
+			.step {
+				margin: 0 auto 2rem auto;
+				margin-bottom: 35rem;
+				color: #fff;
+				background-color: #ffffffbd;
+			}
+
+			.step:last-child {
+				margin-bottom: 0;
+			}
+
+			.step p {
+				text-align: center;
+				padding: 1rem;
+				font-size: 1.5rem;
+				background-color: #000000bd;
+			}
+
+			/* These are the styles for ai2html */
+			#g-PoorStudentInternetAccess_svg-box, #g-PoorStudentInternetAccess_Mobile-box, #g-CovidInternetBronx-box, #g-CovidInternetBronx_Mobile-box, #g-BroadbandAssetsByBorough_V2_NOTEXT_svg-box, #g-BroadbandAssetsByBorough_V2_Mobile-box {
+				display: none;
+			}
+
+			@media (max-width: 970px) {
+				#g-PoorStudentInternetAccess_Mobile-box {
+					display: block;
+				}
+				#g-CovidInternetBronx_Mobile-box {
+					display: block;
+				}
+				#g-BroadbandAssetsByBorough_V2_Mobile-box {
+					display: block;
+				}
+			}
+
+			@media (min-width: 970px)  {
+				#g-PoorStudentInternetAccess_svg-box {
+					display: block;
+				}
+				#g-CovidInternetBronx-box {
+					display: block;
+				}
+				#g-BroadbandAssetsByBorough_V2_NOTEXT_svg-box {
+					display: block;
+				}
+			}
+		</style>
+	</head>
+	<body>
+
+		<img src="images/current_legislators.svg" style="display: none;">
+		<img src="images/current_legislators_demHigh.svg" style="display: none;">
+		<img src="images/current_legislators_repHigh.svg" style="display: none;">
+		<img src="images/former_legislators.svg" style="display: none;">
+		<img src="images/former_legislators_demHigh.svg" style="display: none;">
+		<img src="images/former_legislators_repHigh.svg" style="display: none;">
+
+		<header>
+			<!-- find out more bar -->
+			<div class="collapse bg-dark" id="navbarHeader">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 col-md-7 py-4">
+							<h4 class="text-white">About</h4>
+							<p class="text-white-50">
+								I graduated from <strong>Oxford University</strong> with First Class Honours in English in 2017.
+								For the next few years, I worked as <strong>editor</strong> of the Oxford University Press education website Oxford Owl.
+							</p>
+							<p class="text-white-50">
+								Last year, I moved to New York to pursue M.S. Data Journalism at <strong>Columbia University</strong>.
+								I am now joining San Francisco's <strong>Mission Local</strong> to do reporting and data viz.
+							</p>
+							<p class="text-white-50">
+								I have a particular interest in <strong>environmental news</strong> and building fun data tools.
+								In my spare time, I love hiking, drawing, and writing web bios.
+							</p>
+						</div>
+						<div class="col-sm-4 offset-md-1 py-4">
+							<h4 class="text-white">Contact</h4>
+							<ul class="list-unstyled">
+								<li><a href="https://twitter.com/WillJarrettData" class="text-white">Twitter</a></li>
+								<li><a href="https://github.com/WillJarrettData" class="text-white">GitHub</a></li>
+								<li><a href="https://www.linkedin.com/in/willjarrett/" class="text-white">LinkedIn</a></li>
+								<li><a target="_blank" href="../contents/WillJarrett_CV.pdf" class="text-white">Download my CV</a></li>
+								<li><a href="mailto:william.d.jarrett@gmail.com" class="text-white">william.d.jarrett@gmail.com</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="navbar navbar-dark bg-dark">
+				<div class="container">
+					<a href="https://willjarrettdata.github.io/" class="navbar-brand d-flex align-items-center">WillJarrett<strong>Data</strong></a>
+					<button type="button" class="btn btn-outline-light" data-bs-toggle="collapse" data-bs-target="#navbarHeader">Find out more</button>
+				</div>
+			</div>
+		</header>
+		<img src="images/environment2_header.jpg" id="header-image">
+
+		<main>
+			<div class="py-5">
+				<div class="container">
+					<div class="row form-group justify-content-md-center">
+						<div class="col-md-6">
+
+							<!-- article begins here -->
+							<h3><strong>In state legislatures, the partisan divide on environmental policy is deepening.</strong></h3>
+							<div class="text-muted">By Will Jarrett</div>
+
+							<div class="body-text">
+								<br />
+								<p>
+									STUFF ABOUT KIP BATEMAN.
+								</p>
+								<p>
+									Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy.
+									Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy.
+									Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy.
+									Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy.
+								</p>
+								<p>
+									Copy copy copy.
+								</p>
+								<p>
+									Copy copy copy.
+								</p>
+								<p>
+									Copy copy copy.
+								</p>
+								<p>
+									Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy.
+									Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy.
+									Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy.
+									Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy.
+								</p>
+								<p>
+									Copy copy copy.
+								</p>
+								<p>
+									Copy copy copy.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="calibri">
+				<section id="scrolly">
+					<div class="sticky-thing">
+						<p></p>
+					</div>
+
+					<article>
+							<div class="step" data-step="1" data-img="url('images/former_legislators.svg')">
+								<p>Copy copy copy.</p>
+							</div>
+							<div class="step" data-step="2" data-img="url('images/former_legislators.svg')">
+								<p>Copy copy copy.</p>
+							</div>
+							<div class="step" data-step="3" data-img="url('images/former_legislators.svg')">
+								<p>Copy copy copy.</p>
+							</div>
+							<div class="step" data-step="4" data-img="url('images/current_legislators.svg')">
+								<p>Copy copy copy.</p>
+							</div>
+							<div class="step" data-step="5" data-img="url('images/current_legislators_demHigh.svg')">
+								<p>Copy copy copy.</p>
+							</div>
+							<div class="step" data-step="6" data-img="url('images/current_legislators_repHigh.svg')">
+								<p>Copy copy copy.</p>
+							</div>
+							<div class="step" data-step="7" data-img="url('images/current_legislators.svg')">
+								<p>Copy copy copy.</p>
+							</div>
+					</article>
+
+				</section>
+			</div>
+
+			<div class="py-5">
+				<div class="container">
+					<div class="row form-group justify-content-md-center">
+						<div class="col-md-6">
+							<div class="body-text">
+								<br />
+								<p>
+									Copy copy copy.
+								</p>
+								<p>
+									Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy.
+									Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy.
+									Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy.
+									Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy.
+								</p>
+								<p>
+									Copy copy copy.
+								</p>
+								<p>
+									Copy copy copy.
+								</p>
+								<p>
+									Copy copy copy.
+								</p>
+								<p>
+									Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy.
+									Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy.
+									Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy.
+									Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy. Copy copy copy.
+								</p>
+								<p>
+									Copy copy copy.
+								</p>
+								<p>
+									Copy copy copy.
+								</p>
+								<p>–</p>
+								<p>
+									Header photo credit <a href="https://unsplash.com/photos/lVDnLUACI18">Guy Bowden</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+
+		<!-- scrollytelling script -->
+		<script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+		<script src="https://unpkg.com/scrollama"></script>
+		<script>
+			// DOM - document object model (section 1)
+			var main = document.querySelector("main");
+			var scrolly = main.querySelector("#scrolly");
+			var sticky = scrolly.querySelector(".sticky-thing");
+			var article = scrolly.querySelector("article");
+	
+			// initialize the scrollama
+			var scroller = scrollama();
+	
+			// scrollama event handlers
+			function handleStepEnter(response) {
+				// response = { element, direction, index }
+				var el = response.element;
+				console.log(el);
+				sticky.style.backgroundImage = el.dataset.img;
+			}
+	
+			function init() {
+				scroller
+					.setup({
+					step: "#scrolly article .step",
+					offset: 1,
+					debug: false
+					})
+					.onStepEnter(handleStepEnter);
+		
+			// setup resize event
+			window.addEventListener("resize", scroller.resize);
+			}
+	
+			// kick things off
+			init();
+
+		</script>		
+
+		<script src="../bootstrap.bundle.min.js"></script>
+
+	</body>
+</html>
