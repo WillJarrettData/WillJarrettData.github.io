@@ -122,7 +122,7 @@
          stroke-width="1.5"
          opacity="1"
          id="path192"
-         style="fill:#f03b3a;fill-opacity:0.40000001" />
+         style="fill:#f03b3a;fill-opacity:0.2" />
       <text
          text-anchor="start"
          font-family="sans-serif"
@@ -721,52 +721,52 @@
      d="m 77.36032,246.77461 h 54 v 154.15385 h -54 z"
      fill="#ff0000"
      id="path164"
-     style="stroke-miterlimit:10;fill:#f03b3a;fill-opacity:0.40000001" />
+     style="stroke-miterlimit:10;fill:#f03b3a;fill-opacity:0.2" />
   <path
      d="m 137.36032,313.23615 h 54 v 87.69231 h -54 z"
      fill="#ff0000"
      id="path166"
-     style="stroke-miterlimit:10;fill:#f03b3a;fill-opacity:0.40000001" />
+     style="stroke-miterlimit:10;fill:#f03b3a;fill-opacity:0.2" />
   <path
      d="m 197.36032,340.46692 h 54 v 60.46154 h -54 z"
      fill="#ff0000"
      id="path168"
-     style="stroke-miterlimit:10;fill:#f03b3a;fill-opacity:0.40000001" />
+     style="stroke-miterlimit:10;fill:#f03b3a;fill-opacity:0.2" />
   <path
      d="m 257.36032,337.69769 h 54 v 63.23077 h -54 z"
      fill="#ff0000"
      id="path170"
-     style="stroke-miterlimit:10;fill:#f03b3a;fill-opacity:0.40000001" />
+     style="stroke-miterlimit:10;fill:#f03b3a;fill-opacity:0.2" />
   <path
      d="m 317.36032,352.00538 h 53.99998 v 48.92308 h -53.99998 z"
      fill="#ff0000"
      id="path172"
-     style="stroke-miterlimit:10;fill:#f03b3a;fill-opacity:0.40000001" />
+     style="stroke-miterlimit:10;fill:#f03b3a;fill-opacity:0.2" />
   <path
      d="m 377.3603,338.62077 h 54 v 62.30769 h -54 z"
      fill="#ff0000"
      id="path174"
-     style="stroke-miterlimit:10;fill:#f03b3a;fill-opacity:0.40000001" />
+     style="stroke-miterlimit:10;fill:#f03b3a;fill-opacity:0.2" />
   <path
      d="m 437.3603,363.08231 h 54 v 37.84615 h -54 z"
      fill="#ff0000"
      id="path176"
-     style="stroke-miterlimit:10;fill:#f03b3a;fill-opacity:0.40000001" />
+     style="stroke-miterlimit:10;fill:#f03b3a;fill-opacity:0.2" />
   <path
      d="m 497.3603,376.00538 h 54 v 24.92308 h -54 z"
      fill="#ff0000"
      id="path178"
-     style="stroke-miterlimit:10;fill:#f03b3a;fill-opacity:0.40000001" />
+     style="stroke-miterlimit:10;fill:#f03b3a;fill-opacity:0.2" />
   <path
      d="m 557.3603,376.46692 h 54 v 24.46154 h -54 z"
      fill="#ff0000"
      id="path180"
-     style="stroke-miterlimit:10;fill:#f03b3a;fill-opacity:0.40000001" />
+     style="stroke-miterlimit:10;fill:#f03b3a;fill-opacity:0.2" />
   <path
      d="m 617.3603,387.54384 h 54 v 13.38462 h -54 z"
      fill="#ff0000"
      id="path182"
-     style="stroke-miterlimit:10;fill:#f03b3a;fill-opacity:0.40000001" />
+     style="stroke-miterlimit:10;fill:#f03b3a;fill-opacity:0.2" />
   <path
      class="background"
      aria-hidden="true"
