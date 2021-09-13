@@ -18,12 +18,6 @@ let footerDiv =
   '<p><a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox</a> | <a href="http://www.openstreetmap.org/about/" target="_blank">© OpenStreetMap</a> | <a href="https://willjarrettdata.github.io/">Will Jarrett Data</a></p>';
 
 let divChapter1 =
-  "<h3>Pollution in California</h3>" +
-  '<p>Pollution sensors around California reveal that poisonous nitrogen oxides accumulate near gas power plants. Sensors within five miles of plants detect on average 33% more harmful NOx gas than sensors elsewhere.</p>' +
-  '<p>In the map to the right, green circle are sensors with low levels of pollution, yellow circles mark sensors with moderate pollution and red sensors have the highest pollution. Click on them for their readings. Gas plants are marked by black squares.</p>' +
-  '<img height="200px" src="images/key2.svg">';
-
-let divChapter2 =
   "<h3>Gas power and political power</h3>" +
   '<img src="images/GasPlant_SantaClara.jpg">' +
   '<p class="imageCredit"><a href="https://unsplash.com/photos/bv2pvCGMtzg">American Public Power Association</a></p>' +
@@ -31,21 +25,21 @@ let divChapter2 =
   '<p>Mark Specht, Senior Energy Analyst at the Union of Concerned Scientists, suggested that the discrepancy may be down to "systemic racism." He added that he believed that "sometimes companies go down the path of least resistance when they are trying to site gas plants in a community."</p>' +
   '<img height="80px" src="images/key1.svg">';
 
-let divChapter3 =
+let divChapter2 =
   "<h3>Pollution in Los Angeles</h3>" +
   '<img src="images/Pollution_LosAngeles.jpg">' +
   '<p class="imageCredit"><a href="https://unsplash.com/photos/I8dvywXBqS0">Andrea Leopardi</a></p>' +
   '<p>NOx emissions from power plants can lead to ozone pollution in sunny weather. In built-up areas like Los Angeles, this is a significant contributor to smog, and can cause lung damage and respiratory infections.</p>' +
   '<p>Although gas plants are not the biggest source of NOx or fine particles – cars produce more every year – they are stationary and consistent emitters, meaning that nearby communities could be exposed to elevated levels of pollutants every day.</p>';
 
-let divChapter4 =
+let divChapter3 =
   "<h3>Magnolia and Olive</h3>" +
   '<img src="images/MagnoliaPowerPlant.jpg">' +
   '<p class="imageCredit"><a href="https://www.google.com/earth/download/gep/agree.html?hl=en-GB">Google Earth Pro</a></p>' +
   '<p>Some gas plants are built in open areas with few neighbors to breathe the pollutants. But many, such as the Magnolia and Olive plants in Burbank, are sited in the center of urban communities. There are over 33,000 people living within a mile of these plants and the tract is in the top 1% most polluted in the state.</p>' +
   '<p>It is hard to say exactly what impacts plants like these have on health, because their pollution mixes with emissions from other sources. But data shows that tracts that host gas plants typically have higher-than-average rates of cardiovascular disease, asthma, and even low birth-weights.</p>';
  
-let divChapter5 =
+let divChapter4 =
   "<p style='max-width:600px; margin-left:auto; margin-right:auto; font-size:18px' class='bigFeature'>The health impacts of harmful pollutants are particularly pronounced for people whose respiratory systems are already weaker than usual. This includes the elderly, the infirm – and children.</p>" +
   "<p style='max-width:600px; margin-left:auto; margin-right:auto; font-size:18px' class='bigFeature'>Around Magnolia alone, there are five schools within a mile.</p>" +
   '<div style="display:flex; justify-content:center; align-items:center;"><img style="max-width:400px; min-width:200px;" src="images/MagnoliaSchools.svg"></div>' +
@@ -77,44 +71,10 @@ var config = {
   footer: footerDiv,
   chapters: [
     {
-      id: "sensorMap",
-      alignment: "left",
-      hidden: false,
-      chapterDiv: divChapter1,
-      location: {
-        center: [-123, 36.7],
-        zoom: 5,
-        zoomSmall: 9,
-        pitch: 0,
-        bearing: 0,
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [
-        {
-          layer: "plants",
-          opacity: 1,
-          duration: 100,
-        },
-        {
-          layer: "allSensors1",
-          opacity: 0.5,
-          duration: 100,
-        },
-        {
-          layer: "gasPlantData",
-          opacity: 0,
-          duration: 100,
-        },
-      ],
-      onChapterExit: [],
-    },
-    {
       id: "overallMap",
       alignment: "left",
       hidden: false,
-      chapterDiv: divChapter2,
+      chapterDiv: divChapter1,
       location: {
         center: [-123, 36.7],
         zoom: 5,
@@ -157,7 +117,7 @@ var config = {
       title: "",
       image: "",
       description: "",
-      chapterDiv: divChapter3,
+      chapterDiv: divChapter2,
       location: {
         center: [-118.315, 34],
         zoom: 9,
@@ -190,7 +150,7 @@ var config = {
       title: "",
       image: "",
       description: "",
-      chapterDiv: divChapter4,
+      chapterDiv: divChapter3,
       location: {
         center: [-118.31655, 34.1775],
         zoom: 17,
@@ -213,56 +173,7 @@ var config = {
     {
       id: "satellite",
       alignment: "full",
-      chapterDiv: divChapter5,
+      chapterDiv: divChapter4,
     },
   ],
 };
-
-
-  console.log(plants)
-  // Create the popup
-  map.on('click', 'plants', function (e) {
-    var name = e.features[0].properties.facility_name;
-    var year = e.features[0].properties.start_date;
-    new mapboxgl.Popup()
-        .setLngLat(e.lngLat)
-        .setHTML('The ' +name + ' plant went online on ' +year)
-        .addTo(map);
-  });
-  // Change the cursor to a pointer when the mouse is over the us_states_elections layer.
-  map.on('mouseenter', 'plants', function () {
-    map.getCanvas().style.cursor = 'pointer';
-  });
-  // Change it back to a pointer when it leaves.
-  map.on('mouseleave', 'plants', function () {
-    map.getCanvas().style.cursor = '';
-  });
-  
-  map.on('click', 'allSensors1', function (e) {
-    var name = e.features[0].properties.local_site_name;
-    var pollution = e.features[0].properties.arithmetic_mean;
-    new mapboxgl.Popup()
-        .setLngLat(e.lngLat)
-        .setHTML('The nitrogen oxide reading at '+name+ ' sensor is '+ pollution+  ' parts per billion.')
-        .addTo(map);
-  });
-  map.on('mouseenter', 'allSensors1', function () {
-    map.getCanvas().style.cursor = 'pointer';
-  });
-  map.on('mouseleave', 'allSensors1', function () {
-    map.getCanvas().style.cursor = '';
-  });
-  map.on('click', 'nox', function (e) {
-    var name = e.features[0].properties.local_site_name;
-    var pollution = e.features[0].properties.arithmetic_mean;
-    new mapboxgl.Popup()
-        .setLngLat(e.lngLat)
-        .setHTML(name+' The nitrogen oxide reading at this sensor is '+ pollution+  ' parts per billion')
-        .addTo(map);
-  });
-  map.on('mouseenter', 'nox', function () {
-    map.getCanvas().style.cursor = 'pointer';
-  });
-  map.on('mouseleave', 'nox', function () {
-    map.getCanvas().style.cursor = '';
-  });

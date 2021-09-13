@@ -309,53 +309,6 @@ map.addLayer({
     ],
 }})
 
-// Create the popup
-map.on('click', 'plants', function (e) {
-  var name = e.features[0].properties.facility_name;
-  var year = e.features[0].properties.start_date;
-  new mapboxgl.Popup()
-      .setLngLat(e.lngLat)
-      .setHTML('The ' +name + ' plant went online on ' +year)
-      .addTo(map);
-});
-// Change the cursor to a pointer when the mouse is over the us_states_elections layer.
-map.on('mouseenter', 'plants', function () {
-  map.getCanvas().style.cursor = 'pointer';
-});
-// Change it back to a pointer when it leaves.
-map.on('mouseleave', 'plants', function () {
-  map.getCanvas().style.cursor = '';
-});
-
-map.on('click', 'allSensors1', function (e) {
-  var name = e.features[0].properties.local_site_name;
-  var pollution = e.features[0].properties.arithmetic_mean;
-  new mapboxgl.Popup()
-      .setLngLat(e.lngLat)
-      .setHTML('The nitrogen oxide reading at '+name+ ' sensor is '+ pollution+  ' parts per billion.')
-      .addTo(map);
-});
-map.on('mouseenter', 'allSensors1', function () {
-  map.getCanvas().style.cursor = 'pointer';
-});
-map.on('mouseleave', 'allSensors1', function () {
-  map.getCanvas().style.cursor = '';
-});
-map.on('click', 'nox', function (e) {
-  var name = e.features[0].properties.local_site_name;
-  var pollution = e.features[0].properties.arithmetic_mean;
-  new mapboxgl.Popup()
-      .setLngLat(e.lngLat)
-      .setHTML(name+' The nitrogen oxide reading at this sensor is '+ pollution+  ' parts per billion')
-      .addTo(map);
-});
-map.on('mouseenter', 'nox', function () {
-  map.getCanvas().style.cursor = 'pointer';
-});
-map.on('mouseleave', 'nox', function () {
-  map.getCanvas().style.cursor = '';
-});
-
   // Setup the instance, pass callback functions
   scroller
     .setup({
