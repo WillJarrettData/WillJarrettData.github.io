@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Will Jarrett">
+		<meta name="description" content="My (nearly successful) attempt at photogrammetry, the practice of creating 3D models from photographs.">
+		<meta property="og:image" content="images/photogrammetry_og.jpg">
+		<title>Adventures in photogrammetry | Will Jarrett Data</title>
+
+		<!-- import bootstrap stuff -->
+		<link href="../bootstrap.min.css" rel="stylesheet">
+		<link rel="icon" type="image/png" href="../images/site_favicon.png"/>
+
+		<!-- import local style -->
+		<link href="../style.css" rel="stylesheet">
+
+		<!-- import google font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+		
+	</head>
+	<body>
+
+		<header>
+			<!-- find out more bar -->
+			<div class="collapse bg-dark" id="navbarHeader">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 col-md-7 py-4">
+							<h4 class="text-white">About</h4>
+							<p class="text-white-50">
+								I graduated from <strong>Oxford University</strong> with First Class Honours in English in 2017.
+								For the next few years, I worked as <strong>editor</strong> of the Oxford University Press education website Oxford Owl.
+							</p>
+							<p class="text-white-50">
+								Last year, I moved to New York to pursue M.S. Data Journalism at <strong>Columbia University</strong>.
+								I am now joining San Francisco's <strong>Mission Local</strong> to do reporting and data viz.
+							</p>
+							<p class="text-white-50">
+								I have a particular interest in <strong>environmental news</strong> and building fun data tools.
+								In my spare time, I love hiking, drawing, and writing web bios.
+							</p>
+						</div>
+						<div class="col-sm-4 offset-md-1 py-4">
+							<h4 class="text-white">Contact</h4>
+							<ul class="list-unstyled">
+								<li><a href="https://twitter.com/WillJarrettData" class="text-white">Twitter</a></li>
+								<li><a href="https://github.com/WillJarrettData" class="text-white">GitHub</a></li>
+								<li><a href="https://www.linkedin.com/in/willjarrett/" class="text-white">LinkedIn</a></li>
+								<li><a target="_blank" href="../contents/WillJarrett_CV.pdf" class="text-white">Download my CV</a></li>
+								<li><a href="mailto:william.d.jarrett@gmail.com" class="text-white">william.d.jarrett@gmail.com</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="navbar navbar-dark bg-dark">
+				<div class="container">
+					<a href="https://willjarrettdata.github.io/" class="navbar-brand d-flex align-items-center">WillJarrett<strong>Data</strong></a>
+					<button type="button" class="btn btn-outline-light" data-bs-toggle="collapse" data-bs-target="#navbarHeader">Find out more</button>
+				</div>
+			</div>
+		</header>
+		<img src="images/photogrammetry_header.jpg" id="header-image">
+
+		<main>
+			<div class="py-5">
+				<div class="container">
+					<div class="row form-group justify-content-md-center">
+						<div class="col-md-6">
+
+							<!-- article begins here -->
+							<h3><strong>Adventures in photogrammetry</strong></h3>
+							<div class="text-muted">By Will Jarrett</div>
+
+							<div class="body-text">
+								<br />
+								<p>Having recently heard about photogrammetry for the first time in a <a href="https://browninstitute.github.io/at_home/about/">Brown Institute lecture</a>, I decided to give it a go.</p>
+								<p>
+									The idea behind photogrammetry is to take a large number of pictures of an object/room/landscape and use them to construct a 3D model.
+									This technique has been used to digitally recreate statues destroyed by ISIS, to analyse bomb craters, and – in my case – to create gently spinning wooden elephants.
+									Behold:
+								</p>
+
+								<iframe title="Elephant Model" width="100%" height="500px" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/89594511a5664ea285de2c54822aca62/embed"></iframe>
+								<p></p>
+
+								<p>
+									A quick play with the model above will demonstrate that although the results were interesting, things did not go entirely perfectly for my first photogrammetry project.
+									More on that later.
+								</p>
+								<p>First off, a runthrough of the process I went through to create this model:</p>
+								<h3>Step 1: Taking photographs</h3>
+								<p>
+									In order to get enough information to produce the model, I needed to take a large number of photographs of the elephant from lots of different angles.
+									I stood the elephant on a makeshift book-plinth and shuffled around it on my belly, trying to get pictures with my smartphone from the side, above, and below.
+								</p>
+								<p>
+									This is possibly the most important part of the process, because no amount of technical tweaking can make up for poor source material.
+									I found the trickiest aspects of this step were:
+								</p>
+								<ol>
+									<li>making sure the lighting was strong and even</li>
+									<li>getting good shots beneath the elephant.</li>
+								</ol>
+								<p>
+									I put a piece of white paper underneath the elephant in an attempt to improve the lighting.
+									In hindsight, I think this blank surface might have made it more difficult for the 3D modelling software to figure out how different pictures related to one another. It may also be responsible for the slightly mouldy look on the bottom of the elephant.
+									In the future, I would put marks on the paper to give the software something to easily grasp when sorting out scales and relationships.
+								</p>
+								<p>
+									Here are some examples of the photos I took:
+								</p>
+
+								<img src="images/elephant_photos_1.jpg" alt="Five pictures of the wooden elephant from different angles." class="img-fluid">
+								<p></p>
+
+								<h3>Step 2: Importing to Metashape</h3>
+
+								<p>
+									I used the modelling software <a href="https://www.agisoft.com/">Metashape</a> to turn these photographs into a set of 3D data points.
+									This process was surprisingly automatic.
+									I uploaded all the photographs as a set, made a couple of minor manual adjustments, and the software figured out the angles and relative positions of all the photos:
+								</p>
+
+								<img src="images/ElephantPhotoCloud.jpg" alt="Five pictures of the wooden elephant from different angles." class="img-fluid">
+								
+								<p>
+									From this, Metashape produced a huge number of data points as it tried to map all the contours it had detected in the pictures.
+								</p>
+
+								<h3>Step 3: Editing the elephant</h3>
+
+								<p>
+									This was the most enjoyable part of the process.
+									Metashape automatically maps all the data points it can find in the photographs, including everything it finds in the background.
+									All this needs to be removed to leave us with a clean final model.
+								</p>
+
+								<p>
+									The process of cleaning up the 3D image is highly manual, requiring you to methodically remove any elements you don’t want in your finished model.
+									The model goes through several iterations, from ‘loose cloud’ to ‘dense cloud’ to ‘mesh’, with the accuracy of the representation getting better at every step:
+								</p>
+
+								<img src="images/ElephantLooseCloud.jpg" alt="Loose cloud." class="img-fluid" style="border: 2px solid rgb(0, 0, 0);">
+								<p class="text-muted">Loose cloud</p>
+
+								<img src="images/ElephantDenseCloud.jpg" alt="Dense cloud." class="img-fluid" style="border: 2px solid rgb(0, 0, 0);">
+								<p class="text-muted">Dense cloud</p>
+
+								<img src="images/ElephantMesh.jpg" alt="Mesh." class="img-fluid" style="border: 2px solid rgb(0, 0, 0);">
+								<p class="text-muted">Mesh</p>
+
+								<p>
+									Editing a 3D object on a 2D screen takes getting used to, but it is fun to chip away at all the erroneous data points, slowly building a clearer image.
+									For instance, all of that white splash at the bottom of the ‘dense cloud’ image needed to be deleted, which required lots of rotating, zooming, and careful snipping (making sure I didn’t take a chunk of leg off in the process).
+								</p>
+
+								<h3>Step 4: Embedding the elephant</h3>
+
+								<p>
+									With a finished 3D model, the only thing left to do was embed the elephant into this webpage.
+									I used the website <a href="https://sketchfab.com/blogs/enterprise/news/getting-started-with-sketchfab">Sketchfab</a> for this.
+								</p>
+								<p>
+									Although this all seemed very straightforward, an error swiftly became apparent.
+									My elephant was orientated upright, with its back to the user and its trunk in the air.
+								</p>
+								<p>
+									I booted up Metashape to fix this, but unfortunately my free trial has expired.
+									So we will have to live with the elephant’s idiosyncratic jauntiness for the time being.
+								</p>
+
+								<h3>Conclusions</h3>
+								<h5>Things that went well:</h5>
+								<ul>
+									<li>
+										The photorealism of the wood is good.
+										The tiny marks in the wood on the elephant’s back would have been hard to achieve with conventional 3D modelling.
+									</li>
+									<li>
+										It’s a bit lumpy, but I am pleased with the complex shape of the trunk.
+									</li>
+								</ul>
+								<h5>Things I would do differently in the future:</h5>
+								<ul>
+									<li>
+										The elephant is lumpy behind the ears and on the underside.
+										I think this is due to lack of pictures from below.
+										In the future, I will create a much thinner plinth for the model, so that I can take pictures at a better angle.
+									</li>
+									<li>
+										There is a white, mouldy look to the underside of the elephant.
+										I think this is the result of 1) using white paper as a background, 2) having insufficient pictures of the area, and 3) not cleaning up the model as precisely as I could have done.
+									</li>
+									<li>
+										The object orientation is not right. I would fix this if I had a Metashape licence!
+									</li>
+									<li>
+										Some areas have low detail (for example, the legs).
+										I think that using an object with more clearly differentiated points (for example, a painted elephant model) would improve this.
+									</li>
+								</ul>
+
+								<img src="images/ElephantFinal.jpg" alt="Final picture of the elephant in Metashape." class="img-fluid">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<script src="../bootstrap.bundle.min.js"></script>
+
+	</body>
+</html>
