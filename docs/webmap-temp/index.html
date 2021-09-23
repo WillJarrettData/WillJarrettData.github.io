@@ -6,25 +6,26 @@
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
     <div class='button-container'>
-        <button id="btn" class="big-button focus" onclick="population()" autofocus>Total population</button>
-        <button id="btn" class="big-button focus" onclick="hispanic()">Hispanic population</button>
-        <button id="btn" class="big-button focus" onclick="black()">Black population</button>
-        <button id="btn" class="big-button focus" onclick="white()">White population</button>
-        <button id="btn" class="big-button focus" onclick="asian()">Asian population</button>
+        <button class="big-button getnowbutton" onclick="population()">Total population</button>
+        <button class="big-button getnowbutton" onclick="hispanic()">Hispanic population</button>
+        <button class="big-button getnowbutton" onclick="black()">Black population</button>
+        <button class="big-button getnowbutton" onclick="white()">White population</button>
+        <button class="big-button getnowbutton" onclick="asian()">Asian population</button>
     </div>
 
     <div id='map'></div>
     <script type='text/javascript' src="map.js"></script>
+
     <div class='legend-container'>
         <img class="legend" src="legend.svg" />
     </div>
 
 </body>
-
 </html>

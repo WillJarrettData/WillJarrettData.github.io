@@ -5,17 +5,12 @@ const bounds = [
   [-122, 38] // Northeast coordinates
   ];
 
-var mq = window.matchMedia( "(min-width: 420px)" );
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mlnow/cktwav9fx00eg18piyvomhrrs',
     zoom: 11,
     center: [-122.44, 37.77],
     maxBounds: bounds
-});
-
-map.on('load', function () {
-  map.resize();
 });
 
 map.on("load", function () {
@@ -505,3 +500,12 @@ function asian() {
   map.setLayoutProperty('white_change_id', 'visibility', 'none');
   map.setLayoutProperty('asian_change_id', 'visibility', 'visible');
 }
+
+// make buttons stay right colour
+
+$(document).ready(function(){
+  $('.getnowbutton').click(function(){
+    $('.getnowbutton').removeClass('active');
+    $(this).addClass('active');
+  });
+});
