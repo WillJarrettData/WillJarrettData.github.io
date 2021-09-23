@@ -55,20 +55,6 @@ body {
 
 /* button stuff */
 
-.big-button {
-    background-color: #ffffff;
-    border:#ffffff;
-    padding: 8px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    width: 15em;
-}
-
 .big-button:hover {background-color: #e7e7e7;}
 
 @media only screen and (max-width: 600px){
@@ -78,6 +64,19 @@ body {
         width: 50%;
         margin: 0 auto;
     }
+
+    .big-button {
+        background-color: #ffffff;
+        border:#ffffff;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 14px;
+        margin: 2px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        width: 10em;
+    }
 }
 
 @media only screen and (min-width: 600px){
@@ -85,8 +84,21 @@ body {
         display: flex;
         justify-content: center;
     }
+
+    .big-button {
+        background-color: #ffffff;
+        border:#ffffff;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 14px;
+        margin: 2px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        width: 15em;
+    }
 }
 
 .active {
     background-color: #e7e7e7;
-  }
+}
