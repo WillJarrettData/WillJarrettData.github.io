@@ -26,7 +26,7 @@ map.on("load", function () {
         type: "fill",
         source: {
           type: "geojson",
-          data: "data/neighborhoodDemographicChangesMapbox.geojson",
+          data: "neighborhoodDemographicChangesMapbox.geojson",
         },
         layout: {
           'visibility': 'visible'
@@ -91,7 +91,7 @@ map.on("load", function () {
         type: "fill",
         source: {
           type: "geojson",
-          data: "data/neighborhoodDemographicChangesMapbox.geojson",
+          data: "neighborhoodDemographicChangesMapbox.geojson",
         },
         layout: {
           'visibility': 'none'
@@ -156,7 +156,7 @@ map.on("load", function () {
         type: "fill",
         source: {
           type: "geojson",
-          data: "data/neighborhoodDemographicChangesMapbox.geojson",
+          data: "neighborhoodDemographicChangesMapbox.geojson",
         },
         layout: {
           'visibility': 'none'
@@ -221,7 +221,7 @@ map.on("load", function () {
         type: "fill",
         source: {
           type: "geojson",
-          data: "data/neighborhoodDemographicChangesMapbox.geojson",
+          data: "neighborhoodDemographicChangesMapbox.geojson",
         },
         layout: {
           'visibility': 'none'
@@ -286,7 +286,7 @@ map.on("load", function () {
         type: "fill",
         source: {
           type: "geojson",
-          data: "data/neighborhoodDemographicChangesMapbox.geojson",
+          data: "neighborhoodDemographicChangesMapbox.geojson",
         },
         layout: {
           'visibility': 'none'
