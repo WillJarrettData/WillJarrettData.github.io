@@ -1,17 +1,17 @@
 mapboxgl.accessToken = "pk.eyJ1IjoibWxub3ciLCJhIjoiY2t0d2FsdWRpMmkxbDMxcnJ4eTNsMmFlMiJ9.dUju5BD_HqseLNWGIGvXpg";
 
 const bounds = [
-  [-122.44, 37.767],
-  [-122.44, 37.767]
+  [-122.44, 37.755],
+  [-122.44, 37.755]
   ];
 
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mlnow/cktwav9fx00eg18piyvomhrrs',
-    zoom: 11.2,
-    center: [-122.44, 37.767],
-    maxZoom: 11.2,
-    minZoom: 11.2,
+    zoom: 10.8,
+    center: [-122.44, 37.755],
+    maxZoom: 10.8,
+    minZoom: 10.8,
     maxBounds: bounds
 });
 
@@ -501,5 +501,4 @@ function asian() {
   map.setLayoutProperty('black_change_id', 'visibility', 'none');
   map.setLayoutProperty('white_change_id', 'visibility', 'none');
   map.setLayoutProperty('asian_change_id', 'visibility', 'visible');
-
 }
