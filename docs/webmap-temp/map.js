@@ -14,12 +14,6 @@ var map = new mapboxgl.Map({
     maxBounds: bounds
 });
 
-if (mq.matches){
-  map.setZoom(11); //set map zoom level for desktop size
-} else {
-  map.setZoom(10); //set map zoom level for mobile size
-};
-
 map.on('load', function () {
   map.resize();
 });
