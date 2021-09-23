@@ -1,18 +1,22 @@
 mapboxgl.accessToken = "pk.eyJ1IjoibWxub3ciLCJhIjoiY2t0d2FsdWRpMmkxbDMxcnJ4eTNsMmFlMiJ9.dUju5BD_HqseLNWGIGvXpg";
 
 const bounds = [
-  [-122.44, 37.755],
-  [-122.44, 37.755]
+  [-122.44, 37.77],
+  [-122.44, 37.77]
   ];
 
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mlnow/cktwav9fx00eg18piyvomhrrs',
     zoom: 10.8,
-    center: [-122.44, 37.755],
+    center: [-122.44, 37.77],
     maxZoom: 10.8,
     minZoom: 10.8,
     maxBounds: bounds
+});
+
+map.on('load', function () {
+  map.resize();
 });
 
 map.on("load", function () {
