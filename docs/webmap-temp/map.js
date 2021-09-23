@@ -1,19 +1,24 @@
 mapboxgl.accessToken = "pk.eyJ1IjoibWxub3ciLCJhIjoiY2t0d2FsdWRpMmkxbDMxcnJ4eTNsMmFlMiJ9.dUju5BD_HqseLNWGIGvXpg";
 
 const bounds = [
-  [-122.44, 37.77],
-  [-122.44, 37.77]
+  [-122.75, 37.7], // Southwest coordinates
+  [-122.15, 37.85] // Northeast coordinates
   ];
 
+var mq = window.matchMedia( "(min-width: 420px)" );
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mlnow/cktwav9fx00eg18piyvomhrrs',
-    zoom: 10.8,
+    zoom: 11,
     center: [-122.44, 37.77],
-    maxZoom: 10.8,
-    minZoom: 10.8,
     maxBounds: bounds
 });
+
+if (mq.matches){
+  map.setZoom(11); //set map zoom level for desktop size
+} else {
+  map.setZoom(10); //set map zoom level for mobile size
+};
 
 map.on('load', function () {
   map.resize();
@@ -80,7 +85,7 @@ map.on("load", function () {
             "#154360",
             "#ffffff",
           ],
-          "fill-opacity": 0.9,
+          "fill-opacity": 0.8,
         },
       },
       "waterway-label"
@@ -145,7 +150,7 @@ map.on("load", function () {
             "#154360",
             "#ffffff",
           ],
-          "fill-opacity": 0.9,
+          "fill-opacity": 0.8,
         },
       },
       "waterway-label"
@@ -210,7 +215,7 @@ map.on("load", function () {
             "#154360",
             "#ffffff",
           ],
-          "fill-opacity": 0.9,
+          "fill-opacity": 0.8,
         },
       },
       "waterway-label"
@@ -275,7 +280,7 @@ map.on("load", function () {
             "#154360",
             "#ffffff",
           ],
-          "fill-opacity": 0.9,
+          "fill-opacity": 0.8,
         },
       },
       "waterway-label"
@@ -340,7 +345,7 @@ map.on("load", function () {
             "#154360",
             "#ffffff",
           ],
-          "fill-opacity": 0.9,
+          "fill-opacity": 0.8,
         },
       },
       "waterway-label"
