@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    width: 90%;
+    height: 600px;
+    margin: 2em auto;
+}
+
+.mapboxgl-popup-content h4 {
+    font-weight: 300;
+    font-size: 0.9em;
+    border-width: 0px 0px 0.5px 0px;
+    border-style: solid;
+    border-color: rgb(80, 80, 80);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.mapboxgl-popup-content h2 {
+    font-weight: 500;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+}
+.mapboxgl-popup-content p {
+    font-weight: 300;
+    margin-top: 0.3em;
+    margin-bottom: 0em;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.big-button {
+    background-color: #ffffff;
+    border: 2px solid #e7e7e7;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 15em;
+}
+
+.legend {
+    background-color: #ffffff;
+    border: 2px solid #e7e7e7;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    width: 15em;
+}
+
+.button-div {
+    display: flex;
+    justify-content: space-around;
+  }
+
+.big-button:hover {background-color: #e7e7e7;}
+
+.map-overlay1 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    background: #fff;
+    font-family: Calibri;
+    overflow: auto;
+    border-radius: 3px;
+  }
+
+.map-overlay2 {
+    position: absolute;
+    top: 10%;
+    left: 5.7%;
+    background: #fff;
+    font-family: Calibri;
+    overflow: auto;
+    border-radius: 3px;
+  }

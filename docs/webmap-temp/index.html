@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>San Francisco census data</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id='map'></div>
+    <script type='text/javascript' src="map.js"></script>
+    <div class='map-overlay1' id='features'>
+        <div id='pd'>
+            <button id="toggle" class="big-button" onclick="population()">Total population</button>
+            <br/>
+            <button id="toggle" class="big-button" onclick="hispanic()">Hispanic population</button>
+            <br/>
+            <button id="toggle" class="big-button" onclick="black()">Black population</button>
+            <br/>
+            <button id="toggle" class="big-button" onclick="white()">White population</button>
+            <br/>
+            <button id="toggle" class="big-button" onclick="asian()">Asian population</button>
+        </div>
+    </div>
+
+    <div class='map-overlay2' id='features'>
+        <div id='pd'>
+            <img src="legend2.svg" height="300px" />
+        </div>
+    </div>
+
+    <div class='map-overlay' id='legend'></div>
+</body>
+
+</html>
