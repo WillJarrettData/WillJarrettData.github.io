@@ -72,10 +72,24 @@ var width = window.innerWidth - 15
 var height = window.innerHeight - 15
 var svg = d3.select('svg')
 
+// choose how to size nodes - changes for portrait vs landscape
+if (width > height) {
+  var vizSize = width
+}
+else if (width < 300) {
+  var vizSize = height * 0.7
+}
+else if (width < height) {
+  var vizSize = height
+}
+else {
+  var vizSize = width
+}
+
 // set radius scale
 const radiusScale = d3.scaleSqrt()
   .domain([1, 15])
-  .range([(10 * (width / 1100)) + 10, (50 * (width / 1100)) + 10])
+  .range([(10 * (vizSize / 1100)) + 10, (50 * (vizSize / 1100)) + 10])
 
 svg.attr('width', width).attr('height', height)
 
@@ -88,8 +102,8 @@ var linkForce = d3
 var simulation = d3
   .forceSimulation()
   .force('link', linkForce.distance(50))
-  .force('charge', d3.forceManyBody().strength(-width / 1.2).strength(50))
-  .force("collide", d3.forceCollide(d => radiusScale(d.total_links) + (width / 50)).iterations(10))
+  .force('charge', d3.forceManyBody().strength(-vizSize / 1.2).strength(50))
+  .force("collide", d3.forceCollide(d => radiusScale(d.total_links) + (vizSize / 50)).iterations(10))
   .force('center', d3.forceCenter(width / 2, height / 2))
 
 var dragDrop = d3.drag().on('start', function (node) {
