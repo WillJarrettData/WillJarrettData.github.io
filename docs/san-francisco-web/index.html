@@ -50,6 +50,10 @@
 		margin-bottom: 0em;
 	}
 
+  text.shadow {
+    text-shadow: 0px 0px 5px #ffffff, 0px 0px 5px #ffffff, 0px 0px 5px #ffffff, 0px 0px 5px #ffffff, 0px 0px 5px #ffffff, 0px 0px 5px #ffffff;
+  }
+
   </style>
 </head>
 <body>
@@ -184,6 +188,7 @@ var textElements = svg.append("g")
     .attr("dy", 5)
     .attr("text-anchor", "left")
     .attr("id", function(d,i){ return "label_id"+i})
+    .attr("class", "shadow")
     .style("visibility", "hidden");
 
 //
