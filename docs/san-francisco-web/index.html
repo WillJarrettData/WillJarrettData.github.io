@@ -184,11 +184,7 @@ var textElements = svg.append("g")
     .attr("dy", 5)
     .attr("text-anchor", "left")
     .attr("id", function(d,i){ return "label_id"+i})
-    .style("visibility", "hidden")
-    .call(dragDrop)
-    .on("click", popup)
-    .on('mouseover', mouseoverNode)
-    .on('mouseout', mouseoutNode);
+    .style("visibility", "hidden");
 
 //
 // FUNCTIONS LIVE HERE
