@@ -198,19 +198,14 @@ var textElements = svg.append("g")
 // trigger pop-up when link or node are selected
 
 function popup(d) {
-  var tipX = d3.event.pageX - 100
+  var tipX = d3.event.pageX - 110
   var tipY = d3.event.pageY + 5
 
-  tooltip.html(d.desc)
-  .style("visibility", "visible")
-  .style("left", tipX + "px")
-  .style("top", tipY + "px");
-
+  // stop going off left
   if (tipX < 0) {
     tipX = 0;
   }
-
-  // crappy workaround
+  // stop squeezing against right
   if (width > 220 && tipX > width - 210) {
     tipX = width - 220;
   }
