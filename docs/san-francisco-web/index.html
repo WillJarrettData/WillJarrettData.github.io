@@ -144,7 +144,7 @@ var linkElements = svg.append("g")
   .enter()
   .append("line")
   .attr("stroke-width", 3)
-	.attr("stroke", "rgba(50, 50, 50, 0.15)")
+	.attr("stroke", "rgba(50, 50, 50, 0.1)")
   .on('click', popup)
   .on('mouseover', mouseoverLink)
   .on('mouseout', mouseoutLink);
@@ -218,7 +218,7 @@ function mouseoutLink(d) {
     .transition()
     .duration(100)
     .attr('stroke-width', 3)
-    .attr('stroke', "rgba(50, 50, 50, 0.15)")
+    .attr('stroke', "rgba(50, 50, 50, 0.1)")
     .style("cursor", "default");
 }
 
@@ -242,7 +242,7 @@ function mouseoverNode(d, i) {
     if (d === l.source || d === l.target)
       return '#6b6b6b';
     else
-      return "rgba(50, 50, 50, 0.15)";
+      return "rgba(50, 50, 50, 0.1)";
   });
 }
 
@@ -256,7 +256,7 @@ function mouseoutNode(d, i) {
   d3.select("#label_id" + i)
     .style("visibility", "hidden");
   linkElements.attr('stroke-width', 3)
-    .attr('stroke', "rgba(50, 50, 50, 0.15)");
+    .attr('stroke', "rgba(50, 50, 50, 0.1)");
 }
 
 // set node size and colour
