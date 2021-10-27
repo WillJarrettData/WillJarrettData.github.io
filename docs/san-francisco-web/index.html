@@ -210,11 +210,23 @@ function popup(d) {
     tipX = width - 220;
   }
 
-  // Apply corrected position
+  // apply position
   tooltip.html(d.desc)
   .style("visibility", "visible")
   .style("left", tipX + "px")
   .style("top", tipY + "px");
+
+  // see if bottom of tooltip is going off the screen
+  const tooltipRect = tooltip.node().getBoundingClientRect();
+  if (tooltipRect.bottom > height) {
+    tipY = height - tooltipRect.height
+  }
+
+  // apply position... again
+  tooltip.html(d.desc)
+    .style("visibility", "visible")
+    .style("left", tipX + "px")
+    .style("top", tipY + "px");
 
   d3.event.stopPropagation();
 }
