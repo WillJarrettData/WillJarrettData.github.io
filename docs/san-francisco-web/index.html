@@ -196,18 +196,34 @@ var textElements = svg.append("g")
 //
 
 // trigger pop-up when link or node are selected
+
 function popup(d) {
+  var tipX = d3.event.pageX - 100
+  var tipY = d3.event.pageY + 5
+
   tooltip.html(d.desc)
   .style("visibility", "visible")
-  .style("left", (d3.event.pageX - 100) + "px")
-  // attempt to stop pop-ups going off page
-  .style("top",function(){
-                    if (d3.event.pageY > (height / 1.5)) {
-                        return d3.event.pageY - 200 + "px";
-                    } else {
-                        return d3.event.pageY + 5 + "px";
-                    }
-                });
+  .style("left", tipX + "px")
+  .style("top", tipY + "px");
+
+  if (tipX < 0) {
+    tipX = 0;
+  }
+
+  // crappy workaround
+  if (width > 220 && tipX > width - 210) {
+    tipX = width - 220;
+  }
+  if (tipY + 200 > height) {
+    tipY = tipY - 200;
+  }
+
+  // Apply corrected position
+  tooltip.html(d.desc)
+  .style("visibility", "visible")
+  .style("left", tipX + "px")
+  .style("top", tipY + "px");
+
   d3.event.stopPropagation();
 }
 
