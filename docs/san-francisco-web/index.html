@@ -196,18 +196,17 @@ var textElements = svg.append("g")
 //
 
 // trigger pop-up when link or node are selected
-
 function popup(d) {
   var tipX = d3.event.pageX - 110
   var tipY = d3.event.pageY + 5
 
   // stop going off left
   if (tipX < 0) {
-    tipX = 0;
+    tipX = 0 + 10;
   }
   // stop squeezing against right
   if (width > 220 && tipX > width - 210) {
-    tipX = width - 220;
+    tipX = width - 240;
   }
 
   // apply position
