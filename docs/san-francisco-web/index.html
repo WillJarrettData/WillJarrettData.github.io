@@ -214,9 +214,6 @@ function popup(d) {
   if (width > 220 && tipX > width - 210) {
     tipX = width - 220;
   }
-  if (tipY + 200 > height) {
-    tipY = tipY - 200;
-  }
 
   // Apply corrected position
   tooltip.html(d.desc)
