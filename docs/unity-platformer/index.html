@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Will Jarrett">
+		<meta name="description" content="A fun mini-platformer I created with #C and Unity.">
+		<meta property="og:image" content="images/unityPlatformer_og.png">
+		<title>Unity platformer | Will Jarrett Data</title>
+
+		<!-- import bootstrap stuff -->
+		<link href="../bootstrap.min.css" rel="stylesheet">
+		<link rel="icon" type="image/png" href="../images/site_favicon.png"/>
+
+		<!-- import local style -->
+		<link href="../style.css" rel="stylesheet">
+
+		<!-- import google font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+		<style>
+			video {
+				width: 100%    !important;
+				height: auto   !important;
+			}
+		</style>
+
+		
+	</head>
+	<body>
+
+		<header>
+			<!-- find out more bar -->
+			<div class="collapse bg-dark" id="navbarHeader">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 col-md-7 py-4">
+							<h4 class="text-white">About</h4>
+							<p class="text-white-50">
+								I graduated from <strong>Oxford University</strong> with First Class Honours in English in 2017.
+								For the next few years, I worked as <strong>editor</strong> of the Oxford University Press education website Oxford Owl.
+							</p>
+							<p class="text-white-50">
+								Last year, I moved to New York to pursue M.S. Data Journalism at <strong>Columbia University</strong>.
+								I am now joining San Francisco's <strong>Mission Local</strong> to do reporting and data viz.
+							</p>
+							<p class="text-white-50">
+								I have a particular interest in <strong>environmental news</strong> and building fun data tools.
+								In my spare time, I love hiking, drawing, and writing web bios.
+							</p>
+						</div>
+						<div class="col-sm-4 offset-md-1 py-4">
+							<h4 class="text-white">Contact</h4>
+							<ul class="list-unstyled">
+								<li><a href="https://twitter.com/WillJarrettData" class="text-white">Twitter</a></li>
+								<li><a href="https://github.com/WillJarrettData" class="text-white">GitHub</a></li>
+								<li><a href="https://www.linkedin.com/in/willjarrett/" class="text-white">LinkedIn</a></li>
+								<li><a target="_blank" href="../contents/WillJarrett_CV.pdf" class="text-white">Download my CV</a></li>
+								<li><a href="mailto:william.d.jarrett@gmail.com" class="text-white">william.d.jarrett@gmail.com</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="navbar navbar-dark bg-dark">
+				<div class="container">
+					<a href="https://willjarrettdata.github.io/" class="navbar-brand d-flex align-items-center">WillJarrett<strong>Data</strong></a>
+					<button type="button" class="btn btn-outline-light" data-bs-toggle="collapse" data-bs-target="#navbarHeader">Find out more</button>
+				</div>
+			</div>
+		</header>
+		<img src="images/unityPlatformer_og.png" id="header-image">
+
+		<main>
+			<div class="py-5">
+				<div class="container">
+					<div class="row form-group justify-content-md-center">
+						<div class="col-md-6">
+
+							<!-- article begins here -->
+							<h3><strong>Making a platformer with Unity</strong></h3>
+							<div class="text-muted">By Will Jarrett</div>
+
+							<div class="body-text">
+								<br />
+								<p>
+									The combination of the Christmas holiday and the pandemic lockdown left me with lots of spare time.
+									I tried out a bunch of projects, including building a rudimentary platformer in <a href="https://unity.com/">Unity</a>.
+								</p>
+								<p>
+									The amount you can do with this free software is amazing.
+									Fundamental elements of the game such as collisions and physics are all sorted out without code, freeing you up to focus on stuff like player control.
+									However, it still took a while to get things working because scripts are written in a language I am unfamiliar with: C#.
+								</p>
+								<p>
+									I have messed with C++ a tiny bit before and made a Space Invaders knock-off with pygame a while back, so I had a bit of a foundation to build on.
+									That said, I did have to take a couple of C# tutorials to get a sense of how it works.
+								</p>
+								<p>
+									Now that this first project is complete, I am planning to start again from scratch with my own art assets made in <a href="https://inkscape.org/">Inkscape</a> and some more elaborate behaviours.
+									I have some ideas for a game that incorporates data, but I need to get a bit better at the fundamentals first.
+									I will try to embed any later games here to be played in browser.
+								</p>
+								<p>
+									In the meantime, here is a quick video of my first attempt at a game in Unity (with background music from my Audiotool track <a href="https://www.audiotool.com/track/charge/">Charge</a>):
+								</p>
+
+								<video controls="controls" src="images/UnityPlatformerDemonstration.mp4" alt="A video of a rudimentary platformer played in Unity. Chillout plays in the background." type="video/mp4">
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<script src="../bootstrap.bundle.min.js"></script>
+
+	</body>
+</html>
