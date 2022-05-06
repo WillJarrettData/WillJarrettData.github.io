@@ -38,11 +38,15 @@
         margin-right: 40px;
       }
 
+      .card {
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+      }
+
       .card:hover{
-        box-shadow: 0 0 5px rgba(33,33,33,.2);
-        -webkit-filter: brightness(.9);
-        filter: brightness(.9);
         transition: 0.05s ease-in-out;
+        filter: none;
+        -webkit-filter: grayscale(0);
       }
 
       /* tags */
