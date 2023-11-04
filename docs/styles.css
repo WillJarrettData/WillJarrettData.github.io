@@ -1,0 +1,60 @@
+    body {
+        font-family: 'Quicksand', sans-serif;
+        background-color: #f9fbff;
+    }
+
+    div.body-text {
+        font-size: 16px;
+        line-height: 180%;
+    }
+
+    /* set header image */
+    #header-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    /* if screen width is below 800px, margin left and right are 10px. Otherwise, 30px */
+    .card {
+        margin-bottom: 50px;
+        margin-top: 5px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .card {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+
+    .card {
+        transition: 0.05s ease-in-out;
+        filter: none;
+        -webkit-filter: brightness(100%);
+    }
+
+    .card:hover{
+        transition: 0.05s ease-in-out;
+        filter: none;
+        -webkit-filter: brightness(90%);
+    }
+
+    /* tags */
+    .tags {
+        margin-left: 40px;
+        display: inline-block;
+    }
+
+    /* footer */
+    footer {
+        background-color: black;
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .col-8 {
+            width: 90%;
+        }
+    }
