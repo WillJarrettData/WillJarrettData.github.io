@@ -1,2 +1,0 @@
-// TO GRAB POINTS
-JSON.stringify(d3.selectAll("circle").data())
