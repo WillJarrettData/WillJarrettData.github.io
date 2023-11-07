@@ -63,3 +63,8 @@
         padding-top: 1rem !important;
         padding-bottom: 0.2rem !important;
     }
+
+    .py-4 {
+        padding-top: 0.8rem !important;
+        padding-bottom: 0.5rem !important;
+    }
