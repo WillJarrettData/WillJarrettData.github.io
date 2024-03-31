@@ -10,17 +10,19 @@
     
     <title>Home | Will Jarrett Data</title>
 
-    <!-- import bootstrap stuff -->
+    <!-- imports -->
     <link href="bootstrap.min.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="images/site_favicon.png"/>
-
-    <!-- import local style -->
 		<link href="styles.css" rel="stylesheet">
-
-    <!-- insert google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+    <!-- preload gifs -->
+    <link rel="preload" href="images/communityInternetNetworks_thumb.gif" as="image">
+    <link rel="preload" href="driverlessCarGIF.gif" as="image">
+    <link rel="preload" href="images/hillBomb_thumb.gif" as="image">
+    <link rel="preload" href="images/policeSettlements.gif" as="image">
 
   </head>
 
@@ -38,7 +40,8 @@
 							</p>
 							<p class="text-white-50">
 								In 2020, I moved to New York to pursue a master's degree in Data Journalism at <strong>Columbia University</strong>.
-								I am now a data reporter with <strong>Mission Local</strong> in San Francisco. In 2022, I won the NorCal Society of Professional Journalists' data visualization award.
+								From 2021 to 2024, I was a data reporter at <strong>Mission Local</strong> in San Francisco. I won the NorCal Society of Professional Journalists' data visualization award in 2022 and the Institute for
+                Nonprofit News’ Community Champion award in 2023.
 							</p>
 							<p class="text-white-50">
 								I have a particular interest in building <strong>interactive graphics</strong> and <strong>fun data tools</strong>.
@@ -86,14 +89,14 @@
             <!-- card 1 -->
             <div class="col-md-4">
               <div class="card border-dark">
-                <img object-fit="contain" width="100%" src="images/censusMap_thumb.jpg" role="img">
-                <title>Your neighborhood in data</title>
+                <img object-fit="contain" width="100%" src="images/march2024Election_thumb.jpg" role="img">
+                <title>March 2024 election</title>
                 <rect width="100%" height="100%" fill="#55595c"/>
-        
+      
                 <div class="card-body">
-                  <a class="stretched-link" href="https://missionlocal.org/2023/02/census-custom-area-builder-san-francisco-demographics-data-map/"><h5>Your neighborhood in data</h5></a>
-                  <p class="card-text">A JavaScript web app that allows users to compare data on a custom area in San Francisco with the city at large.</p>
-                  <small class="text-muted">JavaScript, Mapbox, Python</small>
+                  <a class="stretched-link" href="https://missionlocal.org/2024/03/election-results-march-2024-dccc-assembly-props-court-maps-live-updates/"><h5>March 2024 election</h5></a>
+                  <p class="card-text">Maps and graphics showing precinct-level results of the March 2024 primary, with candidate races and props.</p>
+                  <small class="text-muted">Mapbox, JavaScript, CSS</small>
                   <div class="d-flex justify-content-between align-items-center"></div>
                 </div>
               </div>
@@ -102,14 +105,14 @@
             <!-- card 2 -->
             <div class="col-md-4">
               <div class="card border-dark">
-                <img object-fit="contain" width="100%" src="images/webOfCorruption_thumb.png" role="img">
-                <title>Web of corruption</title>
+                <img object-fit="contain" width="100%" src="images/bigMoney_thumb.jpg" role="img">
+                <title>Big money in SF politics</title>
                 <rect width="100%" height="100%" fill="#55595c"/>
-
+        
                 <div class="card-body">
-                  <a class="stretched-link" href="https://missionlocal.org/2021/11/web-of-corruption-explore-the-cronyism-lies-and-federal-crimes-at-the-heart-of-san-franciscos-government/"><h5>Web of corruption</h5></a>
-                  <p class="card-text">See how all the major players in San Francisco's ongoing city corruption scandal are connected.</p>
-                  <small class="text-muted">Python, D3</small>
+                  <a class="stretched-link" href="https://www.theguardian.com/us-news/2024/feb/12/san-francisco-tech-billionaires-political-influence"><h5>Big money in SF politics</h5></a>
+                  <p class="card-text">Months-long investigation with Guardian US into 'grey money' political spending by tech billionaires in San Francisco.</p>
+                  <small class="text-muted">D3, Python</small>
                   <div class="d-flex justify-content-between align-items-center"></div>
                 </div>
               </div>
@@ -124,7 +127,7 @@
         
                 <div class="card-body">
                   <a class="stretched-link" href="https://missionlocal.org/2023/07/hill-bomb-timeline-police-skaters-map-juvenile-policies/"><h5>Hill bomb arrests</h5></a>
-                  <p class="card-text">Interactive timeline of the Dolores Park Hill Bomb, when 117 people were arrested during a purported riot.</p>
+                  <p class="card-text">Interactive timeline of the Dolores Park Hill Bomb, where 117 people were arrested during a purported riot.</p>
                   <small class="text-muted">Mapbox, JavaScript</small>
                   <div class="d-flex justify-content-between align-items-center"></div>
                 </div>
@@ -154,15 +157,14 @@
             <!-- card 2 -->
             <div class="col-md-4">
               <div class="card border-dark">
-                <img object-fit="contain" width="100%" src="images/voteFinder_thumb.jpg" role="img">
-                <title>How did your neighbors vote?</title>
+                <img object-fit="contain" width="100%" src="images/budget_thumb.jpg" role="img">
+                <title>San Francisco budget</title>
                 <rect width="100%" height="100%" fill="#55595c"/>
-
+      
                 <div class="card-body">
-                  <a class="stretched-link" href="https://missionlocal.org/2022/11/nov-8-election-jenkins-dorsey-precinct-neighborhood-vote-interactive-explore/">
-                    <h5>How did your neighbors vote?</h5></a>
-                  <p class="card-text">An interactive that shows users how their neighborhood voted on Nov. 8 compared to the rest of the city.</p>
-                  <small class="text-muted">Mapbox, Google API, JavaScript</small>
+                  <a class="stretched-link" href="https://missionlocal.org/2023/08/explore-san-francisco-budget-2023-2024-2025/"><h5>San Francisco budget</h5></a>
+                  <p class="card-text">Created an interactive budget explorer for the 2023-25 period, with detailed explanations and breakdowns.</p>
+                  <small class="text-muted">JavaScript, D3, Datawrapper</small>
                   <div class="d-flex justify-content-between align-items-center"></div>
                 </div>
               </div>
@@ -171,14 +173,14 @@
             <!-- card 3 -->
             <div class="col-md-4">
               <div class="card border-dark">
-                <img object-fit="contain" width="100%" src="images/crimeChange2022_thumb.jpg" role="img">
-                <title>Crime change in 2022</title>
+                <img object-fit="contain" width="100%" src="images/webOfCorruption_thumb.png" role="img">
+                <title>Web of corruption</title>
                 <rect width="100%" height="100%" fill="#55595c"/>
-      
+
                 <div class="card-body">
-                  <a class="stretched-link" href="https://missionlocal.org/2023/01/explore-how-crime-changed-in-2022/"><h5>Crime change in 2022</h5></a>
-                  <p class="card-text">Maps and scrollytelling charts to show how different types of crime changed from 2017 to 2022.</p>
-                  <small class="text-muted">Python, Illustrator, JavaScript</small>
+                  <a class="stretched-link" href="https://missionlocal.org/2021/11/web-of-corruption-explore-the-cronyism-lies-and-federal-crimes-at-the-heart-of-san-franciscos-government/"><h5>Web of corruption</h5></a>
+                  <p class="card-text">See how all the major players in San Francisco's ongoing city corruption scandal are connected.</p>
+                  <small class="text-muted">Python, D3</small>
                   <div class="d-flex justify-content-between align-items-center"></div>
                 </div>
               </div>
@@ -229,7 +231,7 @@
         
                 <div class="card-body">
                   <a class="stretched-link" href="https://missionlocal.org/2023/04/quiz-of-the-week-which-mission-sculpture-was-targeted-by-thieves/"><h5>Weekly news quiz</h5></a>
-                  <p class="card-text">An interactive quiz format to recap the week's most interesting news nuggets, developed with Craig Mautner.</p>
+                  <p class="card-text">An interactive quiz format to recap the week's news, with backend development from Craig Mautner.</p>
                   <small class="text-muted">JavaScript, PHP</small>
                   <div class="d-flex justify-content-between align-items-center"></div>
                 </div>
@@ -259,14 +261,14 @@
             <!-- card 2 -->
             <div class="col-md-4">
               <div class="card border-dark">
-                <img object-fit="contain" width="100%" src="images/budget_thumb.jpg" role="img">
-                <title>San Francisco budget</title>
+                <img object-fit="contain" width="100%" src="images/censusMap_thumb.jpg" role="img">
+                <title>Your neighborhood in data</title>
                 <rect width="100%" height="100%" fill="#55595c"/>
-      
+        
                 <div class="card-body">
-                  <a class="stretched-link" href="https://missionlocal.org/2023/08/explore-san-francisco-budget-2023-2024-2025/"><h5>San Francisco budget</h5></a>
-                  <p class="card-text">Created an interactive budget explorer for the 2023-25 period, with detailed explanations and breakdowns.</p>
-                  <small class="text-muted">JavaScript, D3, Datawrapper</small>
+                  <a class="stretched-link" href="https://missionlocal.org/2023/02/census-custom-area-builder-san-francisco-demographics-data-map/"><h5>Your neighborhood in data</h5></a>
+                  <p class="card-text">A JavaScript web app that allows users to compare data on a custom area in San Francisco with the city at large.</p>
+                  <small class="text-muted">JavaScript, Mapbox, Python</small>
                   <div class="d-flex justify-content-between align-items-center"></div>
                 </div>
               </div>
@@ -275,14 +277,14 @@
             <!-- card 3 -->
             <div class="col-md-4">
               <div class="card border-dark">
-                <img object-fit="contain" width="100%" src="images/June7Election_thumb.jpg" role="img">
-                <title>June 7 recall election</title>
+                <img object-fit="contain" width="100%" src="images/redistricting_thumb.jpg" role="img">
+                <title>SF's redistricting debacle</title>
                 <rect width="100%" height="100%" fill="#55595c"/>
-      
+        
                 <div class="card-body">
-                  <a class="stretched-link" href="https://missionlocal.org/2022/06/chesa-boudin-recall-election-june-7/"><h5>June 7 recall election</h5></a>
-                  <p class="card-text">Maps and graphics showing precinct-level results of the recall of District Attorney Chesa Boudin.</p>
-                  <small class="text-muted">Mapbox, JavaScript, CSS</small>
+                  <a class="stretched-link" href="https://missionlocal.org/2022/04/chair-of-redistricting-task-force-told-others-he-felt-mayors-pressure-in-voting-on-maps/"><h5>SF's redistricting debacle</h5></a>
+                  <p class="card-text">Deeply covered the city's redistricting process, and broke the news that Chair Townsend felt pressured by the mayor.</p>
+                  <small class="text-muted">JavaScript, Mapbox</small>
                   <div class="d-flex justify-content-between align-items-center"></div>
                 </div>
               </div>
@@ -311,14 +313,14 @@
             <!-- card 2 -->
             <div class="col-md-4">
               <div class="card border-dark">
-                <img object-fit="contain" width="100%" src="images/crossword_thumb.jpg" role="img">
-                <title>Mission Local crossword</title>
+                <img object-fit="contain" width="100%" src="images/crimeChange2022_thumb.jpg" role="img">
+                <title>Crime change in 2022</title>
                 <rect width="100%" height="100%" fill="#55595c"/>
-        
+      
                 <div class="card-body">
-                  <a class="stretched-link" href="https://missionlocal.org/2023/10/halloween-crossword-2023/"><h5>Mission Local crossword</h5></a>
-                  <p class="card-text">Created a New York Times-style crossword app and wrote a spooky(ish) puzzle for Halloween.</p>
-                  <small class="text-muted">JavaScript</small>
+                  <a class="stretched-link" href="https://missionlocal.org/2023/01/explore-how-crime-changed-in-2022/"><h5>Crime change in 2022</h5></a>
+                  <p class="card-text">Maps and scrollytelling charts to show how different types of crime changed from 2017 to 2022.</p>
+                  <small class="text-muted">Python, Illustrator, JavaScript</small>
                   <div class="d-flex justify-content-between align-items-center"></div>
                 </div>
               </div>
@@ -327,14 +329,15 @@
             <!-- card 3 -->
             <div class="col-md-4">
               <div class="card border-dark">
-                <img object-fit="contain" width="100%" src="images/redistricting_thumb.jpg" role="img">
-                <title>SF's redistricting debacle</title>
+                <img object-fit="contain" width="100%" src="images/voteFinder_thumb.jpg" role="img">
+                <title>How did your neighbors vote?</title>
                 <rect width="100%" height="100%" fill="#55595c"/>
-        
+
                 <div class="card-body">
-                  <a class="stretched-link" href="https://missionlocal.org/2022/04/chair-of-redistricting-task-force-told-others-he-felt-mayors-pressure-in-voting-on-maps/"><h5>SF's redistricting debacle</h5></a>
-                  <p class="card-text">Deeply covered the city's redistricting process, and broke the news that Chair Townsend felt pressured by the mayor.</p>
-                  <small class="text-muted">JavaScript, Mapbox</small>
+                  <a class="stretched-link" href="https://missionlocal.org/2022/11/nov-8-election-jenkins-dorsey-precinct-neighborhood-vote-interactive-explore/">
+                    <h5>How did your neighbors vote?</h5></a>
+                  <p class="card-text">An interactive that shows users how their neighborhood voted on Nov. 8 compared to the rest of the city.</p>
+                  <small class="text-muted">Mapbox, Google API, JavaScript</small>
                   <div class="d-flex justify-content-between align-items-center"></div>
                 </div>
               </div>
@@ -379,6 +382,26 @@
             <!-- card 3 -->
             <div class="col-md-4">
               <div class="card border-dark">
+                <img object-fit="contain" width="100%" src="images/crossword_thumb.jpg" role="img">
+                <title>Mission Local crossword</title>
+                <rect width="100%" height="100%" fill="#55595c"/>
+        
+                <div class="card-body">
+                  <a class="stretched-link" href="https://missionlocal.org/2023/10/halloween-crossword-2023/"><h5>Mission Local crossword</h5></a>
+                  <p class="card-text">Created a New York Times-style crossword app and wrote a spooky(ish) puzzle for Halloween.</p>
+                  <small class="text-muted">JavaScript</small>
+                  <div class="d-flex justify-content-between align-items-center"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- row 7 -->
+          <div class="row form-group">
+
+            <!-- card 1 -->
+            <div class="col-md-4">
+              <div class="card border-dark">
                 <img object-fit="contain" width="100%" src="images/statePartisanship_thumb.jpg" role="img">
                 <title>State climate partisanship</title>
                 <rect width="100%" height="100%" fill="#55595c"/>
@@ -391,12 +414,7 @@
                 </div>
               </div>
             </div>
-          </div>
-
-          <!-- row 7 -->
-          <div class="row form-group">
-
-            <!-- card 1 -->
+            <!-- 
             <div class="col-md-4">
               <div class="card border-dark">
                 <img object-fit="contain" width="100%" src="images/environmentGovernment_thumb.jpg" role="img">
@@ -411,6 +429,7 @@
                 </div>
               </div>
             </div>
+             -->
 
             <!-- card 2 -->
             <div class="col-md-4">
