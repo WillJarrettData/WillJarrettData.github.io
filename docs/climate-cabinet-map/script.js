@@ -147,9 +147,9 @@ function mouseoutNode(d, i) {
 nodes.on('click', function(d, i) {
     var results = document.getElementById("results");
     results.innerHTML = "<hr>" + 
-        "<h3>" + d.properties.candidate + "</h3>" +
+        "<h3>" + d.properties.candidate + " | " + d.properties.party + "</h3>" +
         "<hr>" +
-        "<h5>" + d.properties.office + " | " + d.properties.party + "</h5>" +
+        "<h5>" + d.properties.office + " | " + d.properties.year + "</h5>" +
         "</p><p>" + d.properties.bio + "</p>";
 });
 
