@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Searchable members table</title>
+    <link rel="stylesheet" href="style.css" defer>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  </head>
+
+  <body>
+    <main>
+        <div id="container">
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Search...">
+            </div>
+            <table id="table">
+                <thead id="table-head">
+                    <tr>
+                        <th id="profile-image-header"></th>
+                        <th>Name<img class="sorting-arrows" src="images/sorting_arrows.svg"></th>
+                        <th>Party<img class="sorting-arrows" src="images/sorting_arrows.svg"></th>
+                        <th>Constituency<img class="sorting-arrows" src="images/sorting_arrows.svg"></th>
+                        <th>Start date<img class="sorting-arrows" src="images/sorting_arrows.svg"></th>
+                        <th id="contact-header">Contact</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <div id="no-results">No results found.</div>
+            <div id="download">
+                <a href="data/members_of_parliament_2024.csv" download>Download full dataset (csv)</a> 
+            </div>
+        </div>
+    </main>
+	<script src="script.js"></script>
+  </body>
+
+</html>
