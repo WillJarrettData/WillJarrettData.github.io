@@ -83,7 +83,7 @@ function searchTable(searchInput, tableBody) {
         var cells = row.querySelectorAll('td');
         var found = false;
         cells.forEach(cell => {
-            if (cell.innerHTML.toLowerCase().includes(searchValue)) {
+            if (cell.textContent.toLowerCase().includes(searchValue)) {
                 found = true;
             }
         });
@@ -142,16 +142,20 @@ function sortTableByColumn(tableBody, columnIndex, ascending = true) {
         } else if (columnIndex === 2 || columnIndex === 3) { // Party or Constituency
             comparison = cellA.localeCompare(cellB);
         } else if (columnIndex === 4) { // Start date
-            comparison = new Date(cellA) - new Date(cellB);
+            comparison = parseDate(cellA) - parseDate(cellB);
         }
 
         return ascending ? comparison : -comparison;
     });
 
-    // Remove all rows
     tableBody.innerHTML = '';
-    // Append sorted rows
     tableBody.append(...sortedRows);
+}
+
+// function to parse date strings into Date objects -- seems necessary for Firefox?
+function parseDate(dateString) {
+    const [day, month, year] = dateString.split('/');
+    return new Date(`${year}-${month}-${day}`);
 }
 
 // TO DO:
