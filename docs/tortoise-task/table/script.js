@@ -44,7 +44,7 @@ function populateTable(data, tableBody) {
         
         // define desired fields
         var fields = [
-            `<div class="image-container"><img class="profile-image" src="images/${item.id}_thumbnail.jpg" alt="${item.name}"></div>`,
+            `<div class="image-container"><img class="profile-image" src="images/thumbnails/${item.id}_thumbnail.jpg" alt="${item.name}"></div>`,
             `<div class="member-name">${item.name}</div>`,
             `<div class="member-party"><span class="mobile-script">Party: </span>${item.party}</div>`,
             `<div class="member-constituency"><span class="mobile-script">Constituency: </span>${item.constituency}</div>`,
