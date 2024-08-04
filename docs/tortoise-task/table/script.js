@@ -130,6 +130,7 @@ function makeColumnsSortable(tableHead, tableBody) {
     });
 }
 
+// function to sort the table by a given column
 function sortTableByColumn(tableBody, columnIndex, ascending = true) {
     const rows = Array.from(tableBody.querySelectorAll('tr'));
     const sortedRows = rows.sort((a, b) => {
@@ -154,8 +155,13 @@ function sortTableByColumn(tableBody, columnIndex, ascending = true) {
 
 // function to parse date strings into Date objects -- seems necessary for Firefox?
 function parseDate(dateString) {
-    const [day, month, year] = dateString.split('/');
-    return new Date(`${year}-${month}-${day}`);
+    dateString = dateString.replace('Start date: ', '');
+    const [day, month, year] = dateString.replace(',', '').split(' ');
+    const months = {
+        January: 0, February: 1, March: 2, April: 3, May: 4, June: 5,
+        July: 6, August: 7, September: 8, October: 9, November: 10, December: 11
+    };
+    return new Date(year, months[month], day);
 }
 
 // TO DO:
