@@ -1,0 +1,30 @@
+{
+  "name": "individual-view-prototype",
+  "version": "1.0.0",
+  "description": "A prototype for the individual view of the climate misinformation visualisation",
+  "main": "index.js",
+  "directories": {},
+  "author": "Will Jarrett",
+  "license": "ISC",
+  "keywords": [
+    "flourish",
+    "svelte"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "d3": "^7.0.0",
+    "rollup": "^2.78.0",
+    "rollup-plugin-node-resolve": "^5.1.0",
+    "svelte": "4.2.19",
+    "terser": "^5.32.0"
+  },
+  "devDependencies": {
+    "rollup-plugin-css-only": "^4.5.2",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-svelte": "^7.2.2",
+    "svelte-intersection-observer": "^1.0.0"
+  }
+}

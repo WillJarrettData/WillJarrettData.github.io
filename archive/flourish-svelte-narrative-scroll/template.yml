@@ -1,0 +1,79 @@
+id: 'svelte-flourish-narrative-scroll'
+name: Svelte Flourish Narrative Scroll
+description: A template for the narrative scroll app, crowbarred into the Flourish SDK
+author: Will Jarrett
+
+sdk_version: 3
+
+settings:
+  # Available types: number, string, text, boolean, color
+
+data:
+  - name: Individual ID
+    dataset: misinfo
+    key: id
+    type: column
+    column: data::A
+  - name: Name
+    dataset: misinfo
+    key: name
+    type: column
+    column: data::B
+  - name: Handle
+    dataset: misinfo
+    key: handle
+    type: column
+    column: data::C
+  - name: Platform
+    dataset: misinfo
+    key: platform
+    type: column
+    column: data::D
+  - name: Date
+    dataset: misinfo
+    key: date
+    type: column
+    column: data::E
+  - name: Time
+    dataset: misinfo
+    key: time
+    type: column
+    column: data::F
+  - name: Post text
+    dataset: misinfo
+    key: post_text
+    type: column
+    column: data::G
+  - name: Misinformation type
+    dataset: misinfo
+    key: misinfo_type
+    type: column
+    column: data::H
+  - name: Reach
+    dataset: misinfo
+    key: reach
+    type: column
+    column: data::I
+  - name: Image
+    dataset: misinfo
+    key: img
+    type: column
+    column: data::J
+  - name: User link
+    dataset: misinfo
+    key: user_link
+    type: column
+    column: data::K
+  - name: Post link
+    dataset: misinfo
+    key: post_link
+    type: column
+    column: data::L
+
+build:
+  javascript:
+    script: npm run build
+    directory: src
+    files:
+      - package.json
+      - rollup.config.js
